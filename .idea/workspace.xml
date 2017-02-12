@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -163,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486902054279</updated>
-      <workItem from="1486902055683" duration="957000" />
+      <workItem from="1486902055683" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -183,7 +181,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="957000" />
+    <option name="totallyTimeSpent" value="992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="1" />
