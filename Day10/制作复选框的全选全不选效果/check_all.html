@@ -101,10 +101,15 @@
 </table>
 <script type="text/javascript">
 	var all = document.getElementById("all");
-	var products = document.getElementsByName("product");
-	all.onclick = function () {
-
-	}
+	//change
+	all.onchange = function () {
+		//获取到all的选中的状，然后把这个状态给后面的每一个checkbox
+		var checked = all.checked;
+		var products = document.getElementsByName("product");
+		for(var i = 0; i < products.length; i++ ){
+		    products[i].checked = checked;
+		}
+    }
 </script>
 </body>
 

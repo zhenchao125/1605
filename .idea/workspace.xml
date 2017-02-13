@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/images/list0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/images/list1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/images/list2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/images/list3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/images/list_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/images/list_tool_fav1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/images/online_pic.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/打地鼠/img/end.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/打地鼠/img/mouse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/轮播图/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/轮播图/img/2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/轮播图/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/轮播图/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/轮播图/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/轮播图/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/轮播图/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/轮播图/img/9.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/01_常用属性操作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/02-常用属性-innerHTML和InnerText.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/03-操作css样式表.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/check_all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/打地鼠/css/mouse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/打地鼠/mouse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/轮播图/cycle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/笔记.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day10/打地鼠/mouse1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Day10/轮播图/img/2.jpeg" afterPath="$PROJECT_DIR$/Day10/轮播图/img/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Day10/轮播图/img/9.jpeg" afterPath="$PROJECT_DIR$/Day10/轮播图/img/9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day10/03-操作css样式表.html" afterPath="$PROJECT_DIR$/Day10/03-操作css样式表.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/check_all.html" afterPath="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/check_all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day10/轮播图/cycle.html" afterPath="$PROJECT_DIR$/Day10/轮播图/cycle.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +26,25 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="mouse1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day10/打地鼠/mouse1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2145">
+              <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="end.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day10/打地鼠/img/end.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,15 +65,22 @@
         <option value="$PROJECT_DIR$/笔记.txt" />
         <option value="$PROJECT_DIR$/Day10/01_常用属性操作.html" />
         <option value="$PROJECT_DIR$/Day10/02-常用属性-innerHTML和InnerText.html" />
-        <option value="$PROJECT_DIR$/Day10/03-操作css样式表.html" />
-        <option value="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/check_all.html" />
         <option value="$PROJECT_DIR$/Day10/轮播图.html" />
+        <option value="$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/check_all.html" />
+        <option value="$PROJECT_DIR$/Day10/03-操作css样式表.html" />
         <option value="$PROJECT_DIR$/Day10/轮播图/cycle.html" />
+        <option value="$PROJECT_DIR$/Day10/打地鼠/mouse1.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -101,6 +107,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,18 +149,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="轮播图" />
+              <option name="myItemId" value="打地鼠" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Day10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="打地鼠" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -161,6 +189,8 @@
     <property name="FullScreen" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -169,7 +199,10 @@
       <recent name="$PROJECT_DIR$/开发工具" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.cycle.html">
+    <configuration default="false" name="cycle.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/1605/Day10/轮播图/cycle.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -229,6 +262,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.cycle.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.cycle.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -242,7 +283,8 @@
       <updated>1486902054279</updated>
       <workItem from="1486902055683" duration="1977000" />
       <workItem from="1486907156933" duration="3778000" />
-      <workItem from="1486945707723" duration="8861000" />
+      <workItem from="1486945707723" duration="10795000" />
+      <workItem from="1486966694072" duration="7658000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -262,13 +304,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14616000" />
+    <option name="totallyTimeSpent" value="24208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18928571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18928571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -304,6 +346,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/check_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4212">
+          <caret line="108" column="21" lean-forward="true" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -341,7 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -349,7 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -369,25 +417,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10/03-操作css样式表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10/轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10/打地鼠/img/end.png">
+    <entry file="file://$PROJECT_DIR$/Day10/轮播图.html" />
+    <entry file="file://$PROJECT_DIR$/Day10/轮播图/img/1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/轮播图/img/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/轮播图/img/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/轮播图/img/4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/轮播图/img/5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/轮播图/img/6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/轮播图/img/9.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/轮播图/img/8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/打地鼠/css/mouse.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/03-操作css样式表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/check_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/JS基础-Day10作业.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="273">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/轮播图/cycle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="52" column="11" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10/打地鼠/mouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10/打地鼠/img/mouse.png">
@@ -395,34 +514,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10/打地鼠/mouse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-712">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Day10/打地鼠/img/end.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10/打地鼠/css/mouse.css">
+    <entry file="file://$PROJECT_DIR$/Day10/打地鼠/mouse1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/check_all.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10/轮播图/cycle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="2145">
+          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
           <folding />
         </state>
       </provider>
