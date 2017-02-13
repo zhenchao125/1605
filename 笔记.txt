@@ -1,0 +1,14 @@
+李振超
+18603071634
+
+----
+var box = document.getElementById("");
+var box = document.getElementsByTagName("p");  box[i]
+var box = document.getElementsByClassName("");
+document.getElementsByName()
+
+HTML5:新增的api
+querySelector("div .my")
+querySelectorAll()
+
+

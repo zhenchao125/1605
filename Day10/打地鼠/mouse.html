@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/mouse.css" />
+<style type="text/css">
+	/*.mouse{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+	}*/
+	
+</style>
+</head>
+
+<body>
+<div class="box" id="box">
+	
+</div>
+<div>
+	<input type="button" value="开始" onclick="start();"/>
+	<input type="button" value="暂停" onclick="pause();"/>
+</div>
+<script type="text/javascript">
+	function createMouse () {
+		var mouseImg = document.createElement("img");
+		mouseImg.setAttribute("src", "img/mouse.png");
+		mouseImg.style.width = '100px';
+		mouseImg.style.height = '100px';
+		mouseImg.style.position = "absolute";
+		//给每个生成的老鼠设置点击事件
+		mouseImg.onclick = function  () {
+			//把这个img标签从dom中移除：
+			this.parentElement.removeChild(this);
+		}
+		
+		return mouseImg;
+	}
+	
+	var intervalId;
+	/*点击开始的时候执行*/
+	function start () {
+		for(var i = 0; i < box.children.length; ){
+			box.removeChild(box.children[i]);
+		}
+		intervalId = window.setInterval(function () {
+			var mouse = createMouse();
+			var left = randomInt(0, 800);
+			var top = randomInt(0, 500);
+			mouse.style.left = left + "px";
+			mouse.style.top = top + "px";
+			box.appendChild(mouse);
+			
+			//调用这个函数，来决定是否结束游戏
+			judgeGameOver();
+			
+		}, 500);
+
+	}
+	/*生成随机整数*/
+	function randomInt (m, n) {
+		return parseInt(Math.random() * (n - m + 1) + m);   // 5 10
+	}
+	
+	//让游戏结束
+	function judgeGameOver () {
+		var mouseCount = box.childElementCount;
+		if(mouseCount >= 10){
+			//结束周期任务
+			window.clearInterval(intervalId);
+			//清空所有的老鼠
+			for(var i = 0; i < mouseCount; i++){
+				box.removeChild(box.children[0]);
+			}
+			
+			//待优化
+			var endImg = createMouse();
+			endImg.className = "end";
+			endImg.src = "img/end.png";
+			endImg.onclick = null;
+			endImg.style.width = '500px';
+			endImg.style.height = '500px';
+			endImg.style.left = "200px";
+			box.appendChild(endImg);
+		}
+	}
+	
+	/*点击暂停按钮的时候执行*/
+	function pause () {
+		
+	}
+	
+	
+	
+</script>
+</body>
+
+</html>
+<!--
+	1. img图片来表示每个老鼠
+	2. 插入元素节点   img
+	3. 定时器去每隔一段时间去生成一个
+	4. 怎么让老鼠消失
+	
+	
+	
+-->

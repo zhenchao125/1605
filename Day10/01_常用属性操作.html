@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常用属性操作</title>
+    <style type="text/css">
+        div{
+            width: 200px;
+            height: 100px;
+            /*background-color: pink;*/
+        }
+
+        .box1{
+            background-color: green;
+        }
+        .box2{
+            background-color: red;
+        }
+        .size{
+            width: 400px;
+
+        }
+    </style>
+
+</head>
+<body>
+<div id="box" class="box1"></div>
+<button>一键换肤</button>
+<input type="text" id="input1" value="aaaaa">
+<br>
+<input type="checkbox"  id="input2">
+<script type="text/javascript">
+    var box = document.getElementsByTagName("div")[0];
+    console.log(box.tagName); //直接获取标签的标签名
+//    console.log(box.id); //
+    var att = "id";
+    console.log(box["att"]);  // 中括号语法支持变量
+    
+    document.querySelector("button").onclick = function () {
+       /* if(box.className == "box1"){
+            box.className = "box2"
+        }else{
+            box.className = "box1";
+        }*/
+        box.className += " size"; //注意这里的空格
+    }
+
+    //如果一个元素有id，则浏览器会自动默认创建一个同名的变量表示这个dom元素.在实际开发不要使用
+    console.log(input1.value);
+    console.log(input2.checked);
+    input2.onchange = function () {
+        console.log(input2.checked);
+    }
+    
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div {
+            width: 300px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<br/>
+<button>更改div的背景色</button>
+<button>获取内部或外部样式</button>
+<!--
+1.行内样式
+2.内部样式
+3.外部样式
+-->
+<script type="text/javascript">
+    /*更改和获取行内样式*/
+   var box = document.getElementById("box");
+    /*  console.log(box.style.width); //拿到的是字符串的值
+    //连接的css属性，都改成驼峰命名法
+    console.log(box.style.backgroundColor);
+    console.log(box.style["width"]);
+    console.log(box.style["background-color"])*/
+
+    document.getElementsByTagName("button")[0].onclick = function () {
+        box.style.backgroundColor = "rgb(255, 255, 0)";  //hsl
+    }
+    document.getElementsByTagName("button")[1].onclick = function () {
+        //在ie下获取内部或外部样式表
+        /*var style = box.currentStyle;
+        console.log(style['width']);*/
+
+        //获取除了ie外的其他浏览器下的内部或外部样式  ie不支持
+        //参数1：要获取的哪一个dom对象的样式表
+       /*var style = window.getComputedStyle(box,null);
+       console.log(style['width']);*/
+
+
+       console.log(getStyleValue(box, "backgroundColor"));
+
+    }
+    //可以兼容所有的浏览器来获取外部和内部样式表
+    function getStyleValue(ele, prop) {
+        if(ele.currentStyle){
+            return ele.currentStyle[prop];
+        }else{
+            return window.getComputedStyle(ele, null)[prop];
+        }
+    }
+</script>
+</body>
+</html>
