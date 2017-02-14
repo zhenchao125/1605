@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div {
+            width: 200px;
+            height: 100000px;
+
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var div = document.getElementsByTagName("div")[0];
+            div.style.backgroundColor = "red";
+            console.log("b");
+        }
+        console.log("a");
+        /*只支持ie浏览器*/
+        window.onunload = function () {
+//            alert("你要抛弃我了");
+        }
+        /*当浏览器的尺寸发生变化的时候出发*/
+        window.onresize = function () {
+            /*console.log("你改变了浏览器的尺寸")*/
+            var width = window.innerWidth || document.documentElement.clientWidth;  // ie 678不支持
+            var height = window.innerHeight || document.documentElement.clientHeight;
+//            console.log(document.documentElement.nodeName); // HTML
+//            console.log(document.body.nodeName); // body
+//            console.log(document.head.nodeName); // body
+            document.querySelector("p").innerHTML = "宽：" + width + ", 高：" + height
+        }
+
+        /*当页面滚动的时候出发这个事件. 这个事件会重复多次触发。这里面的逻辑或代码不能太复杂耗时间
+        * 否则容易出现卡顿
+        * */
+        window.onscroll = function () {
+//            console.log("页面在滚动");
+            console.log(document.documentElement.scrollTop || document.body.scrollTop);
+        }
+    </script>
+
+</head>
+<body>
+<div></div>
+<a href="http://www.yztcedu.com">去官网</a>
+<p></p>
+</body>
+</html>

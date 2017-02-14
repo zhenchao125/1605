@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" onclick="alert('html')">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onclick="alert('body')">
+<div onclick="alert('外部的div')">
+    <div onclick="alert('内部的div')">aaaaaaaa</div>
+</div>
+</body>
+</html>
+<!--
+事件三要素：
+美女经过马路这个事件
+1. 事件源：事件发生的地点  马路
+2. 事件对象：美女过马路
+3. 事件监听器(函数)：  趴到在窗户上的人
+
+按钮的点击事件：
+1. 事件源：  按钮
+2. 事件对象： 点击这个事件
+3. 处理函数：  给onclick赋值的函数
+btn.onclick = funciont(){}
+
+事件流：
+从内向外：  冒泡
+从外箱内：  捕获
+
+DOM事件流：先捕获再冒泡  a->b->c->b->a
+目前所有的浏览器都支持DOM事件流。
+
+目前默认都是在冒泡阶段触发事件。
+
+
+-->

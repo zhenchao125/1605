@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>按钮</button>
+
+<script type="text/javascript">
+    /*document.querySelector("button").onclick = function () {
+        alert("niaho")
+    }*/
+    function show() {
+        alert("你好")
+    }
+    document.querySelector("button").onclick = show;
+    document.querySelector("button").onclick = function () {
+
+    }
+//    console.log(document.querySelector("button").onclick)
+//    //删除事件处理程序
+//    document.querySelector("button").onclick = null;
+
+</script>
+
+</body>
+</html>
