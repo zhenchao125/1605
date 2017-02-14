@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        a{
+            position: relative;
+        }
+        div{
+            position: absolute;
+            left: 20px;
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            border: 20px solid #000;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<a href=""><div></div></a>
+
+<script type="text/javascript">
+    var box = document.querySelector("div");
+    console.log(window.getComputedStyle(box, null).width)
+    console.log(box.offsetWidth); //获取到这个元素的宽:包括内容+paddig+border
+    //获取当前元素的参照物父元素
+    console.log(box.offsetParent);
+    console.log(box.offsetLeft); // 20px  == parseInt()
+    console.log(box.offsetTop)
+</script>
+</body>
+</html>

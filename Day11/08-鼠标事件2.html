@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            border-radius: 50%;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<script type="text/javascript">
+    var box = document.getElementsByTagName("div")[0];
+    box.onmousedown = function (event) {
+        box.style.cursor = "pointer";
+        var downX = event.clientX;  //鼠标按下时候的x坐标
+        var downY = event.clientY;
+
+        var left = box.offsetLeft;  //按下时鼠标时 元素的left值
+        var top = box.offsetTop;
+        document.onmousemove = function (event) {
+            var currentX = event.clientX; //鼠标移动的时候的坐标
+            var currentY = event.clientY;
+
+            var deltaX = currentX - downX; //鼠标移动的距离
+            var deltaY = currentY - downY;
+            box.style.left = deltaX  + left+ "px";//更改球的位置
+            box.style.top = deltaY + top + "px";
+        }
+    }
+    box.onmouseup = function () {
+        document.onmousemove = null;
+    }
+   /* //如果鼠标在元素上方移动会触发这个事件。会重复触发。 即使没有down，也会触发move
+    box.onmousemove = function () {
+        console.log("你在移动鼠标");
+    }
+    box.onmouseup = function () {
+        console.log("你抬起了鼠标");
+    }*/
+</script>
+</body>
+</html>

@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/homework/轮播图/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/homework/轮播图/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/homework/轮播图/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/homework/轮播图/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/homework/轮播图/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/homework/轮播图/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/homework/轮播图/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/homework/轮播图/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/01-事件入门.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/02-HTML事件处理程序.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/03-DOM0事件.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/04-ui事件.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/homework/轮播图/cycle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/05-焦点事件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/06-鼠标事件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/07-导航条.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/08-鼠标事件2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/09-键盘事件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day11/10-父容器参照物.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day11/04-ui事件.html" afterPath="$PROJECT_DIR$/Day11/04-ui事件.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,32 +27,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="02-HTML事件处理程序.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11/02-HTML事件处理程序.html">
+      <file leaf-file-name="09-键盘事件.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day11/09-键盘事件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="341">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03-DOM0事件.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11/03-DOM0事件.html">
+      <file leaf-file-name="10-父容器参照物.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day11/10-父容器参照物.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+            <state relative-caret-position="-322">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04-ui事件.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day11/04-ui事件.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
-              <folding />
+      <file leaf-file-name="JS基础-Day11作业.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day11/JS基础-Day11作业.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -95,6 +92,12 @@
         <option value="$PROJECT_DIR$/Day11/02-HTML事件处理程序.html" />
         <option value="$PROJECT_DIR$/Day11/03-DOM0事件.html" />
         <option value="$PROJECT_DIR$/Day11/04-ui事件.html" />
+        <option value="$PROJECT_DIR$/Day11/05-焦点事件.html" />
+        <option value="$PROJECT_DIR$/Day11/06-鼠标事件.html" />
+        <option value="$PROJECT_DIR$/Day11/07-导航条.html" />
+        <option value="$PROJECT_DIR$/Day11/08-鼠标事件2.html" />
+        <option value="$PROJECT_DIR$/Day11/09-键盘事件.html" />
+        <option value="$PROJECT_DIR$/Day11/10-父容器参照物.html" />
       </list>
     </option>
   </component>
@@ -273,7 +276,7 @@
       <workItem from="1486902055683" duration="1977000" />
       <workItem from="1486907156933" duration="3778000" />
       <workItem from="1486945707723" duration="10795000" />
-      <workItem from="1486966694072" duration="20915000" />
+      <workItem from="1486966694072" duration="32802000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -293,7 +296,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37465000" />
+    <option name="totallyTimeSpent" value="49352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -558,9 +561,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11/04-ui事件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        <state relative-caret-position="692">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11/05-焦点事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11/06-鼠标事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1004">
+          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11/07-导航条.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11/08-鼠标事件2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11/09-键盘事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11/10-父容器参照物.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11/JS基础-Day11作业.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

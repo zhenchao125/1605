@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text">
+<script type="text/javascript">
+    var input = document.getElementsByTagName("input")[0];
+    //按下任意键都会触发这个事件
+    input.onkeydown = function (e) {
+        console.log("你按下了一个键");
+        if(e.keyCode == 18){
+            console.log(e.keyCode);
+        }
+    }
+    //按下字符键会触发  a-z 0-9 标点符号. 只要不松开会重复触发
+    input.onkeypress = function (event) {
+//        console.log("你按下了字符键:" + event.keyCode); //键码
+
+    }
+    //当松开键的时候触发
+    input.onkeyup = function () {
+        console.log("你松开了");
+    }
+</script>
+</body>
+</html>
+<!--
+如何把字符转换成0或1
+编码表：
+a  97
+b  98
+ascii
+iso8859-1
+gb2312 支持简体中文
+big5 支持繁体
+gbk：支持简体和繁体
+
+unicode
+ utf-8
+ utf-16
+
+-->
