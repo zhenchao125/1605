@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+        }
+        div p{
+            width: 100px;
+            height: 500px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<div id="div">
+    <p id="p"></p>
+</div>
+<script type="text/javascript">
+    div.onmouseenter = function () {
+        console.log("div   over...");
+    }
+    div.onmouseleave = function () {
+        console.log("div  out...");
+    }
+
+    p.onmouseenter = function () {
+        console.log("over  p...");
+    }
+    p.onmouseleave = function () {
+        console.log("out  p...");
+    }
+</script>
+</body>
+</html>
