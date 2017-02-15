@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/作业资源/shirt_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/作业资源/shirt_1_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/作业资源/shirt_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/作业资源/shirt_2_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/作业资源/shirt_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/作业资源/shirt_3_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/作业资源/shirt_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/作业资源/shirt_4_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/img/big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/img/small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/01-事件对象.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/02-DOM2事件处理.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/03-DOM2事件处理2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/04-事件对象高级特性.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/JS基础-Day12作业.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/放大镜效果.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/05-事件代理.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day12/06-随手指移动的小球.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day12/test.html" afterPath="$PROJECT_DIR$/Day12/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day12/04-事件对象高级特性.html" afterPath="$PROJECT_DIR$/Day12/04-事件对象高级特性.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/放大镜效果.html" afterPath="$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/放大镜效果.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +24,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="04-事件对象高级特性.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day12/04-事件对象高级特性.html">
+      <file leaf-file-name="放大镜效果.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/放大镜效果.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="780">
+              <caret line="89" column="52" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="89" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-事件代理.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day12/05-事件代理.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06-随手指移动的小球.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day12/06-随手指移动的小球.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -91,8 +97,10 @@
         <option value="$PROJECT_DIR$/Day12/01-事件对象.html" />
         <option value="$PROJECT_DIR$/Day12/02-DOM2事件处理.html" />
         <option value="$PROJECT_DIR$/Day12/03-DOM2事件处理2.html" />
-        <option value="$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/放大镜效果.html" />
         <option value="$PROJECT_DIR$/Day12/04-事件对象高级特性.html" />
+        <option value="$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/放大镜效果.html" />
+        <option value="$PROJECT_DIR$/Day12/05-事件代理.html" />
+        <option value="$PROJECT_DIR$/Day12/06-随手指移动的小球.html" />
       </list>
     </option>
   </component>
@@ -275,7 +283,7 @@
       <workItem from="1486966694072" duration="32959000" />
       <workItem from="1487076809338" duration="6168000" />
       <workItem from="1487127473154" duration="7000" />
-      <workItem from="1487127495931" duration="3362000" />
+      <workItem from="1487127495931" duration="14773000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -295,7 +303,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59046000" />
+    <option name="totallyTimeSpent" value="70457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -337,36 +345,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day12/02-DOM2事件处理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day12/02-DOM2事件处理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10/制作复选框的全选全不选效果/check_all.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4212">
-          <caret line="108" column="21" lean-forward="true" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/开发工具/a.txt" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -642,14 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/放大镜效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day12/03-DOM2事件处理2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -671,8 +641,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day12/04-事件对象高级特性.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="575">
+          <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day12/05-事件代理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/放大镜效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="89" column="52" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="89" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/img/small.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day12/练习1：模仿京东的产品放大效果/img/big.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day12/06-随手指移动的小球.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        div {
+            height: 100%;
+            background-color: gray;
+        }
+
+        div p {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: pink;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">原路返回</button>
+<div id="box"><p></p></div>
+<script type="text/javascript">
+    var circle = document.querySelector("p");
+    var lefts = [];
+    var tops = [];
+    box.addEventListener("mousemove", function (e) {
+        var divLeft = e.clientX - circle.offsetWidth / 2;
+        var divTop = e.clientY - circle.offsetHeight / 2;
+        lefts.push(divLeft);
+        tops.push(divTop);
+        circle.style.left = divLeft + "px";
+        circle.style.top = divTop + 'px';
+    }, false);
+    btn.onclick = function () {
+        var id = setInterval(function () {
+            if(lefts.length == 0){
+                clearInterval(id);
+            }
+            circle.style.left = lefts.pop() + "px";
+            circle.style.top = tops.pop() + 'px';
+        }, 20)
+
+    }
+</script>
+</body>
+</html>
