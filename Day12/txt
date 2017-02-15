@@ -1,0 +1,24 @@
+window.onload = function(){
+}
+focus
+blur
+
+mouseover
+mouseout
+
+mouseenter
+mouseleave
+
+mousedown
+mousemove
+mouseup
+
+keydown
+keyup
+keypress
+
+offsetParent:
+offsetHeight
+offsetWidth
+offsetLeft
+offsetTop

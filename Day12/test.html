@@ -14,6 +14,9 @@
             height: 500px;
             background-color: green;
         }
+        div:hover{
+            background-color: red;
+        }
     </style>
 </head>
 <body>
@@ -21,18 +24,20 @@
     <p id="p"></p>
 </div>
 <script type="text/javascript">
-    div.onmouseenter = function () {
+    /*mouseenter和mouseleave事件，在子元素和父元素之间进行移动的时候，不会触发父容器的mouseenter和mouseleave*/
+    div.onmouseover = function () {
         console.log("div   over...");
+
     }
-    div.onmouseleave = function () {
+    div.onmouseout = function () {
         console.log("div  out...");
     }
 
-    p.onmouseenter = function () {
-        console.log("over  p...");
+    p.onmouseover = function () {
+        console.log("p over  ...");
     }
-    p.onmouseleave = function () {
-        console.log("out  p...");
+    p.onmouseout = function () {
+        console.log("p out...");
     }
 </script>
 </body>

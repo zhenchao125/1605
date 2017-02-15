@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn">点击我</button>
+<button id="btn1">取消第一个按钮的点击事件</button>
+<script type="text/javascript">
+    /*
+    可以给同一个类型的事件重复注册，先注册的先执行，后注册的后执行。
+    参数1：监听的事件的类型  事件类型不能带on
+    参数2：事件处理程序
+    参数3：表示事件处理的阶段：true  捕获阶段   false 冒泡阶段。 一般是冒泡。 不穿表示false
+    */
+    function show(event) {
+        console.log("1  你点击了按钮");
+    }
+
+    btn.addEventListener("click", show, false);
+    btn.addEventListener("click", function (event) {
+        console.log("2  你点击了按钮");
+    }, false);
+
+    btn1.onclick = function () {
+        //取消btn按钮的点击事件.必须是取消的已经注册过的函数
+        btn.removeEventListener("click", show);
+    }
+</script>
+</body>
+</html>

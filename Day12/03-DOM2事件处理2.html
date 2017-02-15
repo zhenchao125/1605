@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #divout{
+            width: 400px;
+            height: 400px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+        #divmid{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            margin: 0 auto;
+        }
+        #divin{
+            width: 100px;
+            height: 100px;
+            background-color: gray;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div id="divout">
+    <div id="divmid">
+        <div id="divin"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    /*
+    * target：你点击的是谁，就是谁。一般是最内侧的那个元素
+    * currentTarget：这个行代码所在的程序注册给了谁，就是谁
+    * */
+    /*divout.addEventListener("click", function (e) {
+        console.log("out..." + e.currentTarget.id + "  "  + e.target.id);
+    },false);*/
+    divmid.addEventListener("click", function (e) {
+        console.log("mid..." + e.currentTarget.id + "  "  + e.target.id);
+    },false);
+
+    /*divin.addEventListener("click", function (e) {
+        console.log("in..." + e.currentTarget.id + "  "  + e.target.id);
+    },false);*/
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>按钮1</button>
+<button>按钮2</button>
+<a href="http://www.baidu.com">百度</a>
+<div id="div">
+    <p id="p">abc</p>
+</div>
+
+<script type="text/javascript">
+    /*事件处理程序的第一个参数就是我们的事件对象*/
+    var show = function (event) {
+        console.log(event.bubbles);  //这个事件是否冒泡
+
+
+    }
+    document.querySelectorAll("button")[0].onclick = show;
+    document.querySelectorAll("button")[1].onclick = show;
+
+    document.querySelector("a").onclick = click;
+    function click(event) {
+        console.log(event.cancelable);
+//        event.preventDefault();
+    }
+
+    p.onclick = function (event) {
+        console.log(event.target.id  + "   "  + event.currentTarget.id + "  " + event.type);
+        console.log(event.eventPhase);
+        event.stopPropagation();//阻止冒泡
+    }
+    div.onclick = function (event) {
+        console.log(event.target.id  + "   "  + event.currentTarget.id);
+        console.log(event.eventPhase);
+    }
+</script>
+</body>
+</html>
