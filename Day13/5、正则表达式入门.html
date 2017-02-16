@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正则表达式入门</title>
+</head>
+<body>
+
+<script type="text/javascript">
+/*
+有两种方法创建正则表达式
+1.直接通过new来调用构造函数创建正则表达式对象
+2.直接写正则表达式的字面量。
+ */
+//参数1：正则表达式的字符串量  参数2：模式  g ：全局匹配 i ：忽略大小写
+var reg = new RegExp("box", "gi");
+var s = "aBoxb";
+var result = reg.test(s);
+console.log(result);
+console.log(reg)
+
+var reg2 = /box/gi;
+console.log(reg2)
+</script>
+</body>
+</html>

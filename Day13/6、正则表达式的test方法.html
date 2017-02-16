@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test方法</title>
+</head>
+<body>
+<script type="text/javascript">
+    /*
+    * g:表示是否全局匹配。  每次匹配成功之后，下次会从上次的位置继续向后匹配。
+    * 如果没有g，每次都是从头匹配。
+    * */
+    var reg = /girl/g;
+    var s = "abgirlcgirl";
+    console.log(reg.lastIndex)
+    console.log(reg.test(s));
+    console.log(reg.lastIndex);
+    console.log(reg.test(s));
+    console.log(reg.lastIndex);
+    console.log(reg.test(s));
+    console.log(reg.lastIndex);
+
+</script>
+</body>
+</html>
