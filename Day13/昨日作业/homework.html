@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style type="text/css">
-        
+        #outer{
+            position: relative;
+        }
+        .list img{
+            border: 1px solid #fff;
+        }
+        .list img:hover{
+            border: 1px solid red;
+        }
+
+        .enlarge{
+            display: none;
+            position: absolute;
+        }
         
     </style>
 </head>
 <body>
-<div>
+<div id="outer">
     <div class="list">
-        <img src="shirt_1.jpg" alt="">
-        <img src="shirt_2.jpg" alt="">
-        <img src="shirt_3.jpg" alt="">
-        <img src="shirt_4.jpg" alt="">
+        <img id="1" src="shirt_1.jpg" alt="">
+        <img id=2 src="shirt_2.jpg" alt="">
+        <img id=3 src="shirt_3.jpg" alt="">
+        <img id=4 src="shirt_4.jpg" alt="">
     </div>
     <div class="enlarge">
         <img src="shirt_1_big.jpg" alt="">
@@ -22,7 +35,37 @@
 
 </div>
 <script type="text/javascript">
-
+    var list = document.getElementsByClassName("list")[0];
+    var enlarge = document.getElementsByClassName("enlarge")[0];
+    var bigImg = enlarge.getElementsByTagName("img")[0];
+    list.onmouseover = function (e) {
+        enlarge.style.display = "block";
+    }
+    list.onmouseout = function (e) {
+        enlarge.style.display = "none";
+    }
+    list.onmousemove = function (e) {
+        var imgId = +e.target.id;
+        var src = "";
+        switch (imgId){
+            case 1:
+                src = "shirt_1_big.jpg";
+                break;
+            case 2:
+                src = "shirt_2_big.jpg";
+                break;
+            case 3:
+                src = "shirt_3_big.jpg";
+                break;
+            case 4:
+                src = "shirt_4_big.jpg";
+                break;
+        }
+//        bigImg.src = src;
+        console.log(src)
+        bigImg.setAttribute("src", src);
+        enlarge.style.left = e.clientX + "px";
+    }
 </script>
 </body>
 </html>

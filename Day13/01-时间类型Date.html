@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var s = Date();  //返回 表示当前时间的字符串
+    console.log(typeof s);
+    //调用时间构造函数，创建一个时间对象
+    var d = new Date();  //表示当前时间
+    console.log(d.getFullYear());
+    console.log(d.getTime());
+    //使用指定的格式去创建指定的时间
+    var d1 = new Date("2017/12/12 12:12:40")
+    console.log(d1);
+
+    //指定具体的毫秒值的事件
+    var d2 = new Date(2228999999234);
+    console.log(d2)
+
+    //分别指定年月日来创建时间对象
+    var d3 = new Date(2015, 11, 23);
+    console.log(d3);  //直接输出对象就相当于调用对象的toString()方法再输出
+
+    console.log(d3.toString());
+    //返回本地化的格式的时间字符串
+    console.log(d3.toLocaleString())
+
+    //返回这个时间表示的毫秒值
+    console.log(d3.valueOf());
+    console.log(d3.getTime());
+</script>
+</body>
+</html>

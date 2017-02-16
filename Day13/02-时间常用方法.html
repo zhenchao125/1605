@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时间常用方法</title>
+</head>
+<body>
+<script type="text/javascript">
+    var d = new Date();
+    /*getTime setTime  获取或设置时间的毫秒值*/
+//    d.setTime(33939399393939);
+    console.log(d.getTime())
+
+    /*getYear setYear 被废弃掉了,不要用*/
+    console.log(d.getYear())
+    /*getFullYear 获取完整的四位年份*/
+//    console.log(d.setFullYear(2333))
+    console.log(d.getFullYear())
+    /*getMonth*/
+//    console.log(d.setMonth(10));
+    console.log(d.getMonth());  //js中月份的值0-11
+    /*getDay 代表一周的第几天  0开始算  只能读取不能设置*/
+    console.log(d.getDay()) //返回的一周的第几天 0-6  0代表星期日
+    /*getDate 获取一个月的第几天*/
+    d.setDate(29);  //  2017.3.1
+    d.setMonth(12);  // 2018.1.1
+
+    console.log(d.getFullYear() + "年" + (d.getMonth() + 1) + "月" + d.getDate() + "日");
+    console.log(d.getHours());  // 小时是 0-23
+    console.log(d.getMinutes())
+    console.log(d.getSeconds())
+    console.log(d.getMilliseconds())
+
+</script>
+</body>
+</html>

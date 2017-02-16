@@ -1,0 +1,17 @@
+DOM2事件处理：
+    addEventListener(事件类型, 处理函数, 触发的阶段)
+    removeEventListener
+
+事件对象：
+    event.clientX
+          offsetX
+          screenX
+          pageX
+
+          target
+          currentTarget
+
+          preventDefault:阻止默认行为
+          stopPropagation:停止冒泡
+事件委托(事件代理)
+

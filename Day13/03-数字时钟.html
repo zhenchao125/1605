@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数字时钟</title>
+    <style type="text/css">
+        div {
+            width: 600px;
+            height: 50px;
+            font: 2em/50px Arial, sans-serif;
+            text-align: center;
+            margin: 100px auto;
+            background-color: #CCCCCC;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var box = document.getElementById("box");
+            setTimeout(function show() {
+                var d = new Date();
+                box.innerHTML = d.getFullYear() + "年" + (d.getMonth() + 1) + "月"
+                    + d.getDate() + "日 " + d.getHours() + " : "
+                + d.getMinutes() + " : " + d.getSeconds();
+                setTimeout(show, 100);
+            }, 0);
+        }
+    </script>
+</head>
+<body>
+<div id="box"></div>
+</body>
+</html>
