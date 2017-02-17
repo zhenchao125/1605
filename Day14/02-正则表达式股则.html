@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+//    var reg = /./gi;
+//    var reg = /\D/gi;  //匹配非数字
+//    console.log(reg.test("2a"))
+    var reg;
+//    reg = /[a-z0-9A-Z_]/gi   // \w
+//    reg = /[^0-9][0-9]/gi;   //不是 0-9的都匹配
+//    reg = /green|red/gi;
+//    reg = /^r/gi;
+//    console.log(reg.test("rgreen red"));
+
+    //默认都是贪婪模式    非默认的懒惰模式:在数量词后面添加一个?
+//    reg = /1+/gi;
+//    reg = /a{3}/gi;  //正好3个a
+    reg = /a{3,}/gi;  //三个或多个
+    console.log(reg.exec("abcaa"));
+    console.log(reg.exec("1112"))
+</script>
+</body>
+</html>

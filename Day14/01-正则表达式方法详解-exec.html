@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    //在正则表达中，可以使用圆括号进行分组。exec可以获取每个组匹配的结果
+    var reg = /box/gi;
+    var s = "BoxaaaBOxdjljbox";
+    //返回匹配的结果。
+    /*var result = reg.exec(s);
+     //    console.log(result instanceof Array);
+     console.log(result);
+     console.log(reg.exec(s));
+     console.log(reg.exec(s));
+     console.log(reg.exec(s));*/
+    var result;
+    while(result = reg.exec(s)){
+        console.log(result[0]);
+    }
+</script>
+
+</body>
+</html>

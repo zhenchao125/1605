@@ -1,0 +1,91 @@
+数据类型：
+    简单数据类型
+        null
+        undefined
+
+        number
+            Number("12a") 转换方法  把别的类型的数据转换成数字
+            window.parseInt("12.3a")
+        string
+        boolean
+            Boolean()
+            !!a
+
+        实际代码中，引擎经常自动进行一个转换：
+            null undefined 0 NaN ""  转换成false
+
+        symbol  es6新增
+
+
+    复杂数据类型
+        对象：  键值对的集合
+            数组
+            正则表达式对象
+            Math
+            ...
+
+    运算符：
+       ++  --
+
+       %
+
+       ||  &&
+
+       ? :
+
+    if语句：
+    swich
+    for while  do...while
+
+    函数：
+        具名函数：  有名
+        匿名函数：   无名
+            匿名函数的自执行
+        函数表达式：  var f = function(){}
+        //胖箭头函数   ()=>{}     拉姆达表达式
+
+     函数的声明
+     函数的调用：
+
+     数组：
+        push：在数组的末尾追加数据
+        pop：移除数组末尾的元素
+
+        shift：删除数组第一个元素
+        unshift：在数组的最前面添加一个元素
+
+        slice：截取
+        splice：删除、添加、替换
+
+        foreach:变量数组中的元素
+
+        sort：排序  默认是按照升序排序
+
+        length
+     字符串：
+        length
+        ...
+
+        字符串的不可变性：在js中，一个字符串一旦创建完成，那么这个字符串是无法改变的。
+
+    ==
+        先比较类型，如果类型不等，就转换相同类型去比较。  然后再去比较内容
+
+    ===
+        先比较类型，类型不同，直接不等。
+
+    Math:
+
+    BOM:
+    Js:  ECMAScript  BOM  DOM
+
+    open:
+    document:
+    window:
+    history:
+    location:
+
+    DOM操作：
+        增删该查：
+
+

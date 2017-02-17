@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    //search: 根据模式查找是否存在，如果存在则返回子串的下标，如果不存在，则返回-1
+    var s = "34abc425ab45093485093485c805943850345ljlkdj";
+    var index;
+    if((index = s.search(/\d{3}/i)) != -1){
+//        alert("找到了" + index)
+    }else{
+//        alert("没有找到")
+    }
+    //match:  如果没有g flag，则返回结果和reg.exec()相同。
+    var r = s.match(/\d+(a)/gi);  //在match内部的正则表达式，捕获组无效
+    console.log(r);
+    //replace:替换
+    var s = "975943ja043058034vacja43098509435vascr45094385iptphp";
+    console.log(s.replace(/\d/gi, ""))
+
+    var s = "我我我很喜喜欢你你们啊啊啊啊啊啊啊啊"
+    console.log(s.replace(/(.)\1+/gi, "$1"));
+    /*
+    * 在替换中引用组的时候，正则表达式内部使用的  \n
+    * 在新的字符串中引用： $n
+    * */
+    var s = ",,,how,are,you,,,,,,,,,,,,,,,,";
+    console.log(s.split(/,/gi))
+</script>
+</body>
+</html>

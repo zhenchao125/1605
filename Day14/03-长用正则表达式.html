@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    //判断一个手机号码是否合法。
+    var reg = /1[34578]\d{9}$/g;
+    console.log(reg.test("18603a71644"))
+    //判断一个email是不是合法：   一位@sohu.com   特殊字符进入[]就不是特殊字符了
+    var reg = /\w+@.+[.](com|cn)$/gi;
+    console.log(reg.test("aaaaaa@abc.com.cn"));
+
+</script>
+</body>
+</html>

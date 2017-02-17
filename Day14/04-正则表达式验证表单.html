@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="#" method="get">
+    姓名:<input  type="text" name="user"><span></span><br/>
+    密码: <input type="password" name="pwd" required>
+    <br>
+    <input type="submit" value="提交表单数据">
+</form>
+<script>
+    var inputs = document.getElementsByTagName("input");
+
+    document.querySelector("form").onsubmit = function (event) {
+        //姓名5-8个字符，第一个不能是数字
+        var user = inputs[0].value;
+        var reg1 = /^[^0-9]\w{4,7}$/i;
+        if(!reg1.test(user)){
+            event.preventDefault();
+            document.querySelector("span").innerHTML = "请输入5-8为的字符串。。。。。";
+        }
+    }
+
+</script>
+</body>
+</html>
