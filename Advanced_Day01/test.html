@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            width: 100px;
+            height: 1000px;
+            background-color: #CCCCCC;
+            text-align: center;
+            position: fixed;
+        }
+
+        article {
+            width: 800px;
+            position: absolute;
+            left: 100px;
+        }
+
+        div {
+            height: 1000px;
+            background-color: pink;
+        }
+
+        div:nth-of-type(2n) {
+            background-color: gray;
+        }
+
+        p {
+            font-size: 50px;
+        }
+
+        :target {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#p1">1</a></li>
+        <li><a href="#p2">2</a></li>
+        <li><a href="#p3">3</a></li>
+    </ul>
+</nav>
+<article>
+    <p id="p1">第一段</p>
+    <div></div>
+    <p id="p2">第二段</p>
+    <div></div>
+    <p id="p3">第三段</p>
+    <div></div>
+</article>
+
+</body>
+</html>
