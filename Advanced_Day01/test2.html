@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            float: left;
+            background-color: pink;
+            text-align: center;
+            line-height: 200px;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            border: 27px solid red;
+            border-image-source: url("border.png");
+            border-image-slice: 27;
+            border-image-width: 27px;
+
+        }
+        div:nth-child(1){
+            border-image-repeat: stretch;
+            border-image-outset: 40px;
+        }
+        div:nth-child(2){
+            border-image-repeat: repeat;
+        }
+        div:nth-child(3){
+            border-image-repeat: round;
+        }
+        div:nth-child(4) {
+            border-image-repeat: space;
+        }
+        div:nth-child(5) {
+            border-image-repeat: round stretch;
+        }
+    </style>
+</head>
+<body>
+<div>stretch</div>
+<div>repeat</div>
+<div>round</div>
+<div>space</div>
+<div>round stretch</div>
+<input type="text" id="abc">abc
+<script>
+    var s = "-34aaa34jfljl-5"
+    console.log(s.match(/\d/g))
+</script>
+</body>
+</html>
