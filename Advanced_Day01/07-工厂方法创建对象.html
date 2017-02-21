@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>工厂方法</title>
+</head>
+<body>
+<script>
+    function createPerson(name, age, sex) {
+        var p = {};
+        p.name = name;
+        p.age = age;
+        p.sex = sex;
+        p.sayHell = function () {
+            alert("我的名字是" + this.name)
+        }
+        return p;
+    }
+    var p1 = createPerson("lisi1", 30, "男");
+    p1.sayHell();
+    var p2 = createPerson("lisi2", 30, "男");
+    p2.sayHell();
+    var p3 = createPerson("lisi3", 30, "男");
+    var p4 = createPerson("lisi4", 30, "男");
+</script>
+</body>
+</html>

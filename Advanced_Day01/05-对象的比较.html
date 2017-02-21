@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象的比较</title>
+</head>
+<body>
+<script>
+/*var r = ({} == {});
+console.log(r);*/
+console.log({} == "[object Object]");
+console.log([] == false);
+</script>
+</body>
+</html>
+<!--
+1. 如果是两个对象进行 比较，不管是 == 还是 === 他们比较的永远是地址
+2. 如果比较的双方有一个不是对象，则会先把对象转换成字符串  (toString方法)，然后再去比较
+
+-->

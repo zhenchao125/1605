@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象基本操作</title>
+</head>
+<body>
+<script>
+    var p = {
+        name : "李四",
+        age : 20,
+        girlFriends : ["志玲", "凤姐"],
+        eat : function () {
+            console.log("吃东西")
+        }
+    }
+    p.name = "张三";
+    p.sex = "男";
+//    delete p.age;   //删除属性
+//    console.log(p.eat)
+    p.eat();
+//    delete p.eat;  //delete也可以删除方法
+    // for in 用来把遍历对象的属性. 遍历出来的是属性的名
+    for(var att in p){
+        console.log(att + "  " + p[att]);
+    }
+</script>
+</body>
+</html>
+<!--
+修改属性的值：
+对象.属性名 = 新的值
+
+
+给对象动态添加属性：
+    js可以动态的去添加或删除属性
+
+    如果给对象的属性赋值的时候，这个属性不存在，则会动态的添加一个这样的属性
+
+删除对象的属性：
+    delete 操作符
+
+方法：
+    如果一个对象的属性的值是函数的时候，这个时候我们一般喜欢称之为这个属性为方法
+-->

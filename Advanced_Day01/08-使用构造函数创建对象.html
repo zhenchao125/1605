@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用构造函数创建对象</title>
+</head>
+<body>
+<script>
+    /*var obj1 = {};
+    var obj2 = new Object();
+    console.log(obj1 instanceof Object)
+    console.log(obj2 instanceof Object)
+    console.log([] instanceof Array)*/
+
+    function Person() {
+        this.name = "lisi";
+        this.age = 20;
+        this.sayHello = function () {
+            alert(this.name);
+        }
+    }
+    //使用new的去创建对象，会自动的把创建的对象返回。
+    var p = new Person();
+    p.sayHello();
+    console.log(p);
+    console.log(p instanceof Person);
+
+</script>
+</body>
+</html>
+<!--
+{ }
+new Object()
+工厂方法也是Object
+
+
+instanceof:测试一个对象是不是属于某一种类型。
+
+
+构造函数的方法创建对象，对象就具有了类型。
+
+1. 谁调用，this就只带哪个对象
+2. 在构造函数中（当你使用new的方式调用函数的时候）
+-->

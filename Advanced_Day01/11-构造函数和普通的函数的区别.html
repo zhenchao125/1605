@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select name="" id="">
+    <option >北京</option>
+</select>
+<select name="" id="">
+    <option >北京</option>
+</select>
+<select name="" id="">
+    <option >北京</option>
+</select>
+<script>
+    function f() {
+    }
+    var a = new f();
+    console.log(a instanceof f);
+    f();
+
+    //包装对象
+    /*var n = new Number(1);
+    console.log(n + 2);
+    console.log(n === 1);*/
+
+    //转换函数
+    var n = Number([1, 2].toString().replace(",", ""));   // 1, 2
+    console.log(n);
+
+    console.log(parseInt("ab"))
+    Math
+</script>
+</body>
+</html>
+<!--
+都是函数：
+   构造函数：
+    如果一个函数通过new的方式去使用，那么这个函数就是构造
+    
+   普通函数：
+    直接调用
+
+-->

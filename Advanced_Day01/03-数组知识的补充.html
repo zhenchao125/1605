@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr = ["你好", "a", "b"];
+    arr.abc = "哈哈哈";
+//    console.log(arr.abc)
+    // for  foreach   for  in
+    for(var index in arr){
+       console.log(arr[index])
+    }
+    console.log(arr.length)
+    console.log(arr);
+    /*arr.forEach(function (e, index) {
+        console.log(typeof  index)
+    })*/
+
+    //遍历的数组的元素。  for in是遍历的数组的下标index.  for of是遍历的数组中的元素
+    for(var e of arr){
+        console.log(e);
+    }
+
+</script>
+</body>
+</html>

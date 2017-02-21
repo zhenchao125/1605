@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person(name, age, sex) {
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+
+    }
+    /*var p1 = new Person("lisi", 20, "男");
+    console.log(p1);*/
+
+    var p = Person("lisi", 20, "nv");
+    console.log(p);
+
+    console.log(window.age);
+    console.log(window.name);
+
+</script>
+</body>
+</html>
+<!--
+1. 如果在构造函数内部没有添加return语句，则构造函数会自动的把新创建的对象返回
+2. 如果在构造函数的内部显示的返回一个简单数据类型的数据(number string boolean),仍然返回this
+3. 如果显示的返回一个对象，则不再默认返回this
+
+
+this三种用法：
+1. 对象.方法()
+    方法中的this指的是前面的 对象
+2.  new 构造方法()
+    构造函数中的this指的是新创建的那个对象
+3.  方法()
+    方法中的this指的是window
+-->

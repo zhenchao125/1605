@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复杂js对象</title>
+</head>
+<body>
+<script>
+    var school = {
+        schoolName : "育知同创",
+        addr : "深圳",
+        clazzs : [
+            {
+                calzzName : "H5-1605",
+                students : [
+                    {
+                        name : "李四",
+                        age : 20
+                    },
+                    {
+                        name : "张三",
+                        age : 30
+                    }
+                ]
+            },
+            {
+                calzzName : "H5-1701",
+                students : [
+                    {
+                        name : "志玲",
+                        age : 20
+                    },
+                    {
+                        name : "凤姐",
+                        age : 30
+                    }
+                ]
+            }
+        ]
+    }
+    var temp;
+    function getInfoByName(name) {
+        var clazzs = school.clazzs;
+        for(var clazz of clazzs){
+            var students = clazz.students;
+            for(var student of students){
+                if(name == student.name){
+                    var s = {}
+                    s.name = name;
+                    s.age = student.age;
+                    s.addr = school.addr;
+                    s.clazzName = clazz.calzzName;
+                    s.schoolName = school.schoolName;
+                    s.showInfo = function () {
+                        alert("我的名字是：" + this.name + "，我喜欢" + this.schoolName);
+                    }
+                    temp = s;
+                    return s;
+                }
+            }
+        }
+    }
+
+    var student = getInfoByName("志玲");
+    temp.name = "abc";
+    student.showInfo();
+    console.log(student.name)
+</script>
+</body>
+</html>

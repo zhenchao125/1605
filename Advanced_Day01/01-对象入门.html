@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*对象字面量*/
+    var p = {
+        name : "lisi",
+        age : 20,
+        sex : "男"
+    };
+    console.log(p.name);
+    console.log(p.age);
+    var abc = "age";
+    console.log(p[abc]);  //使用[] 去访问属性。支持变量
+    console.log(p["abc"])  //  ==== p.abc
+</script>
+</body>
+</html>
+<!--
+js中声明一个对象，最直接和简单的方式就是使用对象字面量的形式。
+{
+    name:"lisi",
+    age : 20
+}
+
+ var p = {}
+ p只是存储的对象的内存地址，也称之为对象的引用。
+
+1. 用.语法去访问对象的属性 . 属性名，不支持变量   不能这样使用：对象.变量名
+2. 访问的属性是变量，则可以使用  [] 语法
+-->
