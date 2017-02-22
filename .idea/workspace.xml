@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day01/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day02/01-原型入门.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day02/02-原型2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day02/03-原型3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day02/04-原型3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day02/05-原型4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day02/昨日作业/昨日作业.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -353,7 +344,7 @@
       <workItem from="1487164330941" duration="458000" />
       <workItem from="1487204557093" duration="41115000" />
       <workItem from="1487406366981" duration="26580000" />
-      <workItem from="1487636882567" duration="27729000" />
+      <workItem from="1487636882567" duration="27889000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -373,7 +364,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166690000" />
+    <option name="totallyTimeSpent" value="166850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
