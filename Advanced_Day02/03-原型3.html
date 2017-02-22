@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person() {
+
+    }
+    var obj =  {
+        constructor : Person,
+        age : 20,
+        name : "李四"
+    }
+    //如果更改了构造函数的原型对象，则一般让原型对象的constructor属性重新指向这个构造函数
+//    obj.constructor = Person;
+    Person.prototype = obj;
+    console.log(Person.prototype.constructor)
+
+</script>
+</body>
+</html>

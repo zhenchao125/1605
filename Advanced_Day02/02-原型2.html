@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型2</title>
+</head>
+<body>
+<script>
+    function Person() {
+        this.age = 10;
+        this.name = "志玲";
+    }
+    Person.prototype.sex = "nv";
+    Person.prototype.girls = ["a", "b"]
+    var p1 = new Person();
+    var p2 = new Person();
+    p1.sex = "男";
+
+    p1.girls.push("c");
+//    p1.girls = [];
+    console.log(p1.sex);
+    console.log(p2.sex);
+    console.log(p2.girls.length)
+
+</script>
+</body>
+</html>
+<!--
+通过对象只能访问原型中的属性值，不能去修改原型中的属性在值
+
+-->

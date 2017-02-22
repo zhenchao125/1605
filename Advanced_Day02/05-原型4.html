@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person() {
+        this.name = "李四";
+    }
+    Person.prototype.age = 20;
+    var p1 = new Person();
+    /*可以遍历到本身和原型链中的所有属性*/
+    for(var pro in p1){
+        console.log(pro)
+    }
+</script>
+</body>
+</html>
