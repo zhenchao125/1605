@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            position: absolute;
+            top: 200px;
+        }
+        div:nth-child(2){
+            top: 400px;
+            background-color: #666666;
+        }
+    </style>
+    <script type="text/javascript" src="circle.js"></script>
+</head>
+<body>
+<div></div>
+<div></div>
+<button id="btn">把上面的div变成圆形</button>
+<button id="btn1">变回方形</button>
+<button id="btn2">向右跑</button>
+<script>
+
+    var c = new Circle(document.querySelector("div"));
+    var c2 = new Circle(document.querySelector("div:nth-child(2)"));
+    btn.onclick = function () {
+        c.changeToCircle();
+        c2.changeToCircle();
+
+    }
+    btn1.onclick = function () {
+        c.changeToRectangle();
+        c2.changeToRectangle();
+    }
+    btn2.onclick = function () {
+        c.moveX();
+        c2.moveX();
+    }
+
+</script>
+</body>
+</html>

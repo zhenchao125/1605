@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person(name, age) {
+        this.age = age;
+        this.name = name;
+
+    }
+    Person.prototype.speak = function () {
+        alert(this.name);
+    }
+    Person.prototype.eat = function () {
+        alert(this.age + "  aaldjf")
+    }
+
+
+    var p1 = new Person("李四", 20)
+    var p2 = new Person("张三", 30)
+    p1.speak();
+    p1.eat();
+</script>
+</body>
+</html>
+<!--
+组合式：
+属性在构造函数中添加
+方法添加在原型中
+-->

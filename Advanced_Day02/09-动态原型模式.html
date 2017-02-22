@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person(age, name) {
+        this.age = age;
+        this.nam = name;
+        if(!Person.prototype.speak){
+            Person.prototype.speak = function () {
+                alert(this.name);
+            }
+        }
+        if(!Person.prototype.eat){
+            Person.prototype.eat = function () {
+                alert("吃" + this.age)
+            }
+        }
+    }
+    var p1 = new Person(20, "lisi");
+    var p2 = new Person(30, "lisi1");
+    console.log(p1.speak === p2.speak)
+</script>
+</body>
+</html>

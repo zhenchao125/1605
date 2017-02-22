@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person() {
+
+    }
+    Person.prototype.age = 10;
+    Person.prototype.nam = "lisi";
+    Person.prototype.girls = ["a"];
+    Person.prototype.eat = function () {
+        alert("吃")
+    }
+    var p1 = new Person();
+    p1.eat();
+    var p2 = new Person();
+    p2.eat();
+</script>
+</body>
+</html>
+<!--
+原型中的属性和方法都共有，但是这种情况不是我们想要的。
+属性每个对象都有自己的，方法应该是所有的对象所共有。
+
+-->

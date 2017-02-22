@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function Person(age, name) {
+        this.age = age;
+        this.name = name;
+        this.speak = function () {
+            alert("我的名字是：" + this.name)
+        }
+    }
+    var p1 = new Person("李四", 20);
+    var p2 = new Person("张三", 10);
+    console.log(p1.speak == p2.speak)
+</script>
+</body>
+</html>
+<!--
+属性没有共享使我们想要的，
+但是方法也没有共享，就不是我们想要的。
+
+-->
