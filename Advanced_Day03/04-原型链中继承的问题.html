@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Father(name) {
+        this.name = name;
+    }
+    function Son(age) {
+
+        this.age = age;
+    }
+    Son.prototype = new Father("王五");
+    var s1 = new Son(20)
+    var s2 = new Son(30)
+    Son.prototype.name = "zs"
+    console.log(s1.name)
+    console.log(s2.name)
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var obj = {a : 100, b : 200};  // obj.__proto__  ==== Object.prototype
+    console.log(obj.toString())
+
+    var arr = [];   // Array.prototype    -> Object.prototype
+    console.log(arr.toString())
+
+    var fun = function () {  // Function.prototype  -> Object.prototype
+
+    }
+    console.log(fun.toString())
+
+    console.log(Object.prototype.toString.call(arr));  //[object Array]
+    console.log(Object.prototype.toString.call(fun));
+    console.log(Object.prototype.toString.call(10));
+    console.log(Object.prototype.toString.call("a"));
+    console.log(Object.prototype.toString.call(true));
+    console.log(Object.prototype.toString.call(null));
+    console.log(Object.prototype.toString.call(undefined));
+    function Person() {
+
+    }
+    /*无法测试出来自定义的类型*/
+    console.log(Object.prototype.toString.call(new Person()));
+    console.log(Object.prototype.toString.call(/a/));
+    /*求數組的最大值*/
+//    var max = Math.max.call(null, [2, 3, 4]);// Math.max([])
+    var arr = [3, 5, 6, 1, 9, 89, 30]
+    var max = Math.max.apply(null, arr);  // Math.max(3, 5, 6...)
+    console.log(max);
+
+    /* ES6: 展開運算符  ...*/
+    console.log(Math.max(...arr))
+    /*
+
+     ES2016    **    2**5 == Math.pow(2, 5)
+    * */
+</script>
+</body>
+</html>

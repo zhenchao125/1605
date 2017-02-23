@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var Father = function (name) {
+        this.name = name;
+    }
+    Father.prototype.speak = function () {
+        console.log("我是父类型的方法")
+    }
+
+    var Son = function (age) {
+        this.age = age;
+    }
+    Son.prototype = new Father("李四");
+    Son.prototype.constructor = Son;
+    Son.prototype.speak = function () {
+        console.log("我是子类中的方法")
+    }
+    var s1 = new Son(20);
+    console.log(Object.prototype.isPrototypeOf(s1));  //true
+    console.log(Father.prototype.isPrototypeOf(s1))  //true
+    console.log(Son.prototype.isPrototypeOf(s1)) //true
+    console.log(new Father("").__proto__.isPrototypeOf(s1)) //true  // Father.prototype == new Father("").__proto__
+
+
+//    s1.speak();
+    /*console.log(s1 instanceof Son);
+    console.log(s1 instanceof Father)
+    console.log(s1 instanceof Object)
+*/
+    /*f(new Son(20))
+    f(new Father("aaa"))
+    function f(f) {
+        f.speak();
+    }*/
+
+    /*var father = new Father("ab");
+    console.log(father instanceof Son)*/
+</script>
+</body>
+</html>

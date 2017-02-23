@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    * 组合继承：
+    *   1. 子类型的构造函数借调父类型的构造函数
+    *   2. 子类型的构造的函数的原型对象，仍然改为父类型的对象
+    * */
+    function Father(name) {
+        this.name = name;
+    }
+    Father.prototype.speak= function () {
+        console.log("父类型的方法")
+    }
+
+    function Son(name,age) {
+        Father.call(this, name);
+        this.age = age;
+    }
+    Son.prototype = new Father();
+    var s = new Son("lisi", 20);
+    console.log(s.name);
+
+</script>
+</body>
+</html>

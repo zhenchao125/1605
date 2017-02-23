@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function abc() {
+        var i = 2; i++; console.log(i)
+    }
+    abc();
+//    console.log(abc.constructor)
+    var f = new Function("var i = 2; i++; console.log(i)");
+    f();
+    console.log(abc instanceof Function)
+    console.log(abc instanceof Object)
+    console.log(Function.prototype === abc.__proto__)
+</script>
+</body>
+</html>
+<!--
+函数有没有原型？ 他的原型又是哪个构造函数原型
+
+-->

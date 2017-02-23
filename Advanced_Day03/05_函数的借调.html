@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Father(name,sex) {
+        this.name = name;
+        this.sex = sex;
+    }
+    Father.prototype.speak = function () {
+        console.log("父类的方法")
+    }
+    function Son(name, age, sex) {
+        //然后Father函数执行。可以手动指定this的指向. 第一个参数就是重新定义了函数内部的this，后面的才是函数正常的参数。
+        Father.call(this, name, sex);
+        this.age = age;
+    }
+    var s1 = new Son("lisi", 20, "女");
+    s1.speak();
+    console.log(s1)
+    console.log(s1.name)
+    console.log(s1.age)
+</script>
+</body>
+</html>
+<!--
+某一个对象没有这个函数，但是可以借用另外的函数，把这个函数中的this换成这个对象。
+
+任何的函数对象都有一个call方法，可以使用这个方法区调用这个函数
+
+-->

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Father(name) {
+        this.name = name;
+    }
+    Father.prototype = {}
+    Father.prototype.speak = function () {
+        console.log("我是父类型中的方法...")
+    }
+
+    function Son(age) {
+        this.age = age;
+    }
+    Son.prototype = new Father("李四");
+    Son.prototype.constructor = Son;
+    var s = new Son(20);
+    s.speak();
+    console.log(s.name)
+</script>
+</body>
+</html>

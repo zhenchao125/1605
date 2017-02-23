@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业1</title>
+</head>
+<body>
+<script>
+    function Rectangle(len, width) {
+        if(len <= 0 || width <= 0){
+            throw Error("你的参数不合法，必须大于等于0")
+        }
+        this.len = len;
+        this.width = width;
+    }
+    Rectangle.prototype.area = function () {
+        return this.len * this.width;
+    }
+    Rectangle.prototype.zhouchang = function () {
+        return (this.len + this.width) * 2;
+    }
+    var rec = new Rectangle(-2, 4);
+    console.log(rec.area());
+    console.log(rec.zhouchang())
+</script>
+</body>
+</html>
