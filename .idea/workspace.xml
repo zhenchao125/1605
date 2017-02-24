@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day03/01-原型链的概念.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day03/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day03/昨日作业/poke.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day03/昨日作业/作业1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day03/昨日作业/作业2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advanced_Day02/JS高级-Day02.md" afterPath="$PROJECT_DIR$/Advanced_Day02/JS高级-Day02.md" />
-    </list>
+    <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -42,9 +34,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day14/test2.html" />
-        <option value="$PROJECT_DIR$/Day14/01-正则表达式方法详解-exec.html" />
-        <option value="$PROJECT_DIR$/Day14/02-正则表达式股则.html" />
         <option value="$PROJECT_DIR$/Day14/03-长用正则表达式.html" />
         <option value="$PROJECT_DIR$/Day14/04-正则表达式验证表单.html" />
         <option value="$PROJECT_DIR$/Day14/05-字符串的支持正则表达式的方法.html" />
@@ -93,6 +82,9 @@
         <option value="$PROJECT_DIR$/Advanced_Day03/05_函数的借调.html" />
         <option value="$PROJECT_DIR$/Advanced_Day03/06-组合继承.html" />
         <option value="$PROJECT_DIR$/Advanced_Day03/07-借調的一個應用.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day04/test.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day04/昨日作业/作业1.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day04/昨日作业/作业2.html" />
       </list>
     </option>
   </component>
@@ -168,7 +160,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced_Day03" />
+              <option name="myItemId" value="Advanced_Day04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced_Day04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="昨日作业" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,15 +202,15 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Advanced_Day02" />
       <recent name="$PROJECT_DIR$/Advanced_Day01" />
       <recent name="$PROJECT_DIR$/Day13/昨日作业" />
       <recent name="$PROJECT_DIR$/Day12" />
       <recent name="$PROJECT_DIR$/Day11/homework" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.万年历.html">
@@ -304,7 +314,7 @@
       <workItem from="1487204557093" duration="41115000" />
       <workItem from="1487406366981" duration="26580000" />
       <workItem from="1487636882567" duration="46040000" />
-      <workItem from="1487829636953" duration="9746000" />
+      <workItem from="1487829636953" duration="10258000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -324,7 +334,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194747000" />
+    <option name="totallyTimeSpent" value="195259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -386,22 +396,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day14/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day01/border.png" />
-    <entry file="file://$PROJECT_DIR$/Advanced_Day01/02-对象基本操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day01/01-对象入门.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -729,6 +723,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day04/昨日作业/作业2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day04/昨日作业/作业1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day04/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
         </state>
       </provider>
