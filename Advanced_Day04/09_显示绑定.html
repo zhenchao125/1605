@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function foo(a, b) {
+        console.log(this.name + " " + a + "  " + b);
+
+    }
+    foo.call({name : "zs"}, 10, 20);   //显示区指定this的指向
+    foo.apply({name :"zs"}, [10, 20])
+
+    function foo() {
+        console.log(this.name);
+    }
+    //this已经绑定好的新的函数对象
+    var fooNew = foo.bind({name : "李四"});
+    fooNew();
+
+    var p = {
+        name : "张三",
+        foo : fooNew
+    }
+    p.foo();
+
+
+    var p2 = {
+        name : "凤姐",
+        foo2 : function () {
+            console.log(this.name);
+        }
+    }
+    function Person1() {
+        this.name = "志玲";
+        this.foo1 = p2.foo2;
+    }
+    var p1 = new Person1();
+    p1.foo1();
+
+</script>
+</body>
+</html>
+<!--
+call和apply在es5之前就已经支持了。
+
+bind(this绑定的对象)  这个方法会返回一个新的绑定过的函数对象。
+ bind绑定的，则不会再重新绑定的。
+
+-->

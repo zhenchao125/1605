@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /* var foo = (function () {
+     var num = 10;
+     return function () {
+     return num;
+     };
+     })();
+     console.log(foo())*/
+    var p = (function () {
+        var person = {
+            name: "李四",
+            age: 30,
+            sex: "男"
+        }
+        return {
+            getName : function () {
+                return person.name;
+            },
+            setName : function (name) {
+                person.name = name;
+            },
+            setAge : function (age) {
+                if(age > 100 || age < 0){
+                    throw  Error("年龄范围不对")
+                }else{
+                    person.age = age;
+                }
+            }
+        }
+    })();
+
+    console.log(p.getName())
+    p.setAge(-1)
+
+</script>
+<script>
+
+</script>
+</body>
+</html>

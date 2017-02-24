@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var p = {
+        f : function () {
+            console.log(this);
+        }
+    }
+
+    var foo = p.f;
+    foo();
+    p.f();
+
+   /* function foo() {
+        console.log(this);
+    }
+    foo();*/
+   console.log(window.name)
+</script>
+</body>
+</html>
+<!--
+this指向和书写的位置没有关系，只和调用方式有关
+
+默认绑定：
+    当直接调用一个函数的时候，那么这个函数的this默认绑定在window上
+
+-->

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f1() {
+        var a = 10;
+        function f2() {
+//            a++;
+//            return c;
+            return 3;
+        }
+        var c = 30;
+        return f2;
+    }
+    console.log(f1()())
+</script>
+</body>
+</html>
+<!--
+闭包的特点：
+1.可以访问外层函数的局部变量
+2. 读取的局部变量的值一定是最终的值。
+
+-->

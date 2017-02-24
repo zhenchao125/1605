@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*var p = {
+        name : "lisi",
+        foo : function () {
+            console.log(this.name)
+        }
+    }
+    var p1 = {
+        name : "张三",
+        foo : p.foo
+    }
+    p1.foo();*/
+
+    /*var name = "zs";
+    var p = {
+        name : "李四",
+        foo : function () {
+            return function () {
+                return this.name;
+            }
+        }
+    }
+    var f = p.foo();
+    console.log(f())
+    console.log(p.foo()())*/
+
+    var age = 10;
+    function foo() {
+        console.log(this.age)
+    }
+    function Person() {
+        this.age = 20;
+        this.foo = foo;
+    }
+    new Person().foo()
+</script>
+</body>
+</html>
+<!--
+隐式绑定：
+    通过 对象.方法()
+    this总是绑定在方法前面的对象上。
+
+-->

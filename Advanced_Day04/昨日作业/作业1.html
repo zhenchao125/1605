@@ -5,6 +5,26 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    function Farmer(baseSalary) {
+        this.baseSalery = baseSalary;
+    }
+    Farmer.prototype.showMyMoney = function () {
+        console.log(this.baseSalery);
+    }
 
+    function Teacher(baseSalary, classMoney) {
+        Farmer.call(this, baseSalary);
+        this.classMoney = classMoney;
+    }
+    Teacher.prototype = new Farmer();
+    Teacher.prototype.constructor = Teacher;
+    Teacher.prototype.showMyMoney = function () {
+        console.log(this.baseSalery + this.classMoney * 10);
+    }
+
+    var t = new Teacher(3000, 100);
+    t.showMyMoney();
+</script>
 </body>
 </html>

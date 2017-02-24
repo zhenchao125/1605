@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var b = 20;
+    console.log(window.b)
+    function f1() {
+
+        console.log(a);
+
+        //函数执行环境也有变量对象，这个时候有人叫做活动对象.没有办法直接访问到
+        var a = 10;
+        function f2() {
+
+            console.log(a)
+
+        }
+        f2()
+
+    }
+    f1()
+
+    /*function f1() {
+        var a = 10;
+        function f2() {
+            console.log(a);
+        }
+        a = 20;
+        return f2;
+    }
+    var f = f1();
+    f();
+*/
+
+   /*var a = 10;
+   window.b = 20;
+
+   delete window.a;
+   delete window.b;
+   console.log(window.a)
+   console.log(b);*/
+</script>
+</body>
+</html>
+<!--
+如果一个变量没有声明在函数的内部，就一定是全局变量，否则就是变量
+没有块级作用域
+
+
+作用域链：
+
+-->

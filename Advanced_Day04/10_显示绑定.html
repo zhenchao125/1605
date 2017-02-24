@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var foo1 = function foo() {
+        console.log(this);
+    }
+    /*undefined和null则仍然指向window*/
+//    foo.call(1);
+
+    foo1.bind(NaN)();
+</script>
+</body>
+</html>
