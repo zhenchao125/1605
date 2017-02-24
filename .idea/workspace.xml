@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advanced_Day04/昨日作业/作业1.html" afterPath="$PROJECT_DIR$/Advanced_Day04/昨日作业/作业1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advanced_Day04/昨日作业/作业2.html" afterPath="$PROJECT_DIR$/Advanced_Day04/昨日作业/作业2.html" />
-    </list>
+    <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
