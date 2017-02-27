@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day06/03_解析xml数据.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day06/data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day01/20170227/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day06/05_提交表单.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,11 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="03_解析xml数据.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Advanced_Day06/03_解析xml数据.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day01/20170227/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="267">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -49,8 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Advanced_Day02/昨日作业/昨日作业.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day02/01-原型入门.html" />
         <option value="$PROJECT_DIR$/Advanced_Day02/02-原型2.html" />
         <option value="$PROJECT_DIR$/Advanced_Day02/03-原型3.html" />
         <option value="$PROJECT_DIR$/Advanced_Day02/04-原型3.html" />
@@ -97,9 +95,11 @@
         <option value="$PROJECT_DIR$/Advanced_Day06/a.txt" />
         <option value="$PROJECT_DIR$/Advanced_Day06/01_ajax基本使用.html" />
         <option value="$PROJECT_DIR$/Advanced_Day06/data.json" />
-        <option value="$PROJECT_DIR$/Advanced_Day06/02_使用ajax请求json数据.html" />
         <option value="$PROJECT_DIR$/Advanced_Day06/data.xml" />
         <option value="$PROJECT_DIR$/Advanced_Day06/03_解析xml数据.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day06/02_使用ajax请求json数据.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day06/05_提交表单.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day01/20170227/index.html" />
       </list>
     </option>
   </component>
@@ -176,7 +176,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced_Day06" />
+              <option name="myItemId" value="Advanced_Day01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Advanced_Day01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="20170227" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,7 +335,7 @@
       <workItem from="1488085767939" duration="1167000" />
       <workItem from="1488117984624" duration="1268000" />
       <workItem from="1488119806291" duration="255000" />
-      <workItem from="1488120092414" duration="15001000" />
+      <workItem from="1488120092414" duration="18291000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -337,13 +355,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236936000" />
+    <option name="totallyTimeSpent" value="240226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16845238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23630953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -381,21 +399,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Advanced_Day02/09-动态原型模式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day02/08-混合式创建对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day02/circle.html" />
     <entry file="file://$PROJECT_DIR$/Advanced_Day02/circle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2808">
@@ -695,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/02_使用ajax请求json数据.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day06/data.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -713,8 +708,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day06/03_解析xml数据.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="-41">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day06/JS高级-Day06作业.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day06/05_提交表单.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day06/02_使用ajax请求json数据.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day01/20170227/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding />
         </state>
       </provider>
