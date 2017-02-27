@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn">点我加载数据</button>
+<p id="content"></p>
+<script>
+    btn.onclick = function () {
+        var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+        xhr.open("GET", "data.xml", true);
+        xhr.onreadystatechange = function() {
+            if(xhr.readyState === 4) {
+                if(xhr.status === 200) {
+//                    console.log(xhr.responseText)
+                    var doc = xhr.responseXML;
+                    var names = doc.getElementsByTagName("name");
+                    var msg = "";
+                    for(var i = 0; i < names.length; i++){
+                        msg += names[i].innerHTML + ",";
+                    }
+                    content.innerHTML = msg;
+//                    var user = doc.getElementById("1");
+//                    var domName = user.getElementsByTagName("name")[0];
+//                    content.innerHTML = domName.innerHTML;
+                }
+            }
+        };
+        xhr.send(null);
+    }
+</script>
+</body>
+</html>
