@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*步骤一：创建XMLHttpRequest.  ajax核心对象*/
+    function createXHR() {
+        if(window.XMLHttpRequest){
+            return new XMLHttpRequest();
+        }else{
+            return new ActiveXObject("Microsoft.XMLHTTP");
+        }
+    }
+    var xhr = createXHR();
+    /*步骤2： 调用open方法
+    * 参数1：请求方法  get或post
+    * 参数2：请求url
+    * 参数3：是否异步发出请求  true表示异步
+    *  并没有真正的发送网络请求。
+    * */
+    xhr.open("GET", "a.txt", true);
+    /*步骤3：监听传入的数据*/
+    xhr.onreadystatechange = function () {
+        // 如果是数据传输完毕(4)
+        if(xhr.readyState === 4){
+            // 并且是正常的响应  ok == 200
+            if(xhr.status == 200){
+                console.log(xhr.responseText);
+            }
+        }
+    }
+    /*步骤4：真正的发出请求
+    * get请求传入null即可
+    * post请求就是具体的请求数据
+    * */
+    xhr.send(null);
+
+</script>
+</body>
+</html>
