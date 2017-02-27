@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用ajax请求数据</title>
+</head>
+<body>
+<button id="btn">点我获取数据</button>
+<p id="content"></p>
+<script>
+    var btn = document.getElementById("btn");
+    var p = document.getElementById("content");
+    btn.onclick = function () {
+        //第一步：创建一个XMLHttpRequest对象
+        var xhr = window.XMLHttpRequest
+            ? new XMLHttpRequest()
+            : new ActiveXObject("Microsoft.XMLHTTP");
+        //第二步：调用 open方法
+        xhr.open("GET", "data.json", true);
+        //第三步：监听状态
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4) {
+                if (xhr.status == 200) {   // 200 ok 404 客户端问题：资源路径错误  500：服务器故障
+                    var msg = xhr.responseText;
+                    /*把json格式的字符串转换成js对象*/
+                    var obj = JSON.parse(msg)   //把字符串格式的json数据，解析成js对象
+                    p.innerHTML = obj.name + "   "  + obj.age + "  "  + obj.girls[0].gName;
+                }
+            }
+        }
+        //第四步：发出请求
+        xhr.send(null);
+    }
+</script>
+</body>
+</html>
+<!--
+{"name" : "李四", "age" : 20, "girls" : [{ "gName" : "志玲"}， {"gName" : "凤姐"}]}
+json数据：
+    json对象：     ->js对象
+        用一对 {} 括起来的就是一个json对象
+        存储的键值对：
+            如果键和值是字符串的话，则必须加引号
+    json数组：     ->js数组
+        用 [] 括起来的就是一个json数组
+
+
+
+
+-->
