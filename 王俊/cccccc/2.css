@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #241C1F;
+}
+canvas {
+  margin: 0 auto;
+  display: block;
+  border-left: 0;
+  border-right: 0;
+}
+p {
+  position: absolute;
+  margin: 10px;
+  color: #ffffff;
+}

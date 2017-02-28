@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day01/20170227/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day06/05_提交表单.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/ccc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day07/01_a.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day07/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day07/昨日作业/homework.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day07/昨日作业/jokes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day07/昨日作业/my_ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/cccccc/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/cccccc/1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/cccccc/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/cccccc/1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/cccccc/2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/cccccc/2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/cccccc/2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/cccccc/2_2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/zuoye/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/zuoye/data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/王俊/zuoye/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Advanced_Day01/20170227/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,13 +38,35 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Advanced_Day01/20170227/index.html">
+    <leaf>
+      <file leaf-file-name="jokes.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day07/昨日作业/jokes.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="176">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homework.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day07/昨日作业/homework.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="63" column="14" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_ajax.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day07/昨日作业/my_ajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,9 +76,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="tsconfig.json" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,14 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Advanced_Day02/02-原型2.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day02/03-原型3.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day02/04-原型3.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day02/05-原型4.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day02/06-原型创建对象的局限性.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day02/07-构造函数创建对象的局限性.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day02/08-混合式创建对象.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day02/09-动态原型模式.html" />
         <option value="$PROJECT_DIR$/Advanced_Day02/circle.html" />
         <option value="$PROJECT_DIR$/Advanced_Day02/circle.js" />
         <option value="$PROJECT_DIR$/Advanced_Day02/10-变化的小球.html" />
@@ -100,6 +131,14 @@
         <option value="$PROJECT_DIR$/Advanced_Day06/02_使用ajax请求json数据.html" />
         <option value="$PROJECT_DIR$/Advanced_Day06/05_提交表单.html" />
         <option value="$PROJECT_DIR$/Advanced_Day01/20170227/index.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day07/01_a.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day07/test.php" />
+        <option value="$PROJECT_DIR$/Advanced_Day07/a.jsp" />
+        <option value="$PROJECT_DIR$/Advanced_Day07/homwork.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day07/昨日作业/jokes.json" />
+        <option value="$PROJECT_DIR$/王俊/zuoye/index.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day07/昨日作业/homework.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day07/昨日作业/my_ajax.js" />
       </list>
     </option>
   </component>
@@ -176,7 +215,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced_Day01" />
+              <option name="myItemId" value="Advanced_Day07" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -190,11 +229,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced_Day01" />
+              <option name="myItemId" value="Advanced_Day07" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="20170227" />
+              <option name="myItemId" value="昨日作业" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -204,7 +243,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -217,15 +256,16 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Advanced_Day02" />
       <recent name="$PROJECT_DIR$/Advanced_Day01" />
       <recent name="$PROJECT_DIR$/Day13/昨日作业" />
       <recent name="$PROJECT_DIR$/Day12" />
-      <recent name="$PROJECT_DIR$/Day11/homework" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Advanced_Day07/昨日作业" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.万年历.html">
@@ -335,7 +375,9 @@
       <workItem from="1488085767939" duration="1167000" />
       <workItem from="1488117984624" duration="1268000" />
       <workItem from="1488119806291" duration="255000" />
-      <workItem from="1488120092414" duration="18291000" />
+      <workItem from="1488120092414" duration="18499000" />
+      <workItem from="1488206729041" duration="1236000" />
+      <workItem from="1488208083256" duration="6755000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -355,13 +397,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240226000" />
+    <option name="totallyTimeSpent" value="248425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23630953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19345239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -384,6 +426,7 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -399,39 +442,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Advanced_Day02/circle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2808">
-          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day02/10-变化的小球.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day03/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/大白菜U盘/!扯O/讲解1.html" />
-    <entry file="file:///Volumes/大白菜U盘/!扯O/讲解2.html" />
-    <entry file="file:///Volumes/大白菜U盘/!扯O/讲解3.html" />
-    <entry file="file:///Volumes/大白菜U盘/!扯O/讲解4.html" />
-    <entry file="file:///Volumes/大白菜U盘/!扯O/new_file.html" />
-    <entry file="file://$PROJECT_DIR$/Advanced_Day03/昨日作业/作业1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day02/JS高级-Day02.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -637,13 +647,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day06/test.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -651,26 +655,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/ajaxtest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day06/test.html" />
+    <entry file="file://$PROJECT_DIR$/Advanced_Day06/ajaxtest.html" />
     <entry file="file://$PROJECT_DIR$/Advanced_Day06/a.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,18 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-41">
           <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/JS高级-Day06作业.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -729,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="11" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,14 +710,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day01/20170227/index.html" />
+    <entry file="file://$PROJECT_DIR$/Advanced_Day01/JavaScript高级Day01作业.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day07/01_a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day01/20170227/index.html">
+    <entry file="file://$PROJECT_DIR$/Advanced_Day07/a.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day07/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day06/JS高级-Day06作业.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="677">
+            <caret line="129" column="5" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="129" selection-end-column="5" />
+            <folding>
+              <marker date="1482731394000" expanded="true" signature="55:4951" ph="{...}" />
+              <marker date="1482731394000" expanded="true" signature="108:4949" ph="{...}" />
+              <marker date="1482731394000" expanded="true" signature="119:4946" ph="[...]" />
+              <marker date="1482731394000" expanded="true" signature="124:341" ph="{&quot;content&quot;: &quot;我真的很需要一个人在我身边，就是那种天天带我学习，张嘴闭嘴就是要考证，约我出去都是要到图书馆学习，看我不学习反手就给我一巴掌的引领我走向人生巅峰的那种人！！&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="346:546" ph="{&quot;content&quot;: &quot;动物园，一母猴子蹲在地上，某男走过去摸了一把猴子的脸，猴子起身就跑，　　那人盯着猴子的屁股:“小样儿，还害羞，脸都红了！”&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="551:759" ph="{&quot;content&quot;: &quot;“方才与室友小白畅聊平日点滴，私心想着若是每日都能有如此闲暇，那对于平日难得休憩的本宫，定是极好的。”　　“说人话！”　　“我不想上课。”&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="764:1004" ph="{&quot;content&quot;: &quot;班上一妹子，脸皮厚，很自恋，但长相却不敢恭维。　　一天，上自习课，她突然地对男同桌说：“那些有车有房的男生才能配得上我！”全班女生投来崇拜的目光。　　男同桌连头都没抬就来了一句：“我回家就把车和房卖了。&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="1009:1201" ph="{&quot;content&quot;: &quot;小白兔为什么爱吃萝卜？ 　　答：因为它的眼睛是红的。 　　萝卜有营养。 　　因为小白兔买不起肉。    ”&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="1206:1537" ph="{&quot;content&quot;: &quot;一天，一人去商场。TA捡到一个手机，突然，来了一个电话，里面说：“老公，我要买戒指。\&quot;　　TA问：“多少钱？\&quot;　　答：“8000。”　　TA说：“买4个。”　　又说：“我要买耳环。”　　TA问：“多少钱？”　　答:“2w。”　　TA说：“买8对。”　　又说：“我要买车。”　　TA说：“多少钱？”　　答：“200w。”　　TA说：“买2辆车。”　　挂后，那人大喊：“谁丢的手机。”&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="1542:1822" ph="{&quot;content&quot;: &quot;一女子输入老公条件：要帅，有车。　　电脑搜索：象棋。　　此女子再次输入条件：要有房，要有很多钱。　　电脑搜索：银行。 　　此女子不失望，继续：要酷，有安全感。　　电脑搜索：奥特曼。　　此女子仍不失望：要帅，有车，要有房，要有很多钱，要酷，有安全感。　　电脑搜索：奥特曼在银行下象棋。&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="1827:2131" ph="{&quot;content&quot;: &quot;姓名：父母取得 　　性别：天生的 　　年龄：不大 &amp;nbsp;　　身高：正好 　　体重：合适 　　生日：还没到 　　电话：摩托罗拉的 　　电子邮箱：朋友帮申请的 　　联系方式：喊我 　　兴趣：广泛 　　曾经收到何种嘉奖：康师傅冰红茶多次得到再来一瓶奖励。　　联系方式：喊我。　　个人经历：刚上了个大号。　　 父母名字：爸爸，妈妈。&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="2136:2401" ph="{&quot;content&quot;: &quot;一次数学课，我没认真听讲。　　老师快过来了，我急忙用悄悄话那样的声音问后座一哥们：“哥们，哪一页？”　　那哥们相当淡定的告诉我：“你没有拒绝我。”　　我又一次小声的问：“擦！哪一页？”　　然后他告诉我：“我伤害了你。”　　我勒个去！当我是在和他对歌吗、&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="2406:2605" ph="{&quot;content&quot;: &quot;“你们的病房冬天也没有暖气吗？”　　“用不着，我们只要让高烧病人排成队，带着他们依次到各病房走一趟，室温会很快上来的！”&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="2610:2887" ph="{&quot;content&quot;: &quot;每天早上，我要知道我有多么的舍不得离开你。　　好想再和你多呆一会儿，哪怕就5分钟也满足。　　但是，我还得上课，我还得忙事情。　　你理解一下我好么？晚上回来再陪你好么？　　你要知道，我深爱着你。要相信我。　　我不会变心的，我一辈子都离不开你的。　　想你，亲爱的床 。&amp;nbsp;&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="2892:3103" ph="{&quot;content&quot;: &quot;A：哇，你微博粉丝有10万8千多！　　B：那10万是我买的。　　A：不过你能有8千多也不少了，我还赶不上你的个零头呢。　　B：8千是买完赠的……&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="3108:3328" ph="{&quot;content&quot;: &quot;今天和儿子一起看一个娱乐电视　　电视里主持人提问：“童话《海的女儿》中的人鱼公主最后变成了什么？”　　我就问儿子知道不？儿子想了想回答我：“是不是变成人鱼僵尸？”&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="3333:3557" ph="{&quot;content&quot;: &quot;老师：你的电动机怎么没有保护啊？　　同学：这个……这个不在设计范围内。　　老师：那电动机电流过大，我们就任由它烧掉了？　　同学：嗯……很抱歉，看来我们只好任由它烧掉了……&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="3562:3813" ph="{&quot;content&quot;: &quot;毕业论文是个有关电梯的东西。　　他什么都没做过，论文是抄的。　　老师答辩的时候问什么他都不知道。　　最后老师急了：那么你知道什么？　　他说：我知道这个电梯按向上的按钮它会上去，按向下的它会下去。　　老师吐血，60分让他走人！&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="3818:4017" ph="{&quot;content&quot;: &quot;偶然路过公园，便听到一小孩在喊“妈妈，看是耶稣！”　　我彻底无语！那明明是后稷，结果他妈妈更雷人“不，孩子，那是菩萨！”&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="4022:4226" ph="{&quot;content&quot;: &quot;一群食人龙盘旋在郊区上空。　　为去城市吃城里人还是去农村吃乡下人而争论不休。　　最后头龙决定去农村，理由是：圈养的不如散养的好吃。&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="4231:4482" ph="{&quot;content&quot;: &quot;下馆子，外面大暴雨，突然门被撞开；　　　一萝莉举把小伞东倒西歪冲了进来，大喊：“妈！给你送伞来了！”　　交接完毕，转身风风火火又冲进瓢泼大雨。　　满座目瞪口呆。　　几秒钟后，萝莉又牛逼哄哄地冲进来；　　哭嚎：“妈！我没伞了！&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="4487:4741" ph="{&quot;content&quot;: &quot;我们村里的一小伙被骗去搞传销，住的是一个大院，门口栓了两条狗看门。　　小伙每天都把自己的饭藏一点然后偷着去喂狗，　　慢慢和狗混熟了趁着别人都睡觉偷着溜了出来。　　所以说，搞好关系真的很重要，即使是一条狗，关键时候也能发挥重要作用。&quot;...}" />
+              <marker date="1482731394000" expanded="true" signature="4746:4942" ph="{&quot;content&quot;: &quot;女生很自豪的对室友:“哎哟，讨厌，男生都像苍蝇似的粘着我。”　　室友头也不抬地回说:“大概是因为你长得像大便吧。”&quot;...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/王俊/cccccc/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/王俊/zuoye/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day07/昨日作业/jokes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day07/昨日作业/my_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day07/昨日作业/homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="63" column="14" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
           <folding />
         </state>
       </provider>

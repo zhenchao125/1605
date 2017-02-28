@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html {
+            height: 100%;
+            background-color: #eee;
+        }
+
+        .jokes {
+            box-sizing: border-box;
+            width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+            min-height: 100%;
+            border: 1px dashed #000;
+            background-color: rgba(200, 198, 173, .4);
+
+        }
+
+        .joke {
+            margin: 10px 0;
+            border: 1px dotted pink;
+
+        }
+
+        .joke p:last-child {
+            text-align: right;
+        }
+
+        button {
+            display: block;
+            width: 1200px;
+            background-color: papayawhip;
+            font-size: 60px;
+            margin: 0 auto;
+        }
+    </style>
+    <script type="text/javascript" src="my_ajax.js"></script>
+</head>
+<body>
+<div id="jokes" class="jokes">
+    <div class="joke">
+        <p class="content">ahah</p>
+        <p class="updatetime">aaaa</p>
+    </div>
+</div>
+<button>加载更多</button>
+<script>
+    var jokes_div = document.getElementById("jokes");
+    var joke_div = document.querySelector(".joke");
+    function init(page) {
+        ajax.get("jokes.json?page=" + page, function (result) {
+            var obj = JSON.parse(result);
+            var jokes = obj.result.data;
+            jokes.forEach(function (joke) {
+                var cloned_joke_div = joke_div.cloneNode(true);
+                cloned_joke_div.querySelector(".content").innerHTML = joke.content;
+                cloned_joke_div.querySelector(".updatetime").innerHTML = joke.updatetime;
+                jokes_div.appendChild(cloned_joke_div);
+            })
+        });
+    }
+
+    var page = 1;
+    init(page++);
+    document.querySelector("button").onclick = function () {
+        init(page++);
+    }
+
+</script>
+</body>
+</html>
