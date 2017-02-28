@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="my_ajax.js"></script>
+</head>
+<body>
+<p id="content"></p>
+<script>
+    ajax.get("get_php.php?user=张三", function (result) {
+        content.innerHTML = result;
+        console.log(result)
+    });
+</script>
+</body>
+</html>

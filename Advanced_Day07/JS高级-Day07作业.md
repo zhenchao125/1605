@@ -1,6 +1,5 @@
 1. 练习jsonp跨域请求数据
-
-   ​        http://cache.video.iqiyi.com/jp/avlist/202861101/1/?callback=foo
+    http://cache.video.iqiyi.com/jp/avlist/202861101/1/?callback=foo
 
    把请求到的信息在页面展示。
 

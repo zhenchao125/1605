@@ -41,7 +41,7 @@
         var data = new FormData(this);  //传入一个表单对象，FormData会自动封装表单数据
         ajax.post("regist.php", data, function (result) {
             console.log(result)
-            document.body.innerHTML = "result";
+            document.body.innerHTML = result;
         })
     }
 </script>
