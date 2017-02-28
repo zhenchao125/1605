@@ -57,7 +57,7 @@
     var jokes_div = document.getElementById("jokes");
     var joke_div = document.querySelector(".joke");
     function init(page) {
-        ajax.get("jokes.json?page=" + page, function (result) {
+        ajax.get("jokes1.json?page=" + page, function (result) {
             var obj = JSON.parse(result);
             var jokes = obj.result.data;
             jokes.forEach(function (joke) {

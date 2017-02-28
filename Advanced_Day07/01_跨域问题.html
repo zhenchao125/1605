@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="my_ajax.js"></script>
+</head>
+<body>
+<script>
+    ajax.get("http://localhost:8888/1605/Advanced_Day07/test.txt", function (result) {
+        console.log(result)
+    })
+</script>
+</body>
+</html>
+<!--
+同源策略：
+    协议、域名、端口号
+
+    ajax 禁止访问不同源的地址
+    http://www.yztcedu.com:80/abc/a.html
+    https://www.yztcedu.com:80/abc/a.html
+        不同源
+
+    http://www.yztcedu.com:80/abc/a.html
+    http://mail.yztcedu.com:80/abc/a.html
+        不同源
+
+    http://www.yztcedu.com:80/abc/a.html
+    http://www.yztcedu.com/abc/a.html
+        同源
+
+   http://127.0.01:80/abc/a.html
+    http://localhost:80/abc/a.html
+        不同源
+
+-->
