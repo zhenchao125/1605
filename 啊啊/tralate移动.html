@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		.box{
+			width: 400px;
+			height: 400px;
+			-webkit-transform-style: preserve-3d;
+			-webkit-perspective: 800px;
+			margin:30px auto;
+			 
+		}
+		.div{
+			width: 220px;
+			height: 220px;
+			background: blue;
+		}
+		.box:hover .div{
+			animation:  spin 5s linear infinite;
+		}
+		@keyframes spin{   
+		    0%{   
+		        /*transform:translateX(0px);  */
+		        /*transform:translateY(0px); */
+		        /*transform:translateZ(0px); */
+		        transform:translate3d(0px,0px,0px);
+		        /*transform: translateX(0px) translateY(0px) translateZ(0px);*/
+		    }   
+		    100%{   
+		        /*transform:translateX(100px);  */
+		        /*transform:translateY(36px); */
+		        /*transform:translateZ(30px); */
+		        transform:translate3d(30px,30px,30px)
+		        /* transform: translateX(30px) translateY(30px) translateZ(30px);*/
+		    }   
+		}  
+       
+		
+	</style>
+</head>
+<body>
+<div class="box">
+	<div class="div"></div>
+</div>
+	
+</body>
+</html>

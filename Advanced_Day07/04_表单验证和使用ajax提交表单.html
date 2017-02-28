@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="my_ajax.js"></script>
+</head>
+<body>
+<form action="regist.php" id="form" method="post">
+    用户名: <input type="text" id="user" name="user"><span></span></span><br>
+    密码: <input type="password" id="pwd" name="pwd"><br>
+    <input type="submit" value="注册">
+</form>
+<script>
+    <!-- 用户名：必须4-8个字符，不能数字开头-->
+    var userInput = document.getElementById("user");
+    userInput.onblur = function () {
+        var that = this;
+        var content = this.value;
+        if(/^\D\w{3,7}$/gi.test(content)){
+            document.querySelector("span").innerHTML = "";
+            ajax.post("user.php", "user=" + content, function (result) {
+                if(result == "true"){
+                    document.querySelector("span").innerHTML = "可以注册";
+                }else{
+                    document.querySelector("span").innerHTML = "不可以注册";
+                    that.focus();
+                }
+            });
+
+        }else{
+            this.focus();  //强制让这个input获取焦点
+            document.querySelector("span").innerHTML =
+                "必须4-8个字符，不能数字开头"
+        }
+    }
+    document.forms[0].onsubmit = function (event) {
+        event = event || window.event;
+        event.preventDefault();  //阻止submit事件的默认行为。
+
+        var data = new FormData(this);  //传入一个表单对象，FormData会自动封装表单数据
+        ajax.post("regist.php", data, function (result) {
+            console.log(result)
+            document.body.innerHTML = "result";
+        })
+    }
+</script>
+</body>
+</html>
