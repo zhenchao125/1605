@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+    <script type="text/javascript" src="suanzi.js"></script>
+    <script type="text/javascript" src="animator_more.js"></script>
+</head>
+<body>
+<div id="box"></div>
+<button id="btn">停止执行动画</button>
+<script>
+    var animator;
+    box.onclick = function () {
+        var durations = [1000, 2000, 1000, 2000]
+        var easings = [Easing.bounce, Easing.easeOut, Easing.linear, Easing.easeBoth];
+        var pros = [
+            function (easing) {
+                box.style.transform = "translate(" + 1000 * easing +"px,"+ 0 + "px)";
+            },
+            function (easing) {
+                box.style.transform = "translate(" + 1000 +"px,"+ 500 * easing + "px)";
+            },
+            function (easing) {
+                box.style.transform = "translate(" + 1000 * (1 - easing) +"px,"+ 500 + "px)";
+            },
+            function (easing) {
+                box.style.transform = "translate(" + 0 +"px,"+ 500 * (1-easing) + "px)";
+            }
+        ];
+        animator = new Animator(durations, easings, pros);
+        animator.start(false);
+    }
+    btn.onclick = function () {
+        animator.stop();
+    }
+</script>
+</body>
+</html>

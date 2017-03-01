@@ -21,6 +21,7 @@
     box.onclick = function () {
         animator = new Animator(2000, Easing.bounce, function (easing) {
             box.style.transform = "translate(" + 1000 * easing + "px)";
+
         })
         animator.start(false);
     }

@@ -25,9 +25,7 @@ Animator.prototype.start = function (loop) {
     var self = this;
     this.animatorId = requestAnimationFrame(function step() {
         p = Math.min(1, (new Date() - startTime) / self.duration);
-        /*执行传入的回调函数，并把动画算子计算的结果传入  归一化的时间也可以传入*/
         self.process(self.easing(p), p);
-
         if (p == 1) {
             if (loop) {
                 startTime = new Date();
@@ -36,7 +34,6 @@ Animator.prototype.start = function (loop) {
             }
         }
         self.animatorId = requestAnimationFrame(step);
-
     })
 }
 Animator.prototype.stop = function () {

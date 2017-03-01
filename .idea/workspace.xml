@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/01_rquestAnimationFrame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/02_简单动画的问题.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/03_位移是时间的函数.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/04_匀速运动.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/04_水平抛物运动.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/06_匀减速运动.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/07_正弦曲线运动.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/08_圆周运动.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/09_动画算子.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/0_匀加速运动.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/Animator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/suanzi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/昨日作业.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/啊啊/~$午间分享 万建强.pptx" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/11_使用自定义的框架2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/animator_more.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html" afterPath="$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advanced_Day08/Animator.js" afterPath="$PROJECT_DIR$/Advanced_Day08/Animator.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,24 +24,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Animator.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Advanced_Day08/Animator.js">
+      <file leaf-file-name="11_使用自定义的框架2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day08/11_使用自定义的框架2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="707">
+              <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animator_more.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day08/animator_more.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-259">
+              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="65" />
               <folding>
-                <element signature="n#!!doc;n#Animator#0" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10_使用自定义的框架.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html">
+      <file leaf-file-name="JS高级-Day08作业.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day08/JS高级-Day08作业.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="308">
+                <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day08/Animator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="572">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc;n#Animator#0" expanded="false" />
+                <element signature="e#418#938#0" expanded="false" />
+                <element signature="e#977#1023#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Advanced_Day06/01_ajax基本使用.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day06/data.json" />
         <option value="$PROJECT_DIR$/Advanced_Day06/data.xml" />
         <option value="$PROJECT_DIR$/Advanced_Day06/03_解析xml数据.html" />
         <option value="$PROJECT_DIR$/Advanced_Day06/02_使用ajax请求json数据.html" />
@@ -123,8 +137,10 @@
         <option value="$PROJECT_DIR$/Advanced_Day08/08_圆周运动.html" />
         <option value="$PROJECT_DIR$/Advanced_Day08/suanzi.js" />
         <option value="$PROJECT_DIR$/Advanced_Day08/09_动画算子.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html" />
         <option value="$PROJECT_DIR$/Advanced_Day08/Animator.js" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/11_使用自定义的框架2.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/animator_more.js" />
       </list>
     </option>
   </component>
@@ -348,7 +364,7 @@
       <workItem from="1488208083256" duration="23405000" />
       <workItem from="1488288216858" duration="3819000" />
       <workItem from="1488327358518" duration="2056000" />
-      <workItem from="1488333454360" duration="13600000" />
+      <workItem from="1488333454360" duration="16417000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -368,7 +384,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284550000" />
+    <option name="totallyTimeSpent" value="287367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -408,39 +424,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/03_解析xml数据.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/05_提交表单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day06/02_使用ajax请求json数据.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -729,14 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="1399" column="0" lean-forward="false" selection-start-line="1399" selection-start-column="0" selection-end-line="1399" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day08/09_动画算子.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -745,31 +725,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="1399" column="0" lean-forward="false" selection-start-line="1399" selection-start-column="0" selection-end-line="1399" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="202" column="9" lean-forward="false" selection-start-line="202" selection-start-column="9" selection-end-line="202" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day08/suanzi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        <state relative-caret-position="308">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html">
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/Animator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="572">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc;n#Animator#0" expanded="false" />
+            <element signature="e#418#938#0" expanded="false" />
+            <element signature="e#977#1023#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/11_使用自定义的框架2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day08/Animator.js">
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/animator_more.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="-259">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="65" />
           <folding>
-            <element signature="n#!!doc;n#Animator#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/JS高级-Day08作业.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="308">
+            <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
