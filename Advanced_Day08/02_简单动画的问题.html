@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        button{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">我可以动</button>
+<script>
+    btn.onclick = function () {
+        setInterval(function () {
+            var left = btn.offsetLeft;
+            btn.style.left = left + 4 + "px";
+            for(var i = 0; i < 20000;i++){
+                console.log(i);
+            }
+        }, 20)
+    }
+</script>
+</body>
+</html>

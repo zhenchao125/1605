@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            margin-top: 400px;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<script>
+    box.onclick = function () {
+        var distance = 300,
+            duration = 1000,
+            startTime = new Date,
+            p;
+        requestAnimationFrame(function step() {
+            /*计算归一化的时间*/
+            p = Math.min(4, (new Date() - startTime) / duration);
+
+            box.style.transform
+                = "translate(" + distance * p + "px," + (-300 * Math.sin(2 * Math.PI * p)) + "px)";
+
+            if (p < 4) {
+                requestAnimationFrame(step);
+            }
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<button id="btn">点我</button>
+<script>
+    btn.onclick = function () {
+        /*动画的开启时间*/
+        var startTime = new Date();
+        /*时间周期*/
+        var duration = 8000;
+        /*移动的距离*/
+        var dis = 1000;
+        requestAnimationFrame(function step() {
+            var currentTime = new Date();
+            /*归一化的时间*/
+            var p = Math.min(1, (currentTime - startTime) / duration);
+            var delatDis = dis * p;
+            box.style.transform = "translateX("+ delatDis + "px)";
+            if(p < 1) {
+                requestAnimationFrame(step);
+            }else{
+                startTime = new Date();
+                requestAnimationFrame(step);
+            }
+        })
+    }
+</script>
+</body>
+</html>

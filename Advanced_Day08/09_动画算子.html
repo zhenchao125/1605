@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+    <script type="text/javascript" src="suanzi.js"></script>
+</head>
+<body>
+<div id="box"></div>
+<script>
+    box.onclick = function () {
+        var duration = 3000,
+            distance = 1000,
+            startTime = new Date(),
+            p;
+        requestAnimationFrame(function step() {
+            p = Math.min(1, (new Date() - startTime) / duration);
+            var e = Easing.swingTo(p);
+            box.style.transform = "translateX(" + distance * e + "px)";
+            if(p < 1){
+                requestAnimationFrame(step);
+            }
+        })
+    }
+</script>
+</body>
+</html>

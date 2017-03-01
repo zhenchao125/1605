@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm" />
+    <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/01_rquestAnimationFrame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/02_简单动画的问题.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/03_位移是时间的函数.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/04_匀速运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/04_水平抛物运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/06_匀减速运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/07_正弦曲线运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/08_圆周运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/09_动画算子.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/0_匀加速运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/Animator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/suanzi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day08/昨日作业.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/啊啊/~$午间分享 万建强.pptx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,7 +34,30 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Animator.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day08/Animator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc;n#Animator#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10_使用自定义的框架.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,23 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Advanced_Day04/01_作用域链.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/02_作用域链2.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/03_作用域链的应用.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/04_闭包的初步理解.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/05_闭包的应用：封装私有对象.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/06_循环的问题.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/07_this指向：默认绑定.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/08_隐式绑定.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/08_全局作用域下的绑定.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/09_显示绑定.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/10_显示绑定.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day04/11_跳动的小球.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day06/test.php" />
-        <option value="$PROJECT_DIR$/Advanced_Day06/test.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day06/ajaxtest.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day06/01_基础知识.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day06/a.txt" />
         <option value="$PROJECT_DIR$/Advanced_Day06/01_ajax基本使用.html" />
         <option value="$PROJECT_DIR$/Advanced_Day06/data.json" />
         <option value="$PROJECT_DIR$/Advanced_Day06/data.xml" />
@@ -85,6 +108,23 @@
         <option value="$PROJECT_DIR$/Advanced_Day07/get_php.php" />
         <option value="$PROJECT_DIR$/Advanced_Day07/video.json" />
         <option value="$PROJECT_DIR$/Advanced_Day07/JS高级-Day07作业.md" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/test.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/demo.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/昨日作业.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/01_rquestAnimationFrame.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/02_简单动画的问题.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/03_位移是时间的函数.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/04_匀速运动.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/0_匀加速运动.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/04_水平抛物运动.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/06_匀减速运动.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/0_正弦曲线运动.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/07_正弦曲线运动.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/08_圆周运动.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/suanzi.js" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/09_动画算子.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day08/Animator.js" />
       </list>
     </option>
   </component>
@@ -138,7 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,13 +201,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Advanced_Day07" />
+              <option name="myItemId" value="Advanced_Day08" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,11 +225,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Advanced_Day08" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Advanced_Day07" />
       <recent name="$PROJECT_DIR$/Advanced_Day02" />
       <recent name="$PROJECT_DIR$/Advanced_Day01" />
-      <recent name="$PROJECT_DIR$/Day13/昨日作业" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -306,6 +346,9 @@
       <workItem from="1488120092414" duration="18499000" />
       <workItem from="1488206729041" duration="1236000" />
       <workItem from="1488208083256" duration="23405000" />
+      <workItem from="1488288216858" duration="3819000" />
+      <workItem from="1488327358518" duration="2056000" />
+      <workItem from="1488333454360" duration="13600000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -325,13 +368,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265075000" />
+    <option name="totallyTimeSpent" value="284550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13154761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15892857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -370,110 +413,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Advanced_Day04/03_作用域链的应用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day04/05_闭包的应用：封装私有对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day04/06_循环的问题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day04/07_this指向：默认绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day04/10_显示绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day04/09_显示绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day04/08_全局作用域下的绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day04/08_隐式绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day04/JS高级-Day04作业.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day04/11_跳动的小球.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="72" column="24" lean-forward="false" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/test.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="939" column="9" lean-forward="false" selection-start-line="939" selection-start-column="9" selection-end-line="939" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/test.html" />
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/ajaxtest.html" />
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/01_基础知识.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day06/01_ajax基本使用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day06/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -524,48 +463,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day07/a.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day07/a.jsp" />
     <entry file="file://$PROJECT_DIR$/Advanced_Day06/JS高级-Day06作业.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="677">
             <caret line="129" column="5" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="129" selection-end-column="5" />
-            <folding>
-              <marker date="1482731394000" expanded="true" signature="55:4951" ph="{...}" />
-              <marker date="1482731394000" expanded="true" signature="108:4949" ph="{...}" />
-              <marker date="1482731394000" expanded="true" signature="119:4946" ph="[...]" />
-              <marker date="1482731394000" expanded="true" signature="124:341" ph="{&quot;content&quot;: &quot;我真的很需要一个人在我身边，就是那种天天带我学习，张嘴闭嘴就是要考证，约我出去都是要到图书馆学习，看我不学习反手就给我一巴掌的引领我走向人生巅峰的那种人！！&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="346:546" ph="{&quot;content&quot;: &quot;动物园，一母猴子蹲在地上，某男走过去摸了一把猴子的脸，猴子起身就跑，　　那人盯着猴子的屁股:“小样儿，还害羞，脸都红了！”&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="551:759" ph="{&quot;content&quot;: &quot;“方才与室友小白畅聊平日点滴，私心想着若是每日都能有如此闲暇，那对于平日难得休憩的本宫，定是极好的。”　　“说人话！”　　“我不想上课。”&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="764:1004" ph="{&quot;content&quot;: &quot;班上一妹子，脸皮厚，很自恋，但长相却不敢恭维。　　一天，上自习课，她突然地对男同桌说：“那些有车有房的男生才能配得上我！”全班女生投来崇拜的目光。　　男同桌连头都没抬就来了一句：“我回家就把车和房卖了。&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="1009:1201" ph="{&quot;content&quot;: &quot;小白兔为什么爱吃萝卜？ 　　答：因为它的眼睛是红的。 　　萝卜有营养。 　　因为小白兔买不起肉。    ”&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="1206:1537" ph="{&quot;content&quot;: &quot;一天，一人去商场。TA捡到一个手机，突然，来了一个电话，里面说：“老公，我要买戒指。\&quot;　　TA问：“多少钱？\&quot;　　答：“8000。”　　TA说：“买4个。”　　又说：“我要买耳环。”　　TA问：“多少钱？”　　答:“2w。”　　TA说：“买8对。”　　又说：“我要买车。”　　TA说：“多少钱？”　　答：“200w。”　　TA说：“买2辆车。”　　挂后，那人大喊：“谁丢的手机。”&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="1542:1822" ph="{&quot;content&quot;: &quot;一女子输入老公条件：要帅，有车。　　电脑搜索：象棋。　　此女子再次输入条件：要有房，要有很多钱。　　电脑搜索：银行。 　　此女子不失望，继续：要酷，有安全感。　　电脑搜索：奥特曼。　　此女子仍不失望：要帅，有车，要有房，要有很多钱，要酷，有安全感。　　电脑搜索：奥特曼在银行下象棋。&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="1827:2131" ph="{&quot;content&quot;: &quot;姓名：父母取得 　　性别：天生的 　　年龄：不大 &amp;nbsp;　　身高：正好 　　体重：合适 　　生日：还没到 　　电话：摩托罗拉的 　　电子邮箱：朋友帮申请的 　　联系方式：喊我 　　兴趣：广泛 　　曾经收到何种嘉奖：康师傅冰红茶多次得到再来一瓶奖励。　　联系方式：喊我。　　个人经历：刚上了个大号。　　 父母名字：爸爸，妈妈。&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="2136:2401" ph="{&quot;content&quot;: &quot;一次数学课，我没认真听讲。　　老师快过来了，我急忙用悄悄话那样的声音问后座一哥们：“哥们，哪一页？”　　那哥们相当淡定的告诉我：“你没有拒绝我。”　　我又一次小声的问：“擦！哪一页？”　　然后他告诉我：“我伤害了你。”　　我勒个去！当我是在和他对歌吗、&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="2406:2605" ph="{&quot;content&quot;: &quot;“你们的病房冬天也没有暖气吗？”　　“用不着，我们只要让高烧病人排成队，带着他们依次到各病房走一趟，室温会很快上来的！”&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="2610:2887" ph="{&quot;content&quot;: &quot;每天早上，我要知道我有多么的舍不得离开你。　　好想再和你多呆一会儿，哪怕就5分钟也满足。　　但是，我还得上课，我还得忙事情。　　你理解一下我好么？晚上回来再陪你好么？　　你要知道，我深爱着你。要相信我。　　我不会变心的，我一辈子都离不开你的。　　想你，亲爱的床 。&amp;nbsp;&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="2892:3103" ph="{&quot;content&quot;: &quot;A：哇，你微博粉丝有10万8千多！　　B：那10万是我买的。　　A：不过你能有8千多也不少了，我还赶不上你的个零头呢。　　B：8千是买完赠的……&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="3108:3328" ph="{&quot;content&quot;: &quot;今天和儿子一起看一个娱乐电视　　电视里主持人提问：“童话《海的女儿》中的人鱼公主最后变成了什么？”　　我就问儿子知道不？儿子想了想回答我：“是不是变成人鱼僵尸？”&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="3333:3557" ph="{&quot;content&quot;: &quot;老师：你的电动机怎么没有保护啊？　　同学：这个……这个不在设计范围内。　　老师：那电动机电流过大，我们就任由它烧掉了？　　同学：嗯……很抱歉，看来我们只好任由它烧掉了……&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="3562:3813" ph="{&quot;content&quot;: &quot;毕业论文是个有关电梯的东西。　　他什么都没做过，论文是抄的。　　老师答辩的时候问什么他都不知道。　　最后老师急了：那么你知道什么？　　他说：我知道这个电梯按向上的按钮它会上去，按向下的它会下去。　　老师吐血，60分让他走人！&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="3818:4017" ph="{&quot;content&quot;: &quot;偶然路过公园，便听到一小孩在喊“妈妈，看是耶稣！”　　我彻底无语！那明明是后稷，结果他妈妈更雷人“不，孩子，那是菩萨！”&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="4022:4226" ph="{&quot;content&quot;: &quot;一群食人龙盘旋在郊区上空。　　为去城市吃城里人还是去农村吃乡下人而争论不休。　　最后头龙决定去农村，理由是：圈养的不如散养的好吃。&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="4231:4482" ph="{&quot;content&quot;: &quot;下馆子，外面大暴雨，突然门被撞开；　　　一萝莉举把小伞东倒西歪冲了进来，大喊：“妈！给你送伞来了！”　　交接完毕，转身风风火火又冲进瓢泼大雨。　　满座目瞪口呆。　　几秒钟后，萝莉又牛逼哄哄地冲进来；　　哭嚎：“妈！我没伞了！&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="4487:4741" ph="{&quot;content&quot;: &quot;我们村里的一小伙被骗去搞传销，住的是一个大院，门口栓了两条狗看门。　　小伙每天都把自己的饭藏一点然后偷着去喂狗，　　慢慢和狗混熟了趁着别人都睡觉偷着溜了出来。　　所以说，搞好关系真的很重要，即使是一条狗，关键时候也能发挥重要作用。&quot;...}" />
-              <marker date="1482731394000" expanded="true" signature="4746:4942" ph="{&quot;content&quot;: &quot;女生很自豪的对室友:“哎哟，讨厌，男生都像苍蝇似的粘着我。”　　室友头也不抬地回说:“大概是因为你长得像大便吧。”&quot;...}" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -575,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,12 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding>
-            <element signature="e#492#540#0" expanded="false" />
-            <element signature="e#1453#2114#0" expanded="false" />
-            <element signature="e#2122#2778#0" expanded="false" />
-            <element signature="e#2786#3446#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,7 +608,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -737,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="8" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +645,131 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/test.html" />
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/demo.html" />
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/昨日作业.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/01_rquestAnimationFrame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/02_简单动画的问题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/03_位移是时间的函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/04_匀速运动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/0_匀加速运动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/04_水平抛物运动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/06_匀减速运动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/07_正弦曲线运动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/08_圆周运动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="1399" column="0" lean-forward="false" selection-start-line="1399" selection-start-column="0" selection-end-line="1399" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/09_动画算子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/suanzi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day08/Animator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#Animator#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

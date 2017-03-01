@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        button{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">按钮点击</button>
+<script>
+    btn.onclick = function () {
+        var i = 1;
+//        console.log(new Date().getTime());
+        /*每调用一次，回调函数在合适的时间之后会执行一次。*/
+        requestAnimationFrame(function step () {
+//            console.log(new Date().getTime())
+//            console.log("abc");
+            btn.style.left = i++ + "px";
+            requestAnimationFrame(step)
+
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+    <script type="text/javascript" src="suanzi.js"></script>
+    <script type="text/javascript" src="Animator.js"></script>
+</head>
+<body>
+<div id="box"></div>
+<button id="btn">停止执行动画</button>
+<script>
+    var animator;
+    box.onclick = function () {
+        animator = new Animator(2000, Easing.bounce, function (easing) {
+            box.style.transform = "translate(" + 1000 * easing + "px)";
+        })
+        animator.start(false);
+    }
+    btn.onclick = function () {
+        animator.stop();
+    }
+</script>
+</body>
+</html>

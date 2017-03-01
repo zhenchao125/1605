@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            margin: 400px;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            border-radius: 50%;
+            /*transform: rotateZ(40deg);*/
+            transform-origin: 200% 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<script>
+
+    box.onclick = function () {
+        var r = 300,
+            duration = 3000,
+            startTime = new Date,
+            px, py,
+            p;/*归一化的时间*/
+
+        requestAnimationFrame(function step() {
+            /*计算归一化的时间*/
+            p = Math.min(1, (new Date() - startTime) / duration);
+            px = r * Math.sin(2 * Math.PI * p);
+            py = r * Math.cos(2 * Math.PI * p);
+//            box.style.transform
+//                = "translate(" + px + "px," + py + "px)";
+            box.style.transform
+                = "rotateY(" + 360 * p + "deg)";
+
+
+            if (p < 1) {
+                requestAnimationFrame(step);
+            }else{
+                startTime = new Date;
+                requestAnimationFrame(step)
+            }
+        });
+    }
+</script>
+</body>
+</html>
