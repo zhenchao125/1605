@@ -1,0 +1,33 @@
+{
+	"status" : "ok",
+	"data" : [
+		{
+			"title" : "电脑",
+			"content" : "电脑大卖场"
+		},
+		{
+			"title" : "手机",
+			"content" : "手机大卖场"
+		},
+		{
+			"title" : "衣服",
+			"content" : "衣服大卖场"
+		},
+		{
+			"title" : "家具",
+			"content" : "家具大卖场"
+		},
+		{
+			"title" : "化妆品",
+			"content" : "化妆品大卖场"
+		},
+		{
+			"title" : "化妆品",
+			"content" : "化妆品大卖场"
+		},
+		{
+			"title" : "化妆品",
+			"content" : "化妆品大卖场"
+		}
+	]
+}

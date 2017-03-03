@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圆形菜单</title>
+    <style>
+        div {
+            text-align: center;
+        }
+
+        .wrap {
+            width: 400px;
+            height: 400px;
+            /*background-color: pink;*/
+            margin: 100px auto;
+            position: relative;
+            border-radius: 50%;
+        }
+
+        .open, .menus {
+            width: 100px;
+            height: 100px;
+            background-color: gray;
+            position: absolute;
+            left: 150px;
+            top: 150px;
+            line-height: 100px;
+            border-radius: 50%;
+        }
+
+        .open {
+            font-size: 40px;
+            z-index: 2;
+        }
+
+        .menus {
+            background-color: #d1ecff;
+        }
+
+        .wrap div:nth-last-child(-n + 8) {
+            text-align: center;
+            line-height: 100px;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 150px;
+            top: 150px;
+            font-size: 20px;
+        }
+
+    </style>
+    <script type="text/javascript" src="Animator.js"></script>
+    <script type="text/javascript" src="suanzi.js"></script>
+</head>
+<body>
+<div class="wrap" id="wrap">
+    <div class="open" id="open">打开</div>
+    <div class="menus" id="menus">
+    </div>
+    <div>深圳校区</div>
+    <div>北京校区</div>
+    <div>大连校区</div>
+    <div>武汉校区</div>
+    <div>深圳校区1</div>
+    <div>北京校区2</div>
+    <div>大连校区3</div>
+    <div>武汉校区4</div>
+</div>
+<script>
+    var isOpend = false;
+    var wrap = document.getElementById("wrap");
+    var open = document.getElementById("open");
+    var menus = document.getElementById("menus");
+    var divs = document.querySelectorAll(".wrap div:nth-last-child(-n + 8)")
+    open.onmouseover = function (event) {
+        if(isOpend){
+            return;
+        }
+        new Animator(1000, Easing.linear, function (easing) {
+            menus.style.transform = "scale(" + 4 * easing + ")";
+            openMenu(easing);
+        }).start(false);
+    }
+    wrap.onmouseleave = function () {
+        new Animator(1000, Easing.linear, function (easing) {
+            menus.style.transform = "scale(" + 4 * (1 - easing) + ")";
+            closeMenu(easing);
+        }).start(false);
+    }
+
+    var divInfo = [
+        {  //菜单中的第一个菜单要移的数据
+            px: 0,
+            py: -100
+        },
+        {  //菜单中的第一个菜单要移的数据
+            px: 100,
+            py: -100
+        },
+        {  //菜单中的第一个菜单要移的数据
+            px: 100,
+            py: 0
+        },
+        {  //菜单中的第一个菜单要移的数据
+            px: 100,
+            py: 100
+        },
+        {  //菜单中的第一个菜单要移的数据
+            px: 0,
+            py: 100
+        },
+        {  //菜单中的第一个菜单要移的数据
+            px: -100,
+            py: 100
+        },
+        {  //菜单中的第一个菜单要移的数据
+            px: -100,
+            py: 0
+        },{  //菜单中的第一个菜单要移的数据
+            px: -100,
+            py: -100
+        },
+    ];
+
+    function openMenu(easing) {
+        for (let i = 0; i < divs.length; i++) {
+            divs[i].style.transform
+                = "translate(" + divInfo[i].px * easing + "px," + divInfo[i].py * easing + "px)";
+        }
+        isOpend = true;
+    }
+    function closeMenu(easing) {
+        for (let i = 0; i < divs.length; i++) {
+            divs[i].style.transform
+                = "translate(" + divInfo[i].px * (1 - easing) + "px," + divInfo[i].py * (1 - easing) + "px)";
+        }
+        isOpend = false;
+    }
+
+</script>
+</body>
+</html>

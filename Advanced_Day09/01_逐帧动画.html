@@ -5,11 +5,10 @@
     <title>Title</title>
     <style>
         div{
-            width: 250px;
-            height: 140px;
-            border: 1px solid #000;
+            width: 245px;
+            height: 145px;
+            /*border: 1px solid #000;*/
             background: url(img/bird.png) no-repeat;
-
         }
     </style>
 </head>
@@ -19,14 +18,18 @@
     var box = document.querySelector("div");
     var i = 0, j = 0;
     setInterval(function () {
+        box.style.backgroundPosition
+            = -245 * (i % 4) + "px " + (-145 * (j % 2)) + "px";
         i++;
-        box.style.backgroundPosition = -245 * (i % 3 + 1) + "px " + (-140 * j) + "px";
-        if(i % 6 == 0){
-            j = 0;
-        }else if(i % 3 == 0){
-            j = 1;
+        if(i % 4 == 0){
+            j++;
         }
-    }, 200);
+        /*if(i % 8 == 0){
+            j = 0;
+        }else if(i % 4 == 0){
+            j = 1;
+        }*/
+    }, 100);
 </script>
 </body>
 </html>
