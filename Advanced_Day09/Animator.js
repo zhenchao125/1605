@@ -33,7 +33,6 @@ Animator.prototype.start = function (loop) {
                 return;
             }
         }
-        console.log("a");
         self.animatorId = requestAnimationFrame(step);
     })
 }

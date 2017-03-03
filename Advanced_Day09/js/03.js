@@ -65,14 +65,18 @@ window.onload = function () {
     var isStop = true;
     function change() {
         for (let i = 0; i < lis.length; i++) {
-            new Animator(1000, Easing.linear, function (easing) {
+            let offsetWidth = lis[i].offsetWidth;
+            let offsetHeight = lis[i].offsetHeight;
+            let offsetLeft = lis[i].offsetLeft;
+            let offsetTop = lis[i].offsetTop;
+            new Animator(500, Easing.linear, function (easing) {
                 var style = lis[i].style;
                 var info = imgsInfo[i];
                 /*元素宽度的 （最终值 - 最初值） 表示宽度的变化量。*/
-                style.width = lis[i].offsetWidth + (info.width - lis[i].offsetWidth) * easing + "px";
-                style.height = lis[i].offsetHeight + (info.height - lis[i].offsetHeight) * easing + "px";
-                style.left = lis[i].offsetLeft + (info.left - lis[i].offsetLeft) * easing + "px";
-                style.top = lis[i].offsetTop + (info.top - lis[i].offsetTop) * easing + "px";
+                style.width = offsetWidth + (info.width - offsetWidth) * easing + "px";
+                style.height = offsetHeight + (info.height - offsetHeight) * easing + "px";
+                style.left = offsetLeft + (info.left - offsetLeft) * easing + "px";
+                style.top = offsetTop + (info.top - offsetTop) * easing + "px";
                 style.zIndex = info.zIndex;
                 style.opacity = info.opacity;
 
@@ -100,7 +104,6 @@ window.onload = function () {
                 break;
         }
         change();
-
     }
     var timerId;
     function autoPlay() {
@@ -110,6 +113,4 @@ window.onload = function () {
         },3000);
     }
     autoPlay();
-
-
 }
