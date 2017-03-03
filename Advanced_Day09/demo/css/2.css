@@ -1,0 +1,33 @@
+.wrap{
+    /*background-color: pink;*/
+    width: 1200px;
+    margin: 100px auto;
+}
+.slide{
+    height: 500px;
+    position: relative;
+}
+.slide li{
+    width: 800px;
+    position: absolute;
+    left: 200px;
+}
+.slide li img{
+    width: 100%;
+}
+.arrow{
+
+    opacity: 0;
+    position: relative;
+    z-index: 100;
+}
+.prev,.next{
+    width:76px;
+    height:112px;
+    position: absolute;
+    background: url(../img/prev.png) no-repeat;
+}
+.next{
+    right:0;
+    background: url(../img/next.png) no-repeat;
+}

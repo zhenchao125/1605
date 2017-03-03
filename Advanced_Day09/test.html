@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        div {
+
+            width: 400px;
+            height: 400px;
+            border: 1px solid #000;
+            box-sizing: border-box;
+        }
+
+        .outer {
+            position: relative;
+            margin: 100px auto;
+            perspective: 50px;
+
+        }
+
+        .outer div {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .outer div:nth-child(1) {
+            background-color: pink;
+            /*transform: translate3d(0px, 0, 100px);*/
+            /*transform: rotateX(30deg);*/
+        }
+
+        .outer div:nth-child(2) {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div></div>
+    <!--<div></div>-->
+</div>
+<script>
+    var box = document.querySelector(".outer div");
+    var deg = 0;
+    requestAnimationFrame(function step() {
+        deg += 1;
+        box.style.transform = "rotateX(" + deg + "deg)";
+        requestAnimationFrame(step);
+    });
+
+</script>
+</body>
+</html>
