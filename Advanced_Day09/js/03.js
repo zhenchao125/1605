@@ -7,72 +7,109 @@ window.onload = function () {
     var slide = document.getElementById("slide");
     var lis = slide.getElementsByTagName("li");
     wrap.onmouseenter = function () {
+
         new Animator(500, Easing.linear, function (easing) {
             arrow.style.opacity = easing;
         }).start(false);
+        clearInterval(timerId);
     }
     wrap.onmouseleave = function () {
         new Animator(500, Easing.linear, function (easing) {
             arrow.style.opacity = 1 - easing;
         }).start(false);
+        autoPlay();
     }
     /*存储每张图片的位置信息的数组*/
     var imgsInfo = [
         {
-            left : 50,
-            top : 0,
-            width : 400,
+            left: 50,
+            top: 0,
+            width: 400,
             height: 300,
-            opacity : 0.2,
-            zIndex : 1
+            opacity: 0.2,
+            zIndex: 1
         },
         {
-            left : 0,
-            top : 50,
-            width : 600,
+            left: 0,
+            top: 50,
+            width: 600,
             height: 400,
-            opacity : 0.6,
-            zIndex : 2
+            opacity: 0.6,
+            zIndex: 2
         },
         {
-            left : 200,
-            top : 80,
-            width : 800,
+            left: 200,
+            top: 100,
+            width: 800,
             height: 500,
-            opacity : 1,
-            zIndex : 3
+            opacity: 1,
+            zIndex: 3
         },
         {
-            left : 600,
-            top : 50,
-            width : 600,
+            left: 600,
+            top: 50,
+            width: 600,
             height: 400,
-            opacity : 0.6,
-            zIndex : 2
+            opacity: 0.6,
+            zIndex: 2
         },
         {
-            left : 750,
-            top : 0,
-            width : 400,
+            left: 750,
+            top: 0,
+            width: 400,
             height: 300,
-            opacity : 0.2,
-            zIndex : 1
+            opacity: 0.2,
+            zIndex: 1
         }
     ];
-
-    for(let i = 0; i < lis.length; i++){
-        new Animator(10000, Easing.linear, function (easing) {
-            var style = lis[i].style;
-            var info = imgsInfo[i];
-            style.width = lis[i].offsetWidth + (info.width - lis[i].offsetWidth) * easing + "px";
-            style.height = lis[i].offsetHeight + (info.height - lis[i].offsetHeight) * easing + "px";
-            style.left = lis[i].offsetLeft + (info.left - lis[i].offsetLeft) * easing + "px";
-            style.top = lis[i].offsetTop + (info.top - lis[i].offsetTop) * easing + "px";
-            style.zIndex = info.zIndex;
-            style.opacity = info.opacity;
-
-        }).start();
+    var isStop = true;
+    function change() {
+        for (let i = 0; i < lis.length; i++) {
+            new Animator(1000, Easing.linear, function (easing) {
+                var style = lis[i].style;
+                var info = imgsInfo[i];
+                /*元素宽度的 （最终值 - 最初值） 表示宽度的变化量。*/
+                style.width = lis[i].offsetWidth + (info.width - lis[i].offsetWidth) * easing + "px";
+                style.height = lis[i].offsetHeight + (info.height - lis[i].offsetHeight) * easing + "px";
+                style.left = lis[i].offsetLeft + (info.left - lis[i].offsetLeft) * easing + "px";
+                style.top = lis[i].offsetTop + (info.top - lis[i].offsetTop) * easing + "px";
+                style.zIndex = info.zIndex;
+                style.opacity = info.opacity;
+                
+                if(easing == 1){
+                    isStop = true;
+                }else{
+                    isStop = false;
+                }
+            }).start(false);
+        }
     }
+    change();
+
+    arrow.onclick = function (event) {
+        if(!isStop) return;
+        var className = event.target.parentNode.className;
+        switch (className) {
+            case "prev":
+                imgsInfo.push(imgsInfo.shift()); //删除数组中的第一个元素，并添加到最后
+                break;
+            case "next":
+                imgsInfo.unshift(imgsInfo.pop()); //删除数组中的第一个元素，并添加到最后
+                break;
+            default :
+                break;
+        }
+        change();
+
+    }
+    var timerId;
+    function autoPlay() {
+        timerId = setInterval(function () {
+            imgsInfo.unshift(imgsInfo.pop());
+            change();
+        },3000);
+    }
+    autoPlay();
 
 
 }
