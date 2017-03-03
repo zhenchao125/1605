@@ -75,7 +75,7 @@ window.onload = function () {
                 style.top = lis[i].offsetTop + (info.top - lis[i].offsetTop) * easing + "px";
                 style.zIndex = info.zIndex;
                 style.opacity = info.opacity;
-                
+
                 if(easing == 1){
                     isStop = true;
                 }else{

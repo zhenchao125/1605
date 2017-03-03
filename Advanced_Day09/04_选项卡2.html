@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <style>
+        ul.tabs {
+            margin: 100px auto;
+        }
+
+        ul li {
+            width: 200px;
+            height: 50px;
+            float: left;
+            background-color: pink;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .contents {
+            height: 800px;
+            margin: 0 auto;
+            position: relative;
+            top: 50px;
+        }
+
+        .contents div {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            display: none;
+            border: 1px solid #000;
+        }
+        .contents div:first-child{
+            display: block;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            /*ajax去后台加载数据*/
+            var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            xhr.open("GET", "data.json", true);
+            xhr.onreadystatechange = function() {
+                if(xhr.readyState === 4) {
+                    if(xhr.status === 200) {
+                        var objs = JSON.parse(xhr.responseText).data;
+                        /*设置一下ul的宽度*/
+                        tabs.style.width = 200 * objs.length + "px";
+                        document.querySelector(".contents").style.width = 200 * objs.length + "px";
+                        for(obj of objs){
+                            var li = document.createElement("li");
+                            li.innerHTML = obj.title;
+                            tabs.appendChild(li);
+
+                            var div = document.createElement("div");
+                            div.className = "content";
+                            div.innerHTML = obj.content;
+                            document.querySelector(".contents").appendChild(div);
+
+                        }
+
+                        var divs = document.getElementsByClassName("content");
+
+                        for (let i = 0; i < lis.length; i++) {
+                            lis[i].onmouseover = function () {
+                                for(let j = 0; j < lis.length; j++){
+                                    divs[j].style.display = "none";
+                                }
+                                divs[i].style.display = "block";
+                            }
+                        }
+                        /*for (let i = 0; i < lis.length; i++) {
+                            lis[i].onmouseout = function () {
+                                divs[i].style.display = "none";
+                            }
+                        }*/
+                    }
+                }
+            };
+            xhr.send(null);
+            var tabs = document.getElementById("tabs");
+
+        }
+    </script>
+</head>
+<body>
+
+<ul id="tabs" class="tabs">
+
+</ul>
+<div class="contents">
+
+</div>
+
+</body>
+</html>
