@@ -1,0 +1,32 @@
+.wrap{
+    margin: 0 auto;
+    width: 1200px;
+    height: 500px;
+    background-color: pink;
+}
+.slide{
+    width: 100%;
+    margin: 100px auto;
+    position: relative;
+}
+ul.slide li{
+    width:800px;
+    left: 200px;
+    position: absolute;
+    top: 0;
+}
+ul.slide li img{
+    width: 100%;
+}
+.arrow{
+    position: relative;
+    opacity: 0;
+    z-index: 10;
+}
+.arrow div{
+    position: absolute;
+    cursor: pointer;
+}
+.arrow div:last-child {
+    right: 0;
+}
