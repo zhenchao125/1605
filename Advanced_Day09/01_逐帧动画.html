@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 250px;
+            height: 140px;
+            border: 1px solid #000;
+            background: url(img/bird.png) no-repeat;
+
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<script>
+    var box = document.querySelector("div");
+    var i = 0, j = 0;
+    setInterval(function () {
+        i++;
+        box.style.backgroundPosition = -245 * (i % 3 + 1) + "px " + (-140 * j) + "px";
+        if(i % 6 == 0){
+            j = 0;
+        }else if(i % 3 == 0){
+            j = 1;
+        }
+    }, 200);
+</script>
+</body>
+</html>

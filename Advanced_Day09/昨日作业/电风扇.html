@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 600px;
+            height: 600px;
+            margin-bottom: 200px;
+        }
+    </style>
+    <script type="text/javascript" src="suanzi.js"></script>
+    <script type="text/javascript" src="Animator.js"></script>
+</head>
+<body>
+<div id="fengshan">
+    <img src="电风扇.png" alt="">
+</div>
+<button>打开</button>
+<button>1档</button>
+<button>3档</button>
+<button>3档</button>
+<button>结束</button>
+<script>
+    var fengshan = {
+        div : document.getElementById("fengshan"),
+        speedNum : 1,
+        animator : undefined,
+        isRun : false,
+        start : function () {
+            var self = this;
+            if(this.animator){
+                if(this.isRun){
+                    return;
+                }else{
+                    this.animator.start(true);
+                    return;
+                }
+            }
+            this.animator = new Animator(2000 / this.speedNum, Easing.linear, function (easing) {
+                self.div.style.transform
+                    = "rotateZ(" + (-360 * easing) +"deg)";
+            });
+            this.animator.start(true);
+            this.isRun = true;
+        },
+        stop : function () {
+            this.animator.stop();
+            this.isRun = false;
+
+        },
+        changeSpeed : function (speedNum) {
+            this.speedNum = speedNum;
+            this.animator.duration = 2000 / this.speedNum;
+
+        }
+    }
+    var btns = document.getElementsByTagName("button");
+    btns[0].onclick = function () {
+        fengshan.start();
+    }
+    btns[1].onclick = function () {
+        fengshan.changeSpeed(1);
+    }
+    btns[2].onclick = function () {
+        fengshan.changeSpeed(2);
+    }
+    btns[3].onclick = function () {
+        fengshan.changeSpeed(3);
+    }
+    btns[4].onclick = function () {
+        fengshan.stop();
+    }
+
+
+</script>
+</body>
+</html>
