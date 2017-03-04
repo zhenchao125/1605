@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>观察者模式2</title>
+</head>
+<body>
+<button id="btn1">注册观察者 1</button>
+<button id="btn2">注册观察者 2</button>
+<button id="btn3">注册观察者 3</button>
+<button id="btn5">删除观察者1</button>
+<button id="btn4">发布信息</button>
+<script>
+    var publisher = {
+        observers: {},  //{"120平" : o1, "130平", o2}
+        registerObserver: function (key, observer) {
+            if(!this.observers[key]) {
+                this.observers[key] = [];
+            }
+            this.observers[key].push(observer);
+        },
+        publishInfo: function (msg) {
+            if(!(msg.area in this.observers)) return;
+            this.observers[msg.area].forEach(function (observer) {
+                observer(msg);
+            })
+        },
+        removeObserver : function (key, observer) {
+            if(!(key in this.observers)) return;
+            var index = this.observers[key].indexOf(observer);
+            if(index != -1){
+                this.observers[key].splice(index, 1);
+            }
+        }
+    };
+    btn4.onclick = function () {
+        publisher.publishInfo({area: "120平", price: "1600WAN"});
+    };
+    var f1;
+    btn1.onclick = function () {
+        publisher.registerObserver("120平", f1 = function (msg) {
+            console.log("观察者1:" + msg.price)
+        })
+    };
+    btn5.onclick = function () {
+        publisher.removeObserver("120平", f1);
+    };
+    btn2.onclick = function () {
+        publisher.registerObserver("140平", function (msg) {
+            console.log("观察者2:" + msg.price)
+        })
+    };
+    btn3.onclick = function () {
+        publisher.registerObserver("120平", function (msg) {
+            console.log("观察者3:" + msg.price)
+        })
+    };
+
+</script>
+</body>
+</html>

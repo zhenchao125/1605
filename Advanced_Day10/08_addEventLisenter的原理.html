@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn1">注册点击事件1</button>
+<button id="btn2">注册点击事件2</button>
+<script>
+    var f ;
+    btn1.addEventListener("click", f = function (event) {
+        console.log("第一次注册")
+    })
+    btn1.addEventListener("aaaaclick", function () {
+        console.log("第二次注册")
+    })
+    btn1.removeEventListener("click", f);
+</script>
+</body>
+</html>

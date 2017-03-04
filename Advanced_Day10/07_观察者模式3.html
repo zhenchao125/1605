@@ -10,29 +10,30 @@
 <button id="btn3">发布信息</button>
 <script>
     var publisher = {
-        observers : [],
-        registerObserver : function (observer) {
-            this.observers.push(observer);
+        observers : {
+
+        },  //{"120平" : o1, "130平", o2}
+        registerObserver : function (key, observer) {
+            this.observers[key] = observer;
         },
         publishInfo : function (msg) {
-            this.observers.forEach(function (observer) {
-                observer(msg);
-            });
+            this.observers[msg.area](msg);
         }
     };
+    btn3.onclick = function () {
+        publisher.publishInfo({area:"140平", price : "1600WAN"});
+    };
     btn1.onclick = function () {
-        publisher.registerObserver(function (msg) {
+        publisher.registerObserver("120平", function (msg) {
             console.log("观察者1:" + msg.price)
         })
     };
     btn2.onclick = function () {
-        publisher.registerObserver(function (msg) {
+        publisher.registerObserver("140平", function (msg) {
             console.log("观察者2:" + msg.price)
         })
     };
-    btn3.onclick = function () {
-        publisher.publishInfo({area:"120平方", price : "1600WAN"});
-    };
+
 </script>
 </body>
 </html>

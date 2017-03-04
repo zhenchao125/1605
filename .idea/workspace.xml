@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day10/05_适配器模式.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day10/06_观察者模式.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day10/07_观察者模式2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day10/07_观察者模式3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day10/data1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day10/data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day10/07_观察者模式4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day10/08_addEventLisenter的原理.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advanced_Day10/post.php" afterPath="$PROJECT_DIR$/Advanced_Day10/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Advanced_Day10/07_观察者模式3.html" afterPath="$PROJECT_DIR$/Advanced_Day10/07_观察者模式3.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +23,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="07_观察者模式3.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Advanced_Day10/07_观察者模式3.html">
+      <file leaf-file-name="07_观察者模式4.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day10/07_观察者模式4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="311">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08_addEventLisenter的原理.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day10/08_addEventLisenter的原理.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -55,9 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Advanced_Day08/昨日作业.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day08/01_rquestAnimationFrame.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day08/02_简单动画的问题.html" />
         <option value="$PROJECT_DIR$/Advanced_Day08/03_位移是时间的函数.html" />
         <option value="$PROJECT_DIR$/Advanced_Day08/04_匀速运动.html" />
         <option value="$PROJECT_DIR$/Advanced_Day08/0_匀加速运动.html" />
@@ -106,6 +109,9 @@
         <option value="$PROJECT_DIR$/Advanced_Day10/05_适配器模式.html" />
         <option value="$PROJECT_DIR$/Advanced_Day10/06_观察者模式.html" />
         <option value="$PROJECT_DIR$/Advanced_Day10/07_观察者模式2.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day10/07_观察者模式3.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day10/08_addEventLisenter的原理.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day10/07_观察者模式4.html" />
       </list>
     </option>
   </component>
@@ -335,7 +341,7 @@
       <workItem from="1488327358518" duration="2056000" />
       <workItem from="1488333454360" duration="28144000" />
       <workItem from="1488459092969" duration="188000" />
-      <workItem from="1488459312781" duration="43426000" />
+      <workItem from="1488459312781" duration="47018000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -355,7 +361,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342708000" />
+    <option name="totallyTimeSpent" value="346300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -400,20 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Advanced_Day08/09_动画算子.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="1399" column="0" lean-forward="false" selection-start-line="1399" selection-start-column="0" selection-end-line="1399" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day08/10_使用自定义的框架.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -787,8 +779,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day10/07_观察者模式3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="487">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day10/08_addEventLisenter的原理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day10/07_观察者模式4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding />
         </state>
       </provider>
