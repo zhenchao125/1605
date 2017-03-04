@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>观察者模式2</title>
+</head>
+<body>
+<button id="btn1">注册观察者 1</button>
+<button id="btn2">注册观察者 2</button>
+<button id="btn3">发布信息</button>
+<script>
+    var publisher = {
+        observers : [],
+        registerObserver : function (observer) {
+            this.observers.push(observer);
+        },
+        publishInfo : function (msg) {
+            this.observers.forEach(function (observer) {
+                observer(msg);
+            });
+        }
+    };
+    btn1.onclick = function () {
+        publisher.registerObserver(function (msg) {
+            console.log("观察者1:" + msg.price)
+        })
+    };
+    btn2.onclick = function () {
+        publisher.registerObserver(function (msg) {
+            console.log("观察者2:" + msg.price)
+        })
+    };
+    btn3.onclick = function () {
+        publisher.publishInfo({area:"120平方", price : "1600WAN"});
+    };
+</script>
+</body>
+</html>

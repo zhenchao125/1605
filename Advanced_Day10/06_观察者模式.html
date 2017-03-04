@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>观察者模式</title>
+</head>
+<body>
+<button id="btn">发布消息</button>
+<script>
+    /*发布者、被观察者   售楼小姐*/
+    var publisher = {
+        registObsever : function (obsever) {
+            //添加一个属性来存储订阅的 订阅者
+            this.obsver = obsever;
+        },
+        publishInfo : function () {
+            this.obsver("面积：100  金额： 500万");
+        }
+    }
+    /*注册观察者  传递进去的函数就观察者*/
+    publisher.registObsever(function (msg) {
+        console.log("我是订阅者：" + msg)
+    })
+
+    btn.onclick = function () {
+        /*发布信息*/
+        publisher.publishInfo();
+    }
+</script>
+</body>
+</html>

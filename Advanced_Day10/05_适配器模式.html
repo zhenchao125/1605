@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="my_ajax.js"></script>
+</head>
+<body>
+<script>
+    ajax.get("data1.json", function (result) {
+        showResult(result)
+    });
+    function showResult(result) {
+        var obj = JSON.parse(result);
+        console.log(obj.name);
+    }
+
+    //新的数据接口，数据格式变化了。不能直接使用旧的数据处理程序
+    ajax.get("data2.json", function (result) {
+        //使用新的适配器来处理新的数据
+        myAdapter(result);
+    });
+    //适配器的作用：把新格式的数据转换成旧格式的数据，然后再调用旧格式的处理程序。
+    function myAdapter(result) {
+        var obj = JSON.parse(result);
+        showResult(JSON.stringify(obj.data))
+    }
+
+</script>
+</body>
+</html>
