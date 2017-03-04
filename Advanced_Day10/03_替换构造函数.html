@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>替换构造函数</title>
+</head>
+<body>
+<script>
+    function Person(name) {
+        console.log("abc");
+        this.name = name;
+        var instance = this;
+        Person = function (name) {
+            instance.name = name;
+            return instance;
+        }
+        return instance;
+    }
+    console.log(Person)
+    var p1 = new Person("李四");
+    var p2 = new Person("张三");
+    console.log(Person)
+    console.log(p1)
+</script>
+</body>
+</html>

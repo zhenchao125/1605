@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="my_ajax.js"></script>
+</head>
+<body>
+<form action="post.php" method="post">
+    用户<input type="text" name="user" id="user"><br>
+    密码<input type="password" name="pwd" id="pwd"><br>
+    <input type="submit" value="提交">
+</form>
+<script>
+    var formObj = {
+        form : document.forms[0],
+        init : function () {
+            this.form.onsubmit = function (event) {
+                event.preventDefault();
+                /*处理表单数据*/
+                this.handleSubmit();
+            }.bind(this);
+        },
+        handleSubmit : function () {
+            var formData = new FormData(this.form);
+            var userValue = formData.get("user");
+            if(userValue.search("苍老师")){
+                var newValue = userValue.replace("苍老师", "*");
+                formData.set("user", newValue);
+                this.form[0].value = newValue;
+            }
+            this.ajax(formData);
+        },
+        ajax : function (formData) {
+            ajax.post("post.php", formData, function (result) {
+                this.handleResult(result);
+            }.bind(this));
+        },
+        handleResult : function (result) {
+            var obj = JSON.parse(result);
+            this.showResult(obj);
+        },
+        showResult : function (obj) {
+
+        }
+    }
+    formObj.init();
+</script>
+</body>
+</html>

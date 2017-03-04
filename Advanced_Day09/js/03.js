@@ -69,7 +69,7 @@ window.onload = function () {
             let offsetHeight = lis[i].offsetHeight;
             let offsetLeft = lis[i].offsetLeft;
             let offsetTop = lis[i].offsetTop;
-            new Animator(500, Easing.linear, function (easing) {
+            new Animator(500, Easing.bounce, function (easing) {
                 var style = lis[i].style;
                 var info = imgsInfo[i];
                 /*元素宽度的 （最终值 - 最初值） 表示宽度的变化量。*/

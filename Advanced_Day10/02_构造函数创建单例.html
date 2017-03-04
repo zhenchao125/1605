@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var createPerson = (function () {
+        function Person() {
+            this.name = "李四"
+        }
+        var instance = new Person();
+        return function (name) {
+            instance.name = name;
+            return instance;
+        }
+    })();
+
+    var p1 = createPerson("康熙");
+    var p2 = createPerson("乾隆");
+    console.log(p1.name);
+    /*var p;
+    function Person() {
+        if(p){
+            return p;
+        }
+        this.name = "李四";
+        p = this;
+        return p;
+    }
+    var p1 = new Person();
+    var p2 = new Person();
+    var p2 = new Person();
+    var p3 = new Person();
+    var p4 = new Person();
+    console.log(p2 == p3)*/
+
+</script>
+</body>
+</html>
