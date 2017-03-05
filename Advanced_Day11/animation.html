@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画</title>
+    <style>
+        div{
+            width : 200px;
+            height : 200px;
+            margin: 200px auto;
+            background-color : pink;
+            animation-name: my_animation;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-direction: reverse;
+            animation-delay:2s;
+            animation-timing-function: linear;
+            animation-fill-mode: both;
+        }
+        @keyframes my_animation {
+            0%{
+                width: 200px;
+                height: 200px;
+            }
+            100%{
+                width: 600px;
+                height: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        div{
+            width: 400px;
+            height: 400px;
+            text-align: center;
+            line-height: 400px;
+            font-size: 60px;
+        }
+        .container{
+
+            position: relative;
+            border: 1px dashed #000;
+            margin: 200px auto;
+            transform: rotateY(30deg) rotateX(30deg);
+            transform-style: preserve-3d;
+            animation: 10s linear 0s infinite reverse my_rotate;
+        }
+        .container div{
+            position: absolute;
+        }
+        .font{
+            background-color: rgba(100, 100, 100, 1);
+            transform: translateZ(200px);
+        }
+        .back{
+            background-color: rgba(80, 255, 133, 1);
+            transform: rotateY(180deg) translateZ(200px);
+        }
+        .left{
+            background-color: rgba(255, 57, 56, 1);
+            transform: rotateY(-90deg) translateZ(200px);
+        }
+        .right{
+            background-color: rgba(25, 37, 170, 1);
+            transform: rotateY(90deg) translateZ(200px);
+        }
+        .up{
+            background-color: rgba(232, 255, 204, 1);
+            transform: rotateX(90deg) translateZ(200px);
+        }
+        .down{
+            background-color: rgba(94, 255, 56, 1);
+            transform: rotateX(-90deg) translateZ(200px);
+        }
+        @keyframes my_rotate {
+            from{
+                transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+            }
+            to{
+                transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="font">前</div>
+    <div class="back">后</div>
+    <div class="left">左</div>
+    <div class="right">右</div>
+    <div class="up">上</div>
+    <div class="down">下</div>
+</div>
+</body>
+</html>
