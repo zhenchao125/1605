@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本过滤选择器</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <style>
+        input:focus{
+            color: #00FFFF;
+        }
+    </style>
+    <script>
+        $(function () {
+            /*$("li:first").css({
+             backgroundColor: "red"
+             });
+             $("li:last").css({
+             backgroundColor: "blue"
+             });*/
+            /* eq是基于0开始的*/
+            /*$("li:eq(1)").css({  //equal
+             backgroundColor: "red"
+             });*/
+            /*$("li:even").css({  //equal
+                backgroundColor: "red"
+            });
+            $("li:odd").css({  //equal
+                backgroundColor: "blue"
+            });
+*/
+            //id的值不是item的所有li
+            /*$("li:not(#item)").css({  //equal
+                backgroundColor: "blue"
+            });*/
+            //选择下标大于2的元素
+            $("li:gt(2)").css({  //great than
+                backgroundColor: "blue"
+            });
+            //下标小于2的元素
+            $("li:lt(2)").css({  //less than
+                backgroundColor: "red"
+            });
+            //所有的标题元素
+            $(":header").css({  //less than
+                color : "pink"
+            });
+            //选中已经获取焦点的元素
+            $(":focus").css({  //less than
+                color : "pink"
+            });
+
+
+        });
+
+    </script>
+</head>
+<body>
+<input type="text" id="user" value="abc" >
+<input type="text" id="user1" value="aaaa" autofocus>
+<h1>我是h1</h1>
+<h2>我是h2</h2>
+<ul>
+    <p>啊哈哈</p>
+    <li>最上面的li</li>
+</ul>
+<ul>
+    <li id="item">我是内容1</li>
+    <li id="1">我是内容2</li>
+    <li id="2">我是内容3</li>
+    <li id="3">我是内容4</li>
+    <li>我是内容5</li>
+    <li>我是内容6</li>
+</ul>
+</body>
+</html>
