@@ -6,20 +6,29 @@
     <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
     <script>
         $(function(){
-
+            /*var inputs = $(":input");
+            console.log(inputs)
+            //type的属性是text的表单
+            var text = $(":text");
+            console.log(text)*/
+            console.log($("#form1 :password"))
+            console.log($(":submit"))
         });
     </script>
 </head>
 <body>
-<form action="" id="form">
-    <input type="text"><br>
+<input type="text" value="aaaaa" >
+<form action="" id="form1">
+    <input type="text" name="user"><br>
     <input type="password"><br>
     <select name="area" id="area">
         <option value="sd">山东</option>
         <option value="gd" selected>广东</option>
     </select>
     <br>
-    <input type="submit" value="提交">
+    <button type="submit">我是个按钮</button>
+    <input type="image" src="a.jpg">
+    <!--<input type="submit" value="提交">-->
 </form>
 </body>
 </html>
