@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            /* 相当于后代选择器*/
+            var $lis = $("#ul2")
+                .find("li")
+                .find("a")
+                .html("aaaaaa");
+            console.log($lis);
+//            var $a = $("#ul1>a")
+            var $a = $("#ul1").children("a#abc");  //相当于子元素选择器
+            console.log($a)
+        });
+
+    </script>
+</head>
+<body>
+<ul id="ul1">
+    <li>1 <a href=""></a></li>
+    <li>2</li>
+    <li>3</li>
+    <a href="" id="abc"></a>
+    <a href=""></a>
+    <p></p>
+</ul>
+<ul id="ul2">
+    <li><a href="">abc</a></li>
+    <li></li>
+    <li><a href="">bcd</a></li>
+    <li></li>
+</ul>
+<p>p</p>
+</body>
+</html>

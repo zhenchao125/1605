@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery对象和元素dom对象</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function () {
+            var divs1 = $("div");
+            var divs2 = document.getElementsByTagName("div");
+            /*jquery和原生dom对象之间的转换*/
+            /*1. 把jquery对转换成dom对象
+              a: j对象.get(index)
+              b: j对象[i]
+            * */
+            console.log(divs1.get(0));
+            console.log(divs1[1].innerHTML = "哈哈哈");
+            console.log(divs1 instanceof Array)
+
+            /*2.把原生的dom对象转换成jquery对象
+                $(元素dom对象)
+            * */
+            console.log($(divs2[1]));
+            console.log($(divs2));
+            console.log(divs1);
+        })
+    </script>
+</head>
+<body>
+<div>你好</div><div>你坏</div>
+</body>
+</html>

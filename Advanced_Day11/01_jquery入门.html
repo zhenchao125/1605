@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01_jquery入门</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        /*jquery的入口：  window.onload*/
+        $(document).ready(function () {
+            var msg = $("div:first-child").html();
+            console.log(msg);
+        });
+        
+        /*前面入口函数简化写法*/
+        $(function () {
+            var msg = $("div:first-child").html();
+            console.log(msg);
+        })
+    </script>
+
+</head>
+<body>
+<div>你好</div>
+
+</body>
+</html>

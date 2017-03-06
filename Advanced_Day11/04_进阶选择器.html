@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            console.log($("p,ul"));
+            console.log($("#ul2 li"))
+            console.log($("ul#ul1 *"))
+        });
+
+    </script>
+</head>
+<body>
+<ul id="ul1">
+    <li>1 <a href=""></a></li>
+    <li>2</li>
+    <li>3</li>
+    <a href=""></a>
+    <p></p>
+</ul>
+<ul id="ul2">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p>p</p>
+</body>
+</html>

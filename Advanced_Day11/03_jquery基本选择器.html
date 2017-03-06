@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function () {
+            //标签选择器.   用$开头表示是一个jquery对象
+            var $divs = $("div");
+//            $divs.html("abc")
+            console.log($divs)
+            var $box = $("#box");
+            console.log($box)
+
+            var $content = $(".content");
+            console.log($content)
+
+            var $p = $("p.content");
+            console.log($p)
+        });
+
+    </script>
+</head>
+<body>
+<div id="box">我有id</div>
+<div class="content">我有class=content</div>
+<p class="content">我有class=content</p>
+<p>我有class=content</p>
+</body>
+</html>
