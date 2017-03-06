@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容过滤选择器</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            /*
+            $("div:contains(hao)").css({
+                color : "red"
+            });
+            //空元素。  没有子元素或者文本的元素  单标签也算
+            $(":empty").css({
+                width : "100px",
+                height : "100px",
+                backgroundColor : "red"
+            });
+            //找到p元素，并且p元素中有标签的类名是abc的p
+            $("p:has(.abc)").css({
+                width : "100px",
+                height : "100px",
+                backgroundColor : "pink"
+            });
+            console.log($("p:has(.abc)"));
+            */
+            //找到有子元素或者文本的p元素
+            $("div:parent").css({
+                width : "100px",
+                height : "100px",
+                backgroundColor : "red"
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div>hao are you</div>
+    <p>zs hao ls</p>
+    <a href="#">百度</a>
+    <p>百度一下 <a href="" class="abc"></a></p>
+    <p>
+        <a href="" class="abc">你好</a>
+    </p>
+    <p></p>
+    <input type="text" value="abc">
+</body>
+</html>

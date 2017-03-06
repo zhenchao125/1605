@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>可见性过滤选择器</title>
+    <style type="text/css">
+        div{
+            width : 200px;
+            height : 200px;
+            background-color : pink;
+        }
+    </style>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            /*如果一个元素css属性的visibility的值是hidden的时候不选中*/
+            var all = $(":hidden");
+            console.log(all);
+
+            /*visibility : hidden 会选中*/
+            var show = $(":visible");
+            console.log(show);
+        });
+    </script>
+</head>
+<body>
+<div></div>
+<div hidden="hidden"></div>
+<input type="text" hidden>
+<div style="display: none"></div>
+<div style="visibility : hidden;"></div>
+</body>
+</html>

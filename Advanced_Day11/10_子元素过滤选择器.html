@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            /*$("li:first-child").css({
+             backgroundColor : "pink"
+             });
+             $("li:last-child").css({
+             backgroundColor : "blue"
+             });
+             $("li:only-child").css({
+             backgroundColor: "#ff0"
+             });*/
+            /*基于1的*/
+            /*$("li:nth-child(2)").css({
+                backgroundColor: "#ff0"
+            })*/
+           /* $("li:nth-last-child(2)").css({
+                backgroundColor: "#ff0"
+            }) */
+           /* $("li:nth-last-child(3n)").css({
+             backgroundColor: "#ff0"
+             })*/
+           /*选中前 2个*/
+            /*$("li:nth-child(-n+2)").css({
+             backgroundColor: "#ff0"
+             })*/
+            //选中后 2个
+            /*$("li:nth-last-child(-n+2)").css({
+                backgroundColor: "#ff0"
+            })*/
+            //不选前 2 个
+            /*$("li:nth-child(n+3)").css({
+                backgroundColor: "#ff0"
+            })*/
+
+            $("li:nth-of-type(1)").css({
+                backgroundColor: "#ff0"
+            })
+
+        });
+
+    </script>
+</head>
+<body>
+<ul>
+    <p></p>
+    <li>li的内容1</li>
+    <li>li的内容2</li>
+    <li>li的内容3</li>
+    <li>li的内容4</li>
+</ul>
+<ul>
+    <li>li的内容1</li>
+    <li>li的内容2</li>
+    <li>li的内容3</li>
+    <li>li的内容4</li>
+</ul>
+<ul>
+    <p></p>
+    <li>我是独生子</li>
+    <p></p>
+</ul>
+<li>hahah</li>
+<a href=""></a>
+</body>
+</html>

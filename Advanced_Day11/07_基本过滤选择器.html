@@ -40,7 +40,7 @@
             $("li:lt(2)").css({  //less than
                 backgroundColor: "red"
             });
-            //所有的标题元素
+            //所有的标题元素   h1、h2、h3...
             $(":header").css({  //less than
                 color : "pink"
             });
@@ -48,14 +48,14 @@
             $(":focus").css({  //less than
                 color : "pink"
             });
-
-
         });
 
     </script>
 </head>
 <body>
 <input type="text" id="user" value="abc" >
+
+<!--autofocus可以让一个元素自动获取焦点-->
 <input type="text" id="user1" value="aaaa" autofocus>
 <h1>我是h1</h1>
 <h2>我是h2</h2>
