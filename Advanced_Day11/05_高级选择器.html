@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            // + 下一个兄弟选择器
+//            var li1 = $("ul > #li1 + li");
+//            var li1 = $("ul > #li1").next();  //  +   === next
+//            var li1 = $("ul > #li1").prev("*");
+
+            //所有的后面的兄弟
+//            var lis  = $("ul > #li1 ~ *");
+//            var lis  = $("ul > #li1").nextAll("li");
+            //所有前面的兄弟
+//            var lis  = $("ul > #li1").prevAll();
+
+            var lis  = $("ul > #li1").siblings("li");
+            console.log(lis);
+        });
+
+    </script>
+</head>
+<body>
+<ul>
+    <a href="">连接</a>
+    <li></li>
+    <li id="li1">li1aaaa</li>
+    <p></p>
+    <li>哈哈</li>
+    <li></li>
+    <li></li>
+</ul>
+</body>
+</html>
+<!--
+jquery选择器的方法总结：
+
+
+-->
