@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件对象</title>
+    <style>
+        button{
+            width : 200px;
+            height : 200px;
+            margin-left:2000px;
+            background-color : pink;
+        }
+    </style>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            //原生的绑定事件
+            /*$("button")[0].onclick = function (event) {
+                console.log(event);
+            }
+*/
+            //jquery绑定事件
+            $("button").on("click", function (event) {
+                console.log(event.offsetX)
+                console.log(event.pageX)
+                console.log(event.clientX)
+                console.log(event.which)
+            });
+            $("input").keydown(function (event) {
+//                console.log(event.originalEvent.keyCode)
+                console.log(event.which);
+            })
+        });
+
+    </script>
+</head>
+<body>
+<div>
+<button>我是按钮</button>
+</div>
+<input type="text">
+</body>
+</html>
