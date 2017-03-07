@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            //返回刚刚被干掉的那个元素.绑定的事件会丢失
+//            var removed = $("li:nth-child(1)").remove();
+           /* var removed = $("li:nth-child(1)").click(function () {
+                alert("我会被干掉")
+            }).remove();
+            $("ul").append(removed)*/
+
+           //detach绑定的事件不会丢失
+            /*var detached = $("li:nth-child(1)").click(function () {
+                alert("我会被干掉")
+            }).detach();
+            $("ul").append(detached)*/
+
+            //清空所有的ul的后代，但是ul还在
+//            $("ul").empty();
+//            $("ul").html("")
+
+
+        });
+
+    </script>
+</head>
+<body>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+</body>
+</html>

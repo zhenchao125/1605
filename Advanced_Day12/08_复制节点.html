@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            $("ul").click(function () {
+                alert("abc");
+            })
+            //都是深copy，true表示事件和数据也会copy。
+            $("ul").after($("ul").clone(true));
+
+            //前面的被后面的替换掉
+//            $("li:nth-child(3)").replaceWith("<p>这是个p</p>")
+
+            //前面的替换掉后面的
+            $("<p>这是个p</p>").replaceAll("li:nth-child(1)")
+
+        });
+
+    </script>
+</head>
+<body>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
+
+</body>
+</html>

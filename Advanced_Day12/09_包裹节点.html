@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            //分别用ul包裹每个li。  每个li分别有一个ul
+//            $("li").wrap("<ul></ul>")
+
+            //一个ul包裹所有 li。 如果中间有不是li的标签存在，则会仍在后面。
+//            $("li").wrapAll("<ul></ul>")
+
+            // div会成为li的唯一的一个子元素
+//            $("li").wrapInner("<div></div>")
+
+            //只去掉直接的父容器
+            $("a").unwrap();
+        });
+
+    </script>
+</head>
+<body>
+
+<li><div><a href="">上面没人1</a></div></li>
+<p>我不是li</p>
+<li>上面没人2</li>
+</body>
+</html>

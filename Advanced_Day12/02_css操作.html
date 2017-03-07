@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width : 200px;
+            height : 200px;
+            font-size: 40px;
+        }
+        .big{
+            width : 400px;
+            height : 400px;
+        }
+        .small{
+            width : 100px;
+            height : 100px;
+
+        }
+        .font_color{
+            color: red;
+        }
+    </style>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            /*var color = $("div").css("background-color");
+            console.log(color)
+
+            var size = $("div").css("font-size");
+            console.log(size)
+
+            $("div").css("font-size",parseInt(size) + 20);*/
+            $("div").attr("class", "big");
+            $("div").addClass("font_color")
+
+            $("button").click(function () {
+//                $("div").removeClass("big");
+                //参数是一个类名：如果元素有这个类，则移除。如果没有，则追加
+                $("div").toggleClass("big");
+                //判断这个元素是否有指定的class  返回值：true或false
+                console.log($("div").hasClass("big"))
+            })
+
+            //和数组的forEach方法用法完全一样。
+            $("div").each(function (index, ele) {
+                //ele是原生的dom对象，不是jquery对象
+                console.log($(ele))
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+<div style="background-color: pink;">
+    你好
+</div>
+<div></div>
+<button>去掉big </button>
+</body>
+</html>

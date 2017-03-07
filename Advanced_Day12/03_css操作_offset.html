@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width : 200px;
+            height : 200px;
+            background-color : pink;
+            margin-top: 2000px;
+        }
+    </style>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            //传入一个数组，表示获取多个属性值.返回的是一个对象，键值对就包含了获取的属性和值
+//            var atts = $("div").css(["width", "height"]);
+//            console.log(atts);
+//            console.log($("div").width())  //获取到的宽度没有单位
+            $("button:eq(1)").click(function () {
+                //返回值是一个对象： 两个属性 left top  相对于文档边缘。
+                var offset = $("div").offset();  //不需要任何的参数。
+                console.log(offset)
+            });
+
+        });
+
+    </script>
+
+</head>
+<body>
+<div></div>
+<button>设置宽和高</button>
+<button>查看offset</button>
+</body>
+</html>

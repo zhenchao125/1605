@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础dom操作</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function () {
+            //不传参数就是读取匹配的第一个元素的html
+//            var h = $("li").html();
+//            console.log(h)
+            //有参数就是设置匹配的所有的所有元素的html
+//            $("li").html("你好");
+//            $("li").text("<a href='#'>你好</a>");
+//            console.log($("input").val());
+            //一个参数是获取指定属性的值
+//            var href = $("a:eq(0)").attr("href");
+//            $("a:eq(0)")
+//                //设置指定属性的值
+//                .attr("href", "http://www.yztcedu.com")
+//                .text("育知同创官网")
+//            console.log(href)
+
+//            $("a:eq(0)")
+//                .attr("href", "http://www.yztcedu.com")
+//                .attr("id", "link1");
+            //如果想同时设置多个属性，则可以传递一个参数进去
+            $("a:eq(0)")
+                .attr({
+                    href : "http://www.yztcedu.com",
+                    id : "link1",
+                    "class" : "abc"
+                });
+        });
+    </script>
+</head>
+<body>
+<ul>
+    <li><a href="http://www.baidu.com">百度一下</a></li>
+    <li><a href="#">育知同创</a></li>
+    <li>腾讯</li>
+</ul>
+<input type="text" value="ABCS">
+</body>
+</html>

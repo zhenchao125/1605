@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础事件</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            //绑定事件：参数1：事件类型  参数2：事件处理程序
+            /*$("button").bind("mouseover", function () {
+                alert("你好");
+            })*/
+            //尽量用on
+            foo($("div"));
+
+
+
+
+        });
+
+        function foo(jObj) {
+            /*  参数1：数据类型
+                参数2：要绑定的的元素的后代。 选择器
+                参数3：当事件触发的时候，会通过事件对象传递到处理函数的内部。event.data
+                参数4：事件处理程序
+             */
+            jObj.on("click","a, button" , {"name" : "abc"} ,function (event) {
+                console.log(event.data)
+            })
+        }
+
+
+    </script>
+</head>
+<body>
+<div><button>按钮</button></div>
+<div><a href="">按钮</a></div>
+<div>按钮</div>
+</body>
+</html>

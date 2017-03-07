@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            background-color: pink;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            /*$("div").hover(function () {
+                $(this).css({
+                    backgroundColor: "pink"
+                })
+            }, function () {
+                $(this).css({
+                    backgroundColor: "blue"
+                })
+            })*/
+            $("button").click(function () {
+                //不传任何的参数可以，让这个元素显示或隐藏
+                $("div").toggle(2000);
+            })
+
+            //在1.9之前的版本支持。模拟鼠标多次点击，轮换执行传递的函数。
+            /*$("button").toggle(function () {
+                console.log("第一次")
+            }, function () {
+                console.log("第二次")
+            }, function () {
+                console.log("第三次")
+            });*/
+        });
+
+    </script>
+</head>
+<body>
+<button>abc</button>
+<div></div>
+</body>
+</html>

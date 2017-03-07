@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dom节点操作</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function () {
+            //创建一个元素
+            var $li = $("<li id='item5'>5</li>")
+            //把 参数中的参数表示的元素，添加到 对象中  a.append(b)
+//            $(".banner").append($li).append("<li>6</li>").append("<li>");
+//            $li.appendTo($(".banner"))
+
+            //插入到最前面。
+//            $(".banner").prepend($li)
+//            $li.prependTo($(".banner"))
+
+            //插入过，li是ul的下一个兄弟
+//            $(".banner").after($li)
+
+            //插入过，li是ul的上一个兄弟
+            $(".banner").before($li)
+
+
+
+
+        });
+
+    </script>
+</head>
+<body>
+
+<ul class="banner">
+
+    <li>1</li>
+    <li>2</li>
+
+    <li>3</li>
+
+</ul>
+
+</body>
+</html>

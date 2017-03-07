@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>解除绑定</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function () {
+            function click1() {
+                console.log("第一个处理函数");
+            }
+
+            function click2() {
+                console.log("第二个处理函数");
+            }
+
+//            $("button:eq(0)").on("click", click1);
+//            $("button:eq(0)").on("click", click2);
+//
+//            $("button:eq(1)").on("click", function () {
+//                //
+////                $("button:eq(0)").unbind("click", click1);
+//                $("button:eq(0)").off("click");
+//
+//            });
+
+            //直接绑定一个click事件
+            $("button:eq(0)").click(function () {
+                alert("abc");
+            })
+            $("button:eq(2)").click(function () {
+                //触发这个元素的点击事件
+                $("button:eq(0)").click();
+            })
+
+        });
+
+    </script>
+</head>
+<body>
+<button>按钮1</button>
+<button>解除按钮1绑定的事件</button>
+<button>按钮3</button>
+</body>
+</html>
