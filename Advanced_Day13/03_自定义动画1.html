@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义动画</title>
+    <style>
+        div {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function () {
+            //可以给元素添加多个自定义动画，他们会安装添加顺序来属性执行。
+            $("div")
+                .animate({
+                    //属性值可以不添加单位
+//                    left: 1000
+                    backgroundColor : "blue"
+                }, 2000)
+                .animate({
+                    top : "500px"
+                }, 2000)
+                .animate({
+                    left : "0"
+                }, 2000)
+                .animate({
+                    top : "0"
+                }, 2000);
+        });
+    </script>
+</head>
+<body>
+<button>开始动画</button>
+<div></div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本动画</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function () {
+            var div = $("div");
+            $("button:eq(0)").click(function () {
+                div.show(2000);
+            });
+            $("button:eq(1)").click(function () {
+                div.hide(2000);
+            });
+            $("button:eq(2)").click(function () {
+                div.fadeIn("slow");
+            });
+            $("button:eq(3)").click(function () {
+                div.fadeOut(600);
+            });
+            $("button:eq(5)").click(function () {
+                //收起
+                div.slideUp(2000);
+            });
+            $("button:eq(4)").click(function () {
+                div.slideDown(2000);
+            });
+        });
+
+    </script>
+</head>
+<body>
+<button>显示</button>
+<button>隐藏</button>
+<button>淡入</button>
+<button>淡出</button>
+<button>展开</button>
+<button>收起</button>
+<div></div>
+</body>
+</html>

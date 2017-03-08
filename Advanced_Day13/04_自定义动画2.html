@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义动画</title>
+    <style>
+        div {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        div:nth-child(2) {
+            margin-top: 210px;
+        }
+    </style>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="libs/jquery.easing.1.3.js"></script>
+    <script>
+        $(function () {
+            (function step() {
+                $("div")
+                    .animate({
+                        left: 1000
+                    }, 2000, "easeInOutElastic")
+                    .animate({
+                        top: "500px"
+                    }, 2000, "easeOutElastic")
+                    .animate({
+                        left: "0"
+                    }, 2000, "easeInOutBounce")
+                    .animate({
+                        top: "0"
+                    }, 2000, "easeOutBounce", function () {
+                        step();
+                    });
+            })();
+
+        });
+    </script>
+</head>
+<body>
+<button>开始动画</button>
+<div></div>
+<div></div>
+</body>
+</html>

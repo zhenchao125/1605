@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>animate demo</title>
+    <style>
+        div {
+            position: relative;
+            background-color: #abc;
+            width: 40px;
+            height: 40px;
+            float: left;
+            margin: 5px;
+        }
+    </style>
+    <script src="libs/jquery-3.1.1.js"></script>
+</head>
+<body>
+
+<p><button id="go">Run »</button></p>
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+<div class="block"></div>
+
+<script>
+    $( "#go" ).click(function() {
+        $( ".block:first" ).animate({
+            ab: 1000,
+            bc : 2000
+        }, {
+            duration: 1000,
+            step: function( now, fx ){
+                $( ".block:gt(0)" ).css( "left", now );
+                console.log("now:" + now)
+            },
+            progress : function (animate, num, ms) {
+//                $( ".block:first" )[0].style.top = 500 * num + "px";
+//                console.log("abc")
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

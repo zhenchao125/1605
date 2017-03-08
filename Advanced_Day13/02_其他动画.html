@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>其他动画</title>
+    <style>
+        div{
+            width : 200px;
+            height : 200px;
+            background-color : pink;
+        }
+    </style>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function () {
+            var div = $("div");
+            $("button:eq(0)").click(function () {
+                div.fadeToggle();
+            });
+            $("button:eq(1)").hover(function () {
+                div.slideToggle();
+            });
+            $("button:eq(2)").click(function () {
+                //在规定的时间内到指定的透明度
+                //动画结束的时候的回调函数
+                div.fadeTo(5000,.5, function () {
+                    console.log("abc")
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+<button>fadeToggle</button>
+<button>slideToggle</button>
+<button>fadeTo</button>
+<div></div>
+</body>
+</html>
