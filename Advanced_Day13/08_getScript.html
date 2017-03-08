@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            // load  get  post
+            //加载一个js文件，并且立即执行js文件，执行结束之后，会调用回调函数
+            $.getScript("js/js1.js", function (text) {
+                console.log("回调函数:" + text);
+            })
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="libs/jquery-3.1.1.js"></script>
+    <script>
+       /* $.ajax("data1.json",{
+            method : "GET",
+            dataType : "json",
+            success : function (data, status, jqxhr) {
+                console.log(data);
+            }
+        });*/
+        $.ajax({
+            url : "data1.php",
+            method : "GET",
+            dataType : "text",
+//            data : "user=abc&pwd=aaaaaaa",
+            data : {
+                user : "abc",
+                pwd : "bbbb"
+            },
+            success : function (data, status, jqxhr) {
+                console.log(data);
+            }
+        });
+
+        var formData = new FormData();
+        formData.append("user", "李四");
+        formData.append("pwd", "aaaaa");
+
+        $.ajax({
+            url : "data2.php",
+            method : "POST",
+            dataType : "text",
+//            data : "user=abc&pwd=aaaaaaa",
+//            data : {
+//                user : "abc",
+//                pwd : "bbbb"
+//            },
+            data : formData,
+            success : function (data, status, jqxhr) {
+                console.log(data);
+            }
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
