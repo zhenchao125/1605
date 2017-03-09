@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3576acfb-46ca-4513-aaae-f70ea0aaea90" name="Default" comment="测试webstorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day14/test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day14/a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day14/01_eventDemo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day14/02_全局变量.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day14/03_fs模块_读取文件.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day14/04_fs模块_向文件中写入数据.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day14/05_复制文件.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced_Day14/hello.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Advanced_Day14/test.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,15 +27,26 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="05_复制文件.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advanced_Day14/05_复制文件.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
         <option value="tsconfig.json" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,16 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Advanced_Day11/05_高级选择器.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day11/06_属性选择器.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day11/07_基本过滤选择器.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day11/08_内容过滤选择器.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day11/09_可见性过滤选择器.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day11/10_子元素过滤选择器.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day11/11_表单元素选择器.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day11/Advanced_Day12.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day12/test.html" />
-        <option value="$PROJECT_DIR$/Advanced_Day12/01_基础dom操作.html" />
         <option value="$PROJECT_DIR$/Advanced_Day12/02_css操作.html" />
         <option value="$PROJECT_DIR$/Advanced_Day12/03_css操作2.html" />
         <option value="$PROJECT_DIR$/Advanced_Day12/03_css操作_offset.html" />
@@ -89,6 +97,16 @@
         <option value="$PROJECT_DIR$/Advanced_Day13/08_ajax.html" />
         <option value="$PROJECT_DIR$/Advanced_Day14/test.txt" />
         <option value="$PROJECT_DIR$/Advanced_Day14/Path.Demo.js" />
+        <option value="$PROJECT_DIR$/Advanced_Day14/hello.js" />
+        <option value="$PROJECT_DIR$/Advanced_Day14/01_eventDemo.js" />
+        <option value="$PROJECT_DIR$/Advanced_Day14/02_全局变量.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day14/02_全局变量.js" />
+        <option value="$PROJECT_DIR$/Advanced_Day14/03_fs模块.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day14/03_fs模块.js" />
+        <option value="$PROJECT_DIR$/Advanced_Day14/04_fs模块_向文件中写入数据.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day14/04_fs模块_向文件中写入数据.js" />
+        <option value="$PROJECT_DIR$/Advanced_Day14/05_复制文件.html" />
+        <option value="$PROJECT_DIR$/Advanced_Day14/05_复制文件.js" />
       </list>
     </option>
   </component>
@@ -175,7 +193,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -186,8 +204,8 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="FullScreen" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.2" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -205,20 +223,20 @@
       <recent name="$PROJECT_DIR$/Advanced_Day09/demo/js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Path.Demo.js">
-    <configuration default="false" name="cycle.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/1605/Day10/轮播图/cycle.html">
+  <component name="RunManager" selected="Node.js.05_复制文件.js">
+    <configuration default="false" name="hello.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="hello.js" working-dir="$PROJECT_DIR$/Advanced_Day14">
       <method />
     </configuration>
-    <configuration default="false" name="万年历.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/1605/Day13/万年历.html">
+    <configuration default="false" name="02_全局变量.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="02_全局变量.js" working-dir="$PROJECT_DIR$/Advanced_Day14">
       <method />
     </configuration>
-    <configuration default="false" name="07_删除节点.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/1605/Advanced_Day12/07_删除节点.html">
+    <configuration default="false" name="03_fs模块.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/Advanced_Day14/03_fs模块_读取文件.js" working-dir="$PROJECT_DIR$/Advanced_Day14">
       <method />
     </configuration>
-    <configuration default="false" name="项目自动化构建.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="项目自动化构建.js" working-dir="$PROJECT_DIR$/CHJ">
+    <configuration default="false" name="04_fs模块_向文件中写入数据.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="04_fs模块_向文件中写入数据.js" working-dir="$PROJECT_DIR$/Advanced_Day14">
       <method />
     </configuration>
-    <configuration default="false" name="Path.Demo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Path.Demo.js" working-dir="$PROJECT_DIR$/Advanced_Day14">
+    <configuration default="false" name="05_复制文件.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="05_复制文件.js" working-dir="$PROJECT_DIR$/Advanced_Day14">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -281,19 +299,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.cycle.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.万年历.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.07_删除节点.html" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.项目自动化构建.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Path.Demo.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.hello.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.02_全局变量.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.03_fs模块.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.04_fs模块_向文件中写入数据.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.05_复制文件.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Path.Demo.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.项目自动化构建.js" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.07_删除节点.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.万年历.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.cycle.html" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.05_复制文件.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.04_fs模块_向文件中写入数据.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.03_fs模块.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.02_全局变量.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.hello.js" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +354,7 @@
       <workItem from="1488459092969" duration="188000" />
       <workItem from="1488459312781" duration="57784000" />
       <workItem from="1488704456768" duration="3040000" />
-      <workItem from="1488716897846" duration="69351000" />
+      <workItem from="1488716897846" duration="75875000" />
     </task>
     <task id="LOCAL-00001" summary="测试webstorm">
       <created>1486903359055</created>
@@ -363,17 +381,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="429457000" />
+    <option name="totallyTimeSpent" value="435981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11309524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23869048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29583332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30104166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -403,71 +421,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Advanced_Day12/02_css操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day12/01_基础dom操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1147">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="32" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day12/03_css操作_offset.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day12/04_css操作_positon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day12/libs/jquery-3.1.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7485">
-          <caret line="10211" column="37" lean-forward="false" selection-start-line="10211" selection-start-column="31" selection-end-line="10211" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day12/05_css操作_scroll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced_Day12/06_dom节点操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day12/07_删除节点.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -813,10 +771,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day14/01_eventDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day14/02_全局变量.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day14/02_全局变量.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day14/03_fs模块_读取文件.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day14/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day14/04_fs模块_向文件中写入数据.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced_Day14/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced_Day14/05_复制文件.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="29" />
           <folding />
         </state>
       </provider>
