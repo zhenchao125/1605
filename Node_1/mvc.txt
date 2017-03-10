@@ -1,0 +1,9 @@
+mvc:
+    module  模型
+        数据的模型
+
+    view 视图
+        展示给用户的模块
+
+    control 控制器
+        连接模型和view的中间组件。

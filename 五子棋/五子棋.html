@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>五子棋</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        canvas{
+            border:3px solid #000;
+            margin: 10px;
+        }
+        #box{
+            position: absolute;
+            left:700px;
+            top:200px;
+            /*background: #0000ff;*/
+        }
+        p{
+            height:60px;
+            font-size: 30px;
+            color:red;
+        }
+        input{
+            margin-top: 30px;
+            width: 120px;
+            height: 50px;
+            font-size: 18px;
+            color: #fff;
+            background: #1965b3;
+        }
+    </style>
+</head>
+<body>
+<canvas width="640" height="640" id="cas">
+    您的浏览器不支持canvas，请升级到最新的浏览器
+</canvas>
+<div id="box">
+    <p id="txt"></p>
+    <input type="button" id="btn" value="重新开始"/>
+</div>
+<script>
+    var step = 40;//设置棋子每个格子宽、高都为40
+    var c = cas.getContext("2d");
+    var flag = true;//true代表白棋,false代表黑棋
+    var isWin = false; //判断是否结束，true结束，false没有结束
+    //创建图片对象
+    var img_b = new Image();
+    img_b.src = "b.png"; //设置黑棋图片路径
+    var img_w = new Image();
+    img_w.src = "w.png"; //设置白棋图片路径
+    //用二维数组来保存棋盘，0代表没有走过，1为白棋走过，2为黑棋走过
+    var arr = new Array(15); //声明一个一维数组
+    for (var i = 0; i < 15; i++) {
+        arr[i] = new Array(15); //每个值再声明一个一维数组，成为了一个二维数组
+        for (var j = 0; j < 15; j++) {
+            arr[i][j] = 0;
+        }
+    }
+    //绘制棋盘
+    function drawLine() {
+        for (var i = 0; i < cas.width / step; i++) {
+            // 画竖线
+            c.moveTo((i + 1) * step, 0);//第一个的起始点（40,0）
+            c.lineTo((i + 1) * step, cas.height);//第一个的末点（40,640）
+            // 画横线
+            c.moveTo(0, (i + 1) * step);//第一个起始点（0,40）
+            c.lineTo(cas.width, (i + 1) * step);//第一个的末点（640,40）
+            c.stroke();
+        }
+    }
+    //监听鼠标点击的位置,然后画棋子
+    cas.onclick = function (e) {
+        // 先判断游戏是否结束
+        if (isWin) {
+            alert("游戏已经结束，请刷新重新开始！");
+            return 0;
+        }
+        //cas画布上下有10的margin，3px的边框
+        var x = parseInt((e.pageX - 10 -3 - 20) / 40);
+        var y = parseInt((e.pageY -10 -3 - 20) / 40);
+        //判断点击位置如果超出画布，则不能绘制棋子
+        if (x < 0 || x >= 15 || y < 0 || y >= 15) {
+            return;
+        }
+        //判断下棋位置是否有棋子，如果有棋子则返回
+        if (arr[x][y] != 0) {
+            alert("你不能在这个位置下棋");
+            return;
+        }
+        //判断是白棋走，还是黑棋走
+        if (flag) { //白子
+            flag = false; //将标志置为false,表示下次为黑子
+            drawChess(1, x, y); //调用函数来画棋子
+        } else { //黑子
+            flag = true; //将标志置为true,表示下次为白子
+            drawChess(2, x, y); //调用函数来画棋子
+        }
+    };
+    //画棋子
+    function drawChess(num,x,y) {
+        //图片大小为30，每格大小为40,图片要放在中间，40 - 15 = 25，所以要在点击的位置加25再画棋子
+        var x0 = x * step + 25;
+        var y0 = y * step + 25;
+            if (num == 1) {
+                //绘制白棋
+            c.drawImage(img_w, x0, y0);
+            arr[x][y] = 1; //白子
+        } else if (num == 2) {
+            // 绘制黑棋
+            c.drawImage(img_b, x0, y0);
+            arr[x][y] = 2; //黑子
+        }
+        judge(num, x, y);//调用函数判断输赢
+    }
+    //判断输赢
+    function judge(num,x,y) {
+        var n1 = 0,n2 = 0,n3 = 0,n4 = 0;//记录四个方向的连续相同棋子的数目
+        //从点击的位置往左找，相同的加1，遇到不同颜色的棋子则返回
+        for (var i = x; i >= 0; i--) {
+            if (arr[i][y] != num) {
+                break;
+            }
+            n1++;
+        }
+        //从点击的位置往右找，相同的加1，遇到不同颜色的棋子则返回
+        for (var i = x + 1; i < 15; i++) {
+            if (arr[i][y] != num) {
+                break;
+            }
+            n1++;
+        }
+        //从点击位置往上找
+        for (var i = y; i >= 0; i--) {
+            if (arr[x][i] != num) {
+                break;
+            }
+            n2++;
+        }
+        //从点击位置往下找
+        for (var i = y + 1; i < 15; i++) {
+            if (arr[x][i] != num) {
+                break;
+            }
+            n2++;
+        }
+        //从点击位置往左上
+        for (var i = x, j = y; i >= 0, j >= 0; i--, j--) {
+            if (i < 0 || j < 0 || arr[i][j] != num) {
+                break;
+            }
+            n3++;
+        }
+        //从点击位置往左下
+        for (var i = x + 1, j = y + 1; i < 15, j < 15; i++, j++) {
+            if (i >= 15 || j >= 15 || arr[i][j] != num) {
+                break;
+            }
+            n3++;
+        }
+        //点击位置往左下
+        for (var i = x, j = y; i >= 0, j < 15; i--, j++) {
+            if (i < 0 || j >= 15 || arr[i][j] != num) {
+                break;
+            }
+            n4++;
+        }
+        //点击位置往左上
+        for (var i = x + 1, j = y - 1; i < 15, j >= 0; i++, j--) {
+            if (i >= 15 || j < 0 || arr[i][j] != num) {
+                break;
+            }
+            n4++;
+        }
+        var str;
+        //调用定时器，先等棋子下完后，再弹出对话框
+        setTimeout(function () {
+            //判断输赢，出现5个连续的棋子就结束游戏，弹出对话框
+            if (n1 >= 5 || n2 >= 5 || n3 >= 5 || n4 >= 5) {
+                if (num == 1) { //白棋
+                    str = "白棋赢了，游戏结束！"
+                } else if (num == 2) { //黑棋
+                    str = "黑棋赢了，游戏结束！"
+                }
+                txt.innerHTML = str;
+                isWin = true;//表示该局游戏已经有结果，再次画棋（点击下棋）时候，弹出对话框
+            }
+        },300);
+    }
+    //重新开始
+    btn.onclick = function() {
+        flag = true;//初始化棋子，白棋先走
+        isWin = false;//初始化该局游戏
+        //初始化画布
+        for (var i = 0; i < 15; i++) {
+            for (var j = 0; j < 15; j++) {
+                arr[i][j] = 0;
+            }
+        }
+        c.clearRect(0, 0, 640, 640);//清空画布
+        txt.innerHTML = "";
+        drawLine();
+    };
+    drawLine();
+</script>
+</body>
+</html>
