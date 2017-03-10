@@ -12,12 +12,10 @@ router.post('/register', function (req, res, next) {
             res.send("注册失败，请重试");
         }else{
             // res.send("注册成功，请登录");
-            res.render("registerSucc", {user : user, num : num++});
+            res.render("registerSucc.ejs", {user : user, num : num++});
         }
     })
-    
 });
-
 /*用户登录*/
 router.post('/login', function (req, res, next) {
     res.send("你登录成功")

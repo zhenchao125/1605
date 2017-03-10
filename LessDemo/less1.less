@@ -1,0 +1,44 @@
+@base : base;
+.base(@w : 300px, @h : 300px) {
+  width: @w;
+  height: @h;
+}
+
+.div1 {
+  .base(20px, 50px);
+  background-color: pink;
+}
+
+/*混入*/
+//这也是注释
+.div2 {
+  .base(30px, 50px);
+  background-color: gray;
+}
+
+.setImg(@img){
+  background-image: url("img/@{img}");
+}
+.div3 {
+  .base(300px, 500px);
+  .setImg("a.jpg");
+  position: relative;
+  > div {
+    .setImg("b.jpg");
+    position: absolute;
+    .base(100px, 100px);
+    background-color: aqua;
+    left: 100px;
+    &:hover {
+      background-color: black;
+    }
+    p {
+      background-color: beige;
+      .base(50px, 50px);
+      text-align: center;
+      font-size: 30px;
+      line-height: 50px;
+    }
+  }
+}
+

@@ -1,0 +1,36 @@
+.div1 {
+  width: 20px;
+  height: 50px;
+  background-color: pink;
+}
+/*混入*/
+.div2 {
+  width: 30px;
+  height: 50px;
+  background-color: gray;
+}
+.div3 {
+  width: 300px;
+  height: 500px;
+  background-image: url("img/a.jpg");
+  position: relative;
+}
+.div3 > div {
+  background-image: url("img/b.jpg");
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  left: 100px;
+}
+.div3 > div:hover {
+  background-color: black;
+}
+.div3 > div p {
+  background-color: beige;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+}
