@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>arments</title>
+</head>
+<body>
+<script>
+    /*"use strict"
+    function foo(a, b) {
+        a = 30;
+        //arguments
+        for(var i = 0; i < arguments.length; i++){
+            console.log(arguments[i]);
+        }
+    }
+    foo(2, 3, 5, 6, 3);*/
+    /*function foo(a, b = 2) {
+        arguments[0] = 20;
+        console.log(arguments[0]);
+        console.log(a);
+    }*/
+    
+    function foo(a, b, ...c) {
+        for(let i = 0; i < c.length; i++){
+            console.log(c[i]);
+        }
+    }
+    foo(2, 3, 4, 5);
+</script>
+</body>
+</html>
+<!--
+1. ES5之前，更改参数的值，也会反应到arguments内部
+2. 在严格模式下，更改参数的值，不会反应到arguments内部。arguments内部永远保持的是
+   传入的最初的值。
+3. 在es6中，arguments和ES5的严格模式一致
+
+4. 未命名的参数，在es6中用剩余参数表示
+
+-->

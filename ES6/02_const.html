@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>let</title>
+</head>
+<body>
+<button>按钮1</button>
+<button>按钮2</button>
+<button>按钮3</button>
+<script>
+    var btns = document.getElementsByTagName("button");
+    for(let i = 0; i < 3; i++){
+        btns[i].onclick = function () {
+            console.log(i);
+        }
+    }
+
+</script>
+</body>
+</html>
+<!--
+
+
+var :都有声明提前
+
+
+-->

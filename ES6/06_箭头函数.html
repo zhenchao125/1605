@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>箭头函数</title>
+</head>
+<body>
+<script>
+    /*var add = function (a, b) {
+     return a + b;
+     }*/
+    /*var add = (a, b) => a + b;
+     console.log(add(2, 5));*/
+    /*var foo = () => console.log("1");
+     console.log(foo());*/
+    /*var add = (a, b) => {
+     a = 20;
+     return a + b;
+     }
+     console.log(add(10, 40))*/
+    /*var foo = (a, b) => console.log(a);
+     foo(2);*/
+    /*var name = "张三";
+     var obj = {
+     name : "李四",
+     speak : ()=> console.log(this.name),
+     speak1 : function () {
+     this.speak();
+     }
+     }
+     obj.speak1();*/
+
+    /*var name = "张三";
+     var p = {
+     name: "李四",
+     speak: function () {
+     console.log(this)
+     var foo = () => console.log(this.name);
+     foo();
+     }
+     }
+     //    p.speak()
+     var s = p.speak;
+     s();*/
+   /* i = 3;
+    var p = {
+        i: 1,
+        foo: function () {
+            setInterval(() => console.log(this.i), 100);
+        }
+    }
+    p.foo();*/
+//    var foo = p.foo;
+//    foo()
+
+    function add(a) {
+       /*return function(b) {
+            console.log(arguments[0]);
+        }*/
+       return (b)=>console.log(arguments[0]);
+    }
+    var foo = add(10);
+    foo(20);
+
+</script>
+</body>
+</html>
+<!--
+
+
+箭头函数： 胖箭头函数    拉姆达表达式
+   参数 =>  函数体
+1. 如果只有一行代码，那么括号可以省略
+2. 如果只有一行代码，并且省略大括号，那么方法的返回值就是整个行代码的返回值
+3. 如果只有一个参数，则包括参数的圆括号也可以省略
+4. 箭头无this绑定的问题
+5. 箭头函数中的this与箭头函数外部函数的this保持一致. 如果箭头函数没有在
+其他函数的内部，则this永远只带window
+
+6. 箭头函数内部无arguments
+-->
