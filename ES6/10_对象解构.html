@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var person = {
+        name : "李四",
+        age : 20,
+        sex : "男"
+    }
+    // {属性名 : 变量名}
+    var {name : name1} = person;
+    console.log(name1);
+
+
+    // var name = person.name  age = person.age
+    /*var {name1, age, sex} = person;
+    console.log(`${name1}  ${age}  ${sex}`)*/
+    /*var age = 10, name, a;
+    //解构赋值表达式.   解构也可以有默认值
+    ({age, name, a = 3} = person);
+    console.log(`${name}  ${age}  ${a}`)*/
+
+
+</script>
+</body>
+</html>
+<!--
+解构：可以非常方便的把对象的属性的值，赋值给同名的变量
+
+-->

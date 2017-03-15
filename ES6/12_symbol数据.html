@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>symbol数据类型</title>
+</head>
+<body>
+<script>
+    /*
+        获取一个Symbol类型的数据，如果在全局的环境中能够获取到，
+        则返回的就是获取到的，如果没有获取到就创建一个新的Symbol，
+        然后再把这个新创建的注册到全局环境中
+    */
+
+   var s2 = Symbol.for("a");
+   function foo() {
+       var s1 = Symbol.for("a");
+       return s1;
+   }
+   var s1 = foo();
+   console.log(s1 === s2);
+   console.log(Symbol.keyFor(s1));
+
+   var s3 = Symbol.for("abc");
+   console.log(Symbol.keyFor(s3))
+
+
+
+
+</script>
+</body>
+</html>

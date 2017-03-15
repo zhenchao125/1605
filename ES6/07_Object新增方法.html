@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    console.log(0==-0);
+    console.log(0===-0);
+    console.log(NaN===NaN);
+    //is方法大部分情况是和 === 一致
+    console.log(Object.is(0, -0));  // false
+    console.log(Object.is(NaN, NaN))  //true
+//    console.log(isNaN(NaN))
+
+    var p = {
+        name : "lisi",
+        age : 20,
+        friends : ["a", "b"]
+    }
+
+    var p1 = [];
+    Object.assign(p1, p);
+//    console.log(p1)
+    p1.friends.push("c");
+    p1.name = "zs"
+    console.log(p1.friends)
+    console.log(p.friends)
+    console.log(p.name);
+
+</script>
+</body>
+</html>
+<!--
+    直接把方法定义在构造函数名上的方法，称之为静态方法
+    静态方法不能通过构造函数创建出来的对象调用
+    function Person() {
+
+    }
+    Person.prototype.say = function(){}  //实例方法或对象方法
+    Person.hello = function () { //静态方法
+
+    }
+    new Person().hello();  //不允许
+
+
+-->

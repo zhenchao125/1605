@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>symbol数据类型</title>
+</head>
+<body>
+<script>
+    /*
+        Number Boolean String
+        1. 通过调用全局函数来获取Symbol()数据
+        每调用一次都是一个新的Symbol数据
+        2. typeof 3 == number
+            也可以测试出来Symbol类型
+    */
+    var s = Symbol("s");
+    console.log(s);
+    var s1 = Symbol("s1");
+    console.log(s);
+    console.log(s1);
+    console.log(s1 == s);
+    console.log(typeof s);
+
+
+
+
+</script>
+</body>
+</html>
+<!--
+
+/*var p = (function foo() {
+        var p = {
+            name: "lisi",
+            age: 20,
+            sex: "nan"
+        }
+        return {
+            getName: function () {
+                return p.name;
+            },
+            setName : function (name) {
+                p.name = name;
+            }
+        }
+    }())
+    console.log(p.getName())*/
+
+-->

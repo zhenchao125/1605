@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*var p = {
+        speak : function () {
+
+        },
+        say(){
+            console.log("abc")
+        }
+    }
+    p.say();*/
+    var pro = "age";
+    var age = 10;
+    //字面量的时候，可以直接使用变量作为属性的名  动态计算属性名
+    var p = {
+        [pro] : age
+    }
+    console.log(p)
+</script>
+</body>
+</html>
