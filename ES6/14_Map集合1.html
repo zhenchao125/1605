@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map集合</title>
+</head>
+<body>
+<script>
+    //创建map的时候，对map的内容进行初始化
+    var map = new Map([
+        ["name", "李四"],
+        ["age", 20],
+        ["sex", "男"]
+    ]).set("a", "b");
+    map.forEach(function (value, key, ownMap) {
+        console.log(value + "  " + key);
+    })
+    // v:表示由键值对组成的数组
+    for(let v of map){
+        console.log(v[1]);
+    }
+</script>
+</body>
+</html>

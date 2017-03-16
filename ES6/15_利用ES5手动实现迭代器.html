@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手动实现迭代器</title>
+</head>
+<body>
+<script>
+    var arr = ["a", "b", "d", "e", "f"];
+    //定义一个函数，可以获取与这个数组关联的迭代器
+    function createIterator(a) {
+        var index = 0;
+        var done = false;
+        //返回迭代器对象
+        return {
+            next : function () {
+                if(index >= a.length){
+                    done = true;
+                }
+                return {
+                    done : done,
+                    value : a[index++]
+                }
+            }
+        }
+    }
+    var  it = createIterator(arr);
+    var obj = it.next();
+    while(!obj.done){
+        console.log(obj.value);
+        obj = it.next();
+    }
+
+</script>
+</body>
+</html>

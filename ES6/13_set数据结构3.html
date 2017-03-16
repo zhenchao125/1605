@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>set数据结构</title>
+</head>
+<body>
+<script>
+    var arr = [
+        {
+            name : "李四"
+        }
+    ]
+
+    var set = new Set(arr);
+    for(var v of set){
+        v.name = "zs";
+        console.log(v === arr[0]);
+    }
+
+    console.log(arr);
+
+
+
+
+</script>
+</body>
+</html>
+<!--
+set集合判断两个元素是否相等，使用的是
+=== （Object.is()）。但是对+0和-0认为相等， NaN和NaN
+也是认为相等的
+
+
+-->

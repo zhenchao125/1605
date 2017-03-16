@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>set数据结构</title>
+</head>
+<body>
+<script>
+    //集合
+    var set = new Set();
+    //向数组中存储数据
+    set.add(2);
+    set.add("2");
+    set.add("3");
+    set.add({});
+    set.add(+0);
+    set.add(-0);
+    set.add(NaN);
+    set.add(NaN);
+
+//    console.log(set)
+    //返回的集合的长度
+    console.log(set.size)
+    //移除指定的元素
+    set.delete(-0)
+    console.log(set)
+
+
+
+</script>
+</body>
+</html>
+<!--
+set集合判断两个元素是否相等，使用的是
+=== （Object.is()）。但是对+0和-0认为相等， NaN和NaN
+也是认为相等的
+
+
+-->

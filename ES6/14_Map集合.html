@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map集合</title>
+</head>
+<body>
+<script>
+    var map = new Map();
+    map.set("1", "a")
+        .set("2", "b")
+        .set(1, "c");
+    var t = map.set(1, "d");
+    console.log(map)
+    //根据指定的key获取对应的value
+    var v = map.get("1");
+    console.log(map.size)
+    console.log(v);
+</script>
+</body>
+</html>

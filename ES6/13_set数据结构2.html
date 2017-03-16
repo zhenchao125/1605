@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>set数据结构</title>
+</head>
+<body>
+<script>
+    var set = new Set([1, 3, 4, 2, 5]);
+    //    console.log(set.has(1));
+    //    set.clear();
+    //set不支持下标
+    //    console.log(set[0])   //不要这样访问
+    //迭代集合中的元素：
+    //1 . forEach  value和key是完全一致
+    set.forEach(function (value, key, self) {
+        console.log(value)
+    })
+    //2 . for...of
+    for (let v of set) {
+        console.log(v)
+    }
+
+    //把集合转换成数组
+    var arr = [...set];
+    console.log(arr)
+
+    var arr = [];
+    arr.push(...set);
+
+
+
+
+
+</script>
+</body>
+</html>
+<!--
+set集合判断两个元素是否相等，使用的是
+=== （Object.is()）。但是对+0和-0认为相等， NaN和NaN
+也是认为相等的
+
+
+-->
