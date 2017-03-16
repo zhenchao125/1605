@@ -18,31 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="16_迭代器生成函数.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16_迭代器生成函数.html">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="16_迭代器生成函数2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/16_迭代器生成函数2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="15_利用ES5手动实现迭代器.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/15_利用ES5手动实现迭代器.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="528">
+              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -71,7 +51,6 @@
         <option value="$PROJECT_DIR$/07_Object新增方法.html" />
         <option value="$PROJECT_DIR$/08_字符串的新增功能.html" />
         <option value="$PROJECT_DIR$/09_字符串模板字面量.html" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/10_对象解构.html" />
         <option value="$PROJECT_DIR$/10_数组解构.html" />
         <option value="$PROJECT_DIR$/11_symbol数据类型.html" />
@@ -87,6 +66,7 @@
         <option value="$PROJECT_DIR$/15_利用ES5手动实现迭代器.html" />
         <option value="$PROJECT_DIR$/16_迭代器生成函数.html" />
         <option value="$PROJECT_DIR$/16_迭代器生成函数2.html" />
+        <option value="$PROJECT_DIR$/test.html" />
       </list>
     </option>
   </component>
@@ -221,12 +201,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489367454867</updated>
-      <workItem from="1489367456213" duration="26964000" />
+      <workItem from="1489367456213" duration="29209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26964000" />
+    <option name="totallyTimeSpent" value="29209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -341,14 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09_字符串模板字面量.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -453,10 +425,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15_利用ES5手动实现迭代器.html">
+    <entry file="file://$PROJECT_DIR$/16_迭代器生成函数2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="575">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -469,10 +441,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16_迭代器生成函数2.html">
+    <entry file="file://$PROJECT_DIR$/15_利用ES5手动实现迭代器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="531">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="43" />
           <folding />
         </state>
       </provider>
