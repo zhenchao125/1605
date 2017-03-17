@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function createObject(clazz) {
+        return new clazz();
+    }
+
+    var methodName = "eat";
+    class Person {
+        constructor() {
+        }
+        sayHello() {
+            console.log("hello");
+        }
+        //可以动态的给类添加方法
+        [methodName](){
+            console.log("eat....")
+        }
+    }
+    //可以把类作为参数传递
+    var p = createObject(Person)
+    p.sayHello();
+    p[methodName]();
+</script>
+</body>
+</html>

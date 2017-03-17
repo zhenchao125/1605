@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>类的继承</title>
+</head>
+<body>
+<script>
+    class Father{
+        constructor(name){
+            this.name = name;
+        }
+        say(){
+            console.log("父类的方法")
+        }
+    }
+
+    //extends 表示继承。后面紧跟要继承的父类的类型。
+    class Son extends Father{
+        constructor(age, name){
+            //先显示的去调用父类的构造函数，  这个时候super的后面不要加点 .
+            super(name);  //在调用父类的构造函数。相当于与以前的构造函数借调
+            this.age = age;
+        }
+        eat(){
+            console.log("子类的方法.....")
+        }
+        say(){
+            super.say();//显示的调用父类型的方法。 这个是一定要加点
+            console.log("子类的say方法")
+        }
+    }
+    var s = new Son(20, "李四");
+    s.say();
+    s.eat();
+    console.log(s.name)
+    console.log(s.age)
+
+    /*function Father(name) {
+        this.name = name;
+    }
+    Father.prototype.say = function () {
+        console.log("父类型中的方法")
+    }
+
+    function Son(age, name) {
+        Father.call(this, name);
+        this.age = age;
+    }
+    Son.prototype = new Father();
+    Son.prototype.constructor = Son;
+    Son.prototype.eat = function () {
+        console.log("子类中的方法")
+    }
+
+    var s = new Son(20, "李四");
+    s.say();
+    s.eat()*/
+</script>
+</body>
+</html>

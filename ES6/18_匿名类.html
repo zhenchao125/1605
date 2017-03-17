@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*var Person = class {
+     constructor(name){
+     this.name = name;
+     }
+     say(){
+     console.log(this.name)
+     }
+     }
+     var p = new Person("abc");
+     p.say()*/
+
+    //使用匿名类去创建对象。  肯定是单例
+    var p = new class {
+        constructor(name){
+            this.name = name;
+        }
+    }("李四");
+    console.log(p.name)
+</script>
+</body>
+</html>

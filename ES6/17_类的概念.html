@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+//    var p1 = new Person("aaa");
+    //使用关键字class声明一个类. 先声明再使用。
+    class Person {
+        constructor(name) {
+            this.name = name;  //给类添加自有属性
+        }
+        //在原型上添加了方法
+        say() {
+            console.log(this.name);
+        }
+    }
+    var p = new Person("lisi");
+    p.say();
+    console.log(Person.prototype)
+    //其实类在内部仍然当做构造函数来用
+    console.log(typeof Person)  // function
+    Person("a");
+    /*for(var v in p){
+        console.log(v);
+    }*/
+</script>
+</body>
+</html>

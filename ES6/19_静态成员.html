@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Person {
+        constructor() {
+        }
+        //两个实例方法
+        say1() {
+            console.log("hello。。。。");
+        }
+        say2() {
+            //this表示将来要创建的对象
+            this.say1();
+        }
+        //声明静态方法
+        static eat1() {
+            console.log("吃。。。。")
+        }
+        static eat2(){
+            //this就表示构造函数本身
+            this.eat1();
+        }
+    }
+    Person.eat2();
+    var p = new Person();
+    p.say2();
+</script>
+</body>
+</html>
